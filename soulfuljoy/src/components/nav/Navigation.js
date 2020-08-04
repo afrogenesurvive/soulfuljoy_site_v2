@@ -27,25 +27,33 @@ const Navigation = (props) => {
                 <NavLink to="/home" className="navListItemLink"
                   onMouseEnter={() => setHover('/home')}
                   onMouseLeave={() => setHover(null)}
-                  >Home</NavLink>
+                  >
+                  <p className="navListItemText">Home</p>
+                  </NavLink>
               </li>
               <li className="navListItem">
                 <NavLink to="/test" className="navListItemLink"
                   onMouseEnter={() => setHover('/test')}
                   onMouseLeave={() => setHover(null)}
-                  >Test</NavLink>
+                  >
+                  <p className="navListItemText">Test</p>
+                  </NavLink>
               </li>
               <li className="navListItem">
                 <NavLink to="/test2" className="navListItemLink"
                   onMouseEnter={() => setHover('/test2')}
                   onMouseLeave={() => setHover(null)}
-                  >Test2</NavLink>
+                  >
+                  <p className="navListItemText">Test</p>
+                  </NavLink>
               </li>
               <li className="navListItem">
                 <NavLink to="/test3" className="navListItemLink"
                   onMouseEnter={() => setHover('/test3')}
                   onMouseLeave={() => setHover(null)}
-                  >Test3</NavLink>
+                  >
+                  <p className="navListItemText">Test</p>
+                  </NavLink>
               </li>
             </ul>
             {hovered === '/home' && (

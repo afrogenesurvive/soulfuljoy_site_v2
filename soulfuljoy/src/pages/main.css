@@ -44,14 +44,17 @@
   display: flex;
   margin: 0 auto;
 }
+.locationImageListItem {
+
+}
 .roundImg {
   border-radius: 50%;
-  height: 17rem;
+  height: 12rem;
   margin: .5rem 3rem;
 }
 .sqImg {
-  height: 17rem;
-  width: 25rem;
+  height: 12rem;
+  width: 17rem;
   margin: .5rem 2rem;
 }
 .locationImage {

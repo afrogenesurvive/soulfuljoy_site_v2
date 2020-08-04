@@ -23,7 +23,12 @@
   margin-left: 3rem;
 }
 .navListItem {
+  margin: 0 1rem;
 
+}
+.navListItemText  {
+  color: #ffffff;
+  font-weight: bold;
 }
 .subNavDiv {
   position: fixed;
