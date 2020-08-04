@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Sacramento&display=swap');
+/* font-family: 'Quicksand', sans-serif;
+font-family: 'Sacramento', cursive; */
+
+.homePage_maindiv {
+  height: 100vh;
+  width: 100vw;
+  /* background-image: url("../assets/imgs/bg1.jpg"); */
+}
+
+.homePageRow {
+  margin-top: 10vh;
+}
+.homePage_container {
+  margin: 7vh auto;
+  height: 70vh;
+  text-align: center;
+}
+
+.homePage_container_footer {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.homePageCarousel {
+  height: 100%;
+  width: 100%;
+}
+.homePageCarouselRow {
+  /* border: 1px solid brown; */
+  height: 100%;
+}
+
+.homePageCarouselItem {
+  /* border: 1px solid purple; */
+  height: 100%;
+  width: 100%;
+}
+
+.mainPage_carousel_img {
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-inner {
+  height: 100%;
+  width: 100%;
+}
+.carousel-item {
+  height: 100%;
+}
+.carousel-caption {
+  bottom: 9rem;
+}
+.carousel-indicators {
+  bottom: 5rem
+}
+.carousel-indicators > li {
+  height: .5rem;
+  width: 5rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+  margin: 0 1.5rem;
+}
+.carousel_caption_box {
+  border: 1px solid #ffffff;
+  height: 5rem;
+  width: 40vw;
+}
+.carousel_caption_heading {
+  color: #ffffff;
+  font-family: 'Sacramento', cursive;
+  font-size: 7rem;
+  display: block;
+  margin: 1.5rem auto;
+}
+a:hover {
+  text-decoration: none;
+}
+.carousel_caption_list {
+  display: block;
+  padding: 0;
+}
+.carousel_caption_listItem {
+  list-style-type: none;
+}
+.carousel_caption_listItem > p {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.9rem;
+  font-weight: bold;
+}
+.carousel_caption_row {
+  /* border: 1px solid #ffffff; */
+  border-radius: 15px;
+  /* height: 15rem; */
+  height: fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  background-image: linear-gradient(rgba(197, 31, 113, .7),	rgba(236, 161, 48, .7));
+  padding: .5rem 3rem;
+}
+
+
+@media only screen and (max-width: 420px) {
+
+  .homePageCarouselRow {
+    height: 101%;
+  }
+
+  .carousel-caption {
+    bottom: 10rem;
+    width: 90vw;
+    left: 2rem;
+
+  }
+  .carousel-indicators {
+    bottom: 3rem
+  }
+  .carousel_caption_row {
+    padding: 0;
+    width: 100%;
+  }
+  .carousel_caption_heading {
+    font-size: 5rem;
+  }
+  .carousel_caption_listItem > p {
+    font-size: 1.5rem;
+  }
+
+}

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Sacramento&display=swap');
+/* font-family: 'Quicksand', sans-serif;
+font-family: 'Sacramento', cursive; */
+
+.welcomePage_overlay {
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.welcomePage_maindiv {
+  position: absolute;
+  top: 0;
+  z-index: 3;
+  height: 100vh;
+  width: 100%;
+  background-image: url('../assets/imgs/Splash1.jpg');
+  background-size: cover;
+}
+
+.welcomePageRow {
+  display: block;
+  margin: 0rem;
+}
+
+.welcomePageSubRow {
+  display: block;
+  /* margin: 7rem auto 5rem; */
+  /* padding: 3 auto; */
+}
+.Row1 {
+  /* margin: 5rem; */
+}
+.Row2 {
+  margin-top: 3rem;
+}
+
+.welcomePageCol {
+  /* border: 1px solid blue; */
+  margin: 0 auto;
+  max-width: 60%;
+  height: 100%;
+  /* padding: 15rem 0; */
+  text-align: center;
+}
+
+
+.welcomePageHeading {
+  color: #ffffff;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.5rem;
+}
+.welcomePageSubHeading {
+  color: #ffffff;
+  font-size: 2rem;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.welcomePageEnterBtn {
+  margin: 1.5rem auto;
+  line-height: 4rem;
+  font-size: 2.5rem;
+  border-radius: 25px;
+  border: 3px solid #ffffff;
+  padding: .1rem 3rem;
+}
+
+.SplashMainLogo {
+  height: 35vh;
+}
+
+
+
+@media only screen and (max-width: 420px) {
+  /* body {
+    background-color: lightblue;
+  } */
+
+  .welcomePage_maindiv {
+    background-image: url('../assets/imgs/mobile_splash_bg.jpg');
+  }
+  .welcomePageCol {
+    max-width: 85%;
+  }
+  .Row1 {
+    margin: 1.5rem auto;
+  }
+  .Row2 {
+    margin: 3rem auto;
+  }
+  .welcomePageHeading {
+    font-size: 5rem;
+  }
+  .welcomePageSubHeading {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+}

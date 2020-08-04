@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Sacramento&display=swap');
+
+.testPage_maindiv {
+  /* padding-top: 9.5vh; */
+  background-image: url("../assets/imgs/gradientbg.svg");
+  background-size: cover;
+}
+.testPageRow {
+  height: fit-content;
+  /* height: 30rem; */
+  text-align: center;
+  padding: 2rem 3rem;
+}
+.testPageRowInner {
+  height: 100%;
+  vertical-align: middle;
+  background-color: rgba(255,255,255,.5);
+  box-shadow: 10px 10px 5px rgba(20,33,61,.2);
+  padding: 1.5rem 3rem;
+}
+#header {
+  height: 20rem;
+  background-image: url("../assets/imgs/headerbg1.png");
+  background-size: cover;
+  box-shadow: 0px 5px 2px rgba(20,33,61,.4);
+  /* background-repeat: no-repeat; */
+}
+.sectionRow {
+  margin: 3rem 0rem;
+}
+.sectionHeading {
+  color: #ffffff;
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+}
+.sectionText {
+  color: #ffffff;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+.locationImageList {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  margin: 0 auto;
+}
+.roundImg {
+  border-radius: 50%;
+  height: 17rem;
+  margin: .5rem 3rem;
+}
+.sqImg {
+  height: 17rem;
+  width: 25rem;
+  margin: .5rem 2rem;
+}
+.locationImage {
+  border: 2px solid #ffffff;
+  box-shadow: 3px 7px 3px rgba(20,33,61,.4);
+}
+
+.testPageFooter {
+  text-align: center;
+  height: fit-content;
+  margin-top: 3rem;
+  background-color: rgba(255,255,255,.5);
+  padding: 1rem 3rem;
+}
+.footerLinkList {
+  list-style-type: none;
+  padding: 0;
+}
+.footerCol {
+  display: inline-block;
+}
