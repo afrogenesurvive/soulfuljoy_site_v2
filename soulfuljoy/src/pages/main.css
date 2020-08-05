@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Sacramento&display=swap');
 
-.testPage_maindiv {
+/* .desktop {
+  display: none;
+} */
+.mobile {
+  display: none;
+}
+.maindiv {
   /* padding-top: 9.5vh; */
   background-image: url("../assets/imgs/gradientbg.svg");
   background-size: cover;
@@ -73,6 +79,32 @@
   list-style-type: none;
   padding: 0;
 }
+.footerLinkListItem {
+  color: #ffffff;
+  text-align: left;
+}
 .footerCol {
   display: inline-block;
+}
+
+@media only screen and (max-width: 420px) {
+
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: inline-block;
+  }
+
+  .testPageRowInner {
+    padding: 1rem 0rem;
+  }
+  .sectionRow {
+    margin: 3rem .5rem;
+  }
+  .roundImg {
+    height: 9rem;
+    margin: .5rem;
+  }
+
 }

@@ -1,45 +1,159 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Sacramento&display=swap');
 
-.navTopDiv {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 2;
-  height: 9vh;
-  background-color: rgba(255,173,173, .6);
-  padding: 1.5rem 5rem;
+.fixed-top {
+  z-index: 2 !important;
 }
-.navRow {
-  text-align: center;
-}
-.navHeading {
-  font-family: 'Sacramento', cursive;
-  color: #ffffff;
-}
-.navList {
-  list-style-type: none;
-  padding: 0;
-  display: flex;
-  margin-left: 3rem;
-}
-.navListItem {
-  margin: 0 1rem;
 
+.navListItemLink {
+  margin: 0 2rem;
 }
 .navListItemText  {
   color: #ffffff;
   font-weight: bold;
+  margin: .5rem;
 }
 .subNavDiv {
   position: fixed;
-  top: 4.5rem;
+  top: 5rem;
   left: 0;
-  background-color: pink;
   width: 100%;
-  padding: 0 5rem;
+  margin: 1rem auto;
+  padding-left: 35vw;
+  background-color: rgba(229,229,229, .35);
 }
 .subNavList {
   list-style-type: none;
   padding: 0;
   display: flex;
+}
+.subNavListItem {
+  margin: 0 3rem;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Sacramento&display=swap');
+/* font-family: 'Quicksand', sans-serif;
+font-family: 'Sacramento', cursive; */
+
+.main-navigation {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 3.5rem;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.main-navigation__logo h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.main-navigation__items {
+  margin-left: 5rem;
+}
+
+.main-navigation__items ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+.main-navigation__items li {
+  margin: 0 1rem;
+}
+
+.main-navigation__items a,
+.main-navigation__items button {
+  text-decoration: none;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border: none;
+  font: inherit;
+  background: transparent;
+  cursor: pointer;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.main-navigation__items a:hover,
+.main-navigation__items a:active,
+.main-navigation__items a.active,
+.main-navigation__items button:hover,
+.main-navigation__items button:active {
+  background: #ffffff;
+  color: #5101d1;
+  border-radius: 5px;
+}
+
+.navbarBrandLogo {
+  height: 4rem;
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+.navbarMaster {
+
+  text-align: center;
+  padding-left: 9rem;
+}
+
+#home {
+  background-color: rgba(233,137,134, .4);
+}
+#experience {
+  background-color: green;
+}
+#team {
+  background-color: blue;
+}
+#path {
+  background-color: red;
+}
+#joy {
+  background-color: coral;
+}
+
+.brandCol {
+  display: inline;
+}
+
+.dropdown-menu {
+  background-color: rgba(0,0,0, 0.7);
+}
+.dropdown-item:hover, .dropdown-item:focus {
+  color: #ffffff;
+  background-color: rgba(243, 227, 124, 0.3);
+}
+
+
+@media only screen and (min-width: 900px) and (max-width: 1150px) {
+
+}
+
+
+@media only screen and (max-width: 420px) {
+
+  .desktop {
+    display: none;
+  }
+  .navbar-nav {
+    text-align: right;
+  }
+  .basic-navbar-nav {
+    float: right;
+  }
+  .navbarMaster {
+    padding: .5rem 1.5rem;
+  }
+  .navbarBrandLogo {
+    margin: 0;
+  }
+
 }

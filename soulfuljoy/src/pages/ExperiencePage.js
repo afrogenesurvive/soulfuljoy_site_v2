@@ -6,15 +6,16 @@ import { NavLink } from 'react-router-dom';
 import Image from 'react-bootstrap/Image';
 // import AuthContext from './context/auth-context';
 
+import Wht_ico from '../assets/imgs/wht_ico.png';
 import location1 from '../assets/imgs/location_1.jpg';
 import "./main.css"
 
-const TestPage = (props) => {
+const ExperiencePage = (props) => {
 
   return (
-    <div className="testPage_maindiv">
+    <div className="maindiv">
       <div className="" id="header">
-      1
+
       </div>
       <div className="testPageRow" id="1">
         <div className="testPageRowInner">
@@ -58,7 +59,7 @@ const TestPage = (props) => {
       </div>
       </div>
 
-      <div className="testPageRow" id="3">
+      <div className="testPageRow desktop" id="3">
       <div className="testPageRowInner">
       <h1 className="sectionHeading">Location</h1>
       <Row className="sectionRow">
@@ -96,7 +97,43 @@ const TestPage = (props) => {
       </div>
       </div>
 
-      <div className="testPageRow" id="4">
+      <div className="testPageRow mobile" id="3mobile">
+      <div className="testPageRowInner">
+      <h1 className="sectionHeading">Location</h1>
+      <Row className="sectionRow">
+        <ul className="locationImageList">
+        <li className="locationImageListItem">
+        <Image src={location1} className="locationImage roundImg" fluid />
+        </li>
+        <li className="locationImageListItem">
+        <Image src={location1} className="locationImage roundImg" fluid />
+        </li>
+        </ul>
+      </Row>
+      <Row className="sectionRow">
+        <ul className="locationImageList">
+        <li className="locationImageListItem">
+        <Image src={location1} className="locationImage roundImg" fluid />
+        </li>
+        <li className="locationImageListItem">
+        <Image src={location1} className="locationImage roundImg" fluid />
+        </li>
+        </ul>
+      </Row>
+      <Row className="sectionRow">
+        <ul className="locationImageList">
+        <li className="locationImageListItem">
+        <Image src={location1} className="locationImage roundImg" fluid />
+        </li>
+        <li className="locationImageListItem">
+        <Image src={location1} className="locationImage roundImg" fluid />
+        </li>
+        </ul>
+      </Row>
+      </div>
+      </div>
+
+      <div className="testPageRow desktop" id="4">
       <div className="testPageRowInner">
       <h1 className="sectionHeading">Location</h1>
       <Row className="sectionRow">
@@ -133,21 +170,21 @@ const TestPage = (props) => {
       <Col md={3} className="footerCol">
       <ul className="footerLinkList">
         <li className="footerLinkListItem">
-        a
+        <p className="footerLinkListItemText">a</p>
         </li>
         <li className="footerLinkListItem">
-        b
+        <p className="footerLinkListItemText">a</p>
         </li>
         <li className="footerLinkListItem">
-        c
+        <p className="footerLinkListItemText">a</p>
         </li>
         <li className="footerLinkListItem">
-        d
+        <p className="footerLinkListItemText">a</p>
         </li>
       </ul>
       </Col>
       <Col md={9} className="footerCol">
-      <p>footer</p>
+      <p>.</p>
       </Col>
       </div>
     </div>
@@ -155,4 +192,4 @@ const TestPage = (props) => {
 
 }
 
-export default TestPage;
+export default ExperiencePage;

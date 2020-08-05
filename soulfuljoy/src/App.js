@@ -4,9 +4,10 @@ import { createBrowserHistory } from 'history';
 import Analytics from 'react-router-ga';
 
 import Navigation from './components/nav/Navigation';
-import TestPage from './pages/TestPage';
-import TestPage2 from './pages/TestPage2';
-import TestPage3 from './pages/TestPage3';
+import TeamPage from './pages/TeamPage';
+import ExperiencePage from './pages/ExperiencePage';
+import PathPage from './pages/PathPage';
+import JoyPage from './pages/JoyPage';
 import HomePage from './pages/HomePage';
 import WelcomePage from './pages/WelcomePage';
 
@@ -49,13 +50,16 @@ class App extends Component {
               <Route path="/home" render={(props) => <HomePage {...props}
 
               />}/>
-              <Route path="/test" render={(props) => <TestPage {...props}
+              <Route path="/team" render={(props) => <TeamPage {...props}
 
               />}/>
-              <Route path="/test2" render={(props) => <TestPage2 {...props}
+              <Route path="/experience" render={(props) => <ExperiencePage {...props}
 
               />}/>
-              <Route path="/test3" render={(props) => <TestPage3 {...props}
+              <Route path="/path" render={(props) => <PathPage {...props}
+
+              />}/>
+              <Route path="/joy" render={(props) => <JoyPage {...props}
 
               />}/>
 
