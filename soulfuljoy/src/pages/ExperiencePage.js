@@ -15,7 +15,19 @@ const ExperiencePage = (props) => {
   return (
     <div className="maindiv">
       <div className="" id="header">
-
+      <Row className="headerRow">
+      <Col sm={8} className="headerCol headColLeft">
+      <h1 className="headerHeading">
+      The Experience
+      </h1>
+      <p className="headerText">
+      It takes input in the form of a hex color code value and converts that
+      </p>
+      </Col>
+      <Col sm={4} className="headerCol headColRight">
+      <Image src={Wht_ico} className="headerImg" fluid />
+      </Col>
+      </Row>
       </div>
       <div className="testPageRow" id="1">
         <div className="testPageRowInner">
@@ -63,72 +75,72 @@ const ExperiencePage = (props) => {
       <div className="testPageRowInner">
       <h1 className="sectionHeading">Location</h1>
       <Row className="sectionRow">
-        <ul className="locationImageList">
-        <li className="locationImageListItem">
+
+
         <Image src={location1} className="locationImage roundImg" fluid />
-        </li>
-        <li className="locationImageListItem">
+
+
         <Image src={location1} className="locationImage roundImg" fluid />
-        </li>
-        <li className="locationImageListItem">
+
+
         <Image src={location1} className="locationImage roundImg" fluid />
-        </li>
-        <li className="locationImageListItem">
+
+
         <Image src={location1} className="locationImage roundImg" fluid />
-        </li>
-        </ul>
+
+
       </Row>
       <Row className="sectionRow">
-        <ul className="locationImageList">
-        <li className="locationImageListItem">
+
+
         <Image src={location1} className="locationImage roundImg" fluid />
-        </li>
-        <li className="locationImageListItem">
+
+
         <Image src={location1} className="locationImage roundImg" fluid />
-        </li>
-        <li className="locationImageListItem">
+
+
         <Image src={location1} className="locationImage roundImg" fluid />
-        </li>
-        <li className="locationImageListItem">
+
+
         <Image src={location1} className="locationImage roundImg" fluid />
-        </li>
-        </ul>
+
+
       </Row>
       </div>
       </div>
 
-      <div className="testPageRow mobile" id="3mobile">
+      <div className="testPageRow mobile" id="mobile3">
       <div className="testPageRowInner">
       <h1 className="sectionHeading">Location</h1>
       <Row className="sectionRow">
-        <ul className="locationImageList">
-        <li className="locationImageListItem">
+
+
         <Image src={location1} className="locationImage roundImg" fluid />
-        </li>
-        <li className="locationImageListItem">
+
+
         <Image src={location1} className="locationImage roundImg" fluid />
-        </li>
-        </ul>
+
+
       </Row>
       <Row className="sectionRow">
-        <ul className="locationImageList">
-        <li className="locationImageListItem">
+
+
         <Image src={location1} className="locationImage roundImg" fluid />
-        </li>
-        <li className="locationImageListItem">
+
+
         <Image src={location1} className="locationImage roundImg" fluid />
-        </li>
-        </ul>
+
+
       </Row>
       <Row className="sectionRow">
-        <ul className="locationImageList">
-        <li className="locationImageListItem">
+
+
         <Image src={location1} className="locationImage roundImg" fluid />
-        </li>
-        <li className="locationImageListItem">
+
+
         <Image src={location1} className="locationImage roundImg" fluid />
-        </li>
-        </ul>
+
+
       </Row>
       </div>
       </div>
@@ -137,30 +149,30 @@ const ExperiencePage = (props) => {
       <div className="testPageRowInner">
       <h1 className="sectionHeading">Location</h1>
       <Row className="sectionRow">
-        <ul className="locationImageList">
-        <li className="locationImageListItem">
+
+
         <Image src={location1} className="locationImage sqImg" fluid />
-        </li>
-        <li className="locationImageListItem">
+
+
         <Image src={location1} className="locationImage sqImg" fluid />
-        </li>
-        <li className="locationImageListItem">
+
+
         <Image src={location1} className="locationImage sqImg" fluid />
-        </li>
-        </ul>
+
+
       </Row>
       <Row className="sectionRow">
-        <ul className="locationImageList">
-        <li className="locationImageListItem">
+
+
         <Image src={location1} className="locationImage sqImg" fluid />
-        </li>
-        <li className="locationImageListItem">
+
+
         <Image src={location1} className="locationImage sqImg" fluid />
-        </li>
-        <li className="locationImageListItem">
+
+
         <Image src={location1} className="locationImage sqImg" fluid />
-        </li>
-        </ul>
+
+
       </Row>
       </div>
       </div>
