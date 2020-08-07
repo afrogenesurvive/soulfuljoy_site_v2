@@ -13,9 +13,21 @@ import "./main.css"
 const PathPage = (props) => {
 
   return (
-    <div className="maindiv">
-      <div className="" id="header">
-
+    <div className="maindiv" id="joyMaindiv">
+      <div className="joyHeader" id="header">
+      <Row className="headerRow">
+      <Col sm={8} className="headerCol headColLeft">
+      <h1 className="headerHeading">
+      The Joy
+      </h1>
+      <p className="headerText">
+      It takes input in the form of a hex color code value and converts that
+      </p>
+      </Col>
+      <Col sm={4} className="headerCol headColRight ">
+      <Image src={Wht_ico} className="headerImg" fluid />
+      </Col>
+      </Row>
       </div>
       <div className="testPageRow" id="1">
         <div className="testPageRowInner">

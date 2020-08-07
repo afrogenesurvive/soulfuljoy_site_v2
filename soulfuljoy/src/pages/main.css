@@ -8,7 +8,23 @@
 }
 .maindiv {
   /* padding-top: 9.5vh; */
-  background-image: url("../assets/imgs/gradientbg.svg");
+  /* background-image: url("../assets/imgs/gradientbg.svg");
+  background-size: cover; */
+}
+#experienceMaindiv {
+  background-image: url("../assets/imgs/joyBackground.svg");
+  background-size: cover;
+}
+#teamMaindiv {
+  background-image: url("../assets/imgs/teamBackground.svg");
+  background-size: cover;
+}
+#joyMaindiv {
+  background-image: url("../assets/imgs/joyBackground.svg");
+  background-size: cover;
+}
+#pathMaindiv {
+  background-image: url("../assets/imgs/pathBackground.svg");
   background-size: cover;
 }
 .testPageRow {
@@ -26,13 +42,29 @@
   box-shadow: 10px 10px 5px rgba(20,33,61,.2);
   padding: 1.5rem 3rem;
 }
+.experienceHeader {
+  background-image: url("../assets/imgs/experienceHeader.jpg");
+  background-size: cover;
+}
+.joyHeader {
+  background-image: url("../assets/imgs/joyHeader.jpg");
+  background-size: cover;
+}
+.teamHeader {
+  background-image: url("../assets/imgs/teamHeader.png");
+  background-size: cover;
+}
+.pathHeader {
+  background-image: url("../assets/imgs/pathHeader.jpg");
+  background-size: cover;
+}
+
 #header {
   height: 20rem;
-  background-image: url("../assets/imgs/headerbg1.png");
-  background-size: cover;
+
   box-shadow: 0px 5px 2px rgba(20,33,61,.4);
   /* background-repeat: no-repeat; */
-  padding-top: 11rem;
+  padding-top: 9rem;
 }
 .headerRow {
   height: 100%;
@@ -97,7 +129,32 @@
   border: 2px solid #ffffff;
   box-shadow: 3px 7px 3px rgba(20,33,61,.4);
 }
+#teamSectionRow {
+  height: 17rem;
+}
+.teamImg {
+  height: 9rem;
+  border: none;
+}
+.teamBtn {
+  border-radius: 15px;
+  margin-top: .5rem;
+}
+#kwayera {
+  /* padding-top: 3rem; */
+}
+#ade {
+  padding-top: 5rem;
+}
+#khadijah {
 
+}
+#kwasausya {
+  padding-top: 5rem;
+}
+#perdella {
+
+}
 .testPageFooter {
   text-align: center;
   height: fit-content;
@@ -143,6 +200,25 @@
   .roundImg {
     height: 7rem;
     margin: .5rem auto;
+  }
+
+  #kwayera {
+    padding: 0 1rem;
+  }
+  #ade {
+    padding: 0 1rem;
+  }
+  #khadijah {
+    padding: 0 1rem;
+  }
+  #kwasausya {
+    padding: 0 1rem;
+  }
+  #perdella {
+    padding: 0 1rem;
+  }
+  .singleImg {
+    display: block;
   }
 
 }

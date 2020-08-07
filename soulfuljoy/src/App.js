@@ -4,6 +4,7 @@ import { createBrowserHistory } from 'history';
 import Analytics from 'react-router-ga';
 
 import Navigation from './components/nav/Navigation';
+import Overlay from './components/overlay/Overlay';
 import TeamPage from './pages/TeamPage';
 import ExperiencePage from './pages/ExperiencePage';
 import PathPage from './pages/PathPage';
@@ -18,6 +19,8 @@ class App extends Component {
   state = {
     splashPage: true,
     location: window.location.pathname,
+    showOverlay: false,
+    overlayData: null,
   };
 
   constructor(props) {
@@ -35,6 +38,12 @@ class App extends Component {
   // componentWillUnmount() {
   // }
 
+  showOverlay = (args) => {
+    this.setState({
+      showOverlay: true,
+      overlayData: args
+    })
+  }
 
   render() {
     return (
@@ -44,6 +53,11 @@ class App extends Component {
             <main className="main-content">
               <Navigation
               />
+              {this.state.showOverlay === true && (
+                <Overlay
+                  data={this.state.overlayData}
+                />
+              )}
               <Switch>
               <Route path="/welcome" render={(props) => <WelcomePage {...props}
               />}/>
@@ -51,7 +65,7 @@ class App extends Component {
 
               />}/>
               <Route path="/team" render={(props) => <TeamPage {...props}
-
+                showOverlay={this.showOverlay}
               />}/>
               <Route path="/experience" render={(props) => <ExperiencePage {...props}
 

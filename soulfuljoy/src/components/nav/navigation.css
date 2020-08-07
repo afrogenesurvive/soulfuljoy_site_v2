@@ -9,17 +9,18 @@
 }
 .navListItemText  {
   color: #ffffff;
-  font-weight: bold;
   margin: .5rem;
 }
 .subNavDiv {
   position: fixed;
-  top: 5rem;
+  top: 5.5rem;
+  height: 4rem;
   left: 0;
   width: 100%;
-  margin: 1rem auto;
+  /* margin: 1rem auto; */
   padding-left: 35vw;
-  background-color: rgba(229,229,229, .35);
+  padding-top: 1rem;
+  background-color: rgba(229,229,229, .19);
 }
 .subNavList {
   list-style-type: none;
@@ -28,6 +29,13 @@
 }
 .subNavListItem {
   margin: 0 3rem;
+}
+.subNavListItemText {
+  color: #ffffff;
+}
+.bold {
+  font-weight: bolder;
+  font-size: 1.3rem;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Sacramento&display=swap');
@@ -99,25 +107,25 @@ font-family: 'Sacramento', cursive; */
 }
 
 .navbarMaster {
-
   text-align: center;
   padding-left: 9rem;
+  border-bottom: 1px solid silver;
 }
 
 #home {
   background-color: rgba(233,137,134, .4);
 }
 #experience {
-  background-color: green;
+  background-color: rgba(255,255,255, .4);
 }
 #team {
-  background-color: blue;
+  background-color: rgba(255,255,255, .4);
 }
 #path {
-  background-color: red;
+  background-color: rgba(255,255,255, .4);
 }
 #joy {
-  background-color: coral;
+  background-color: rgba(255,255,255, .4);
 }
 
 .brandCol {

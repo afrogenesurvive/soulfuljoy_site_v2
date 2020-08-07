@@ -13,8 +13,8 @@ import "./main.css"
 const ExperiencePage = (props) => {
 
   return (
-    <div className="maindiv">
-      <div className="" id="header">
+    <div className="maindiv" id="experienceMaindiv">
+      <div className="experienceHeader" id="header">
       <Row className="headerRow">
       <Col sm={8} className="headerCol headColLeft">
       <h1 className="headerHeading">
@@ -24,11 +24,12 @@ const ExperiencePage = (props) => {
       It takes input in the form of a hex color code value and converts that
       </p>
       </Col>
-      <Col sm={4} className="headerCol headColRight">
+      <Col sm={4} className="headerCol headColRight ">
       <Image src={Wht_ico} className="headerImg" fluid />
       </Col>
       </Row>
       </div>
+
       <div className="testPageRow" id="1">
         <div className="testPageRowInner">
         <h1 className="sectionHeading">Our Purpose</h1>

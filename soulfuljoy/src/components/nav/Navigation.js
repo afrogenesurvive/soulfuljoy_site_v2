@@ -30,32 +30,32 @@ const Navigation = (props) => {
         <Nav className="ml-4">
 
         <NavLink to="/home" className="navListItemLink">
-        <p className="navListItemText">Home</p>
+        {location === 'home' ? (<p className="navListItemText bold">Home</p>):(<p className="navListItemText">Home</p>)}
         </NavLink>
         <NavLink to="/team" className="navListItemLink">
-        <p className="navListItemText">team</p>
+        {location === 'team' ? (<p className="navListItemText bold">The Team</p>):(<p className="navListItemText">The Team</p>)}
         </NavLink>
         <NavLink to="/experience" className="navListItemLink">
-        <p className="navListItemText">experience</p>
+        {location === 'experience' ? (<p className="navListItemText bold">The Experience</p>):(<p className="navListItemText">The Experience</p>)}
         </NavLink>
         <NavLink to="/path" className="navListItemLink">
-        <p className="navListItemText">path</p>
+        {location === 'path' ? (<p className="navListItemText bold">The Path</p>):(<p className="navListItemText">The Path</p>)}
         </NavLink>
         <NavLink to="/joy" className="navListItemLink">
-        <p className="navListItemText">joy</p>
+        {location === 'joy' ? (<p className="navListItemText bold">The Joy</p>):(<p className="navListItemText">The Joy</p>)}
         </NavLink>
 
         {location === 'team' && (
           <div className="subNavDiv desktop">
           <ul className="subNavList">
             <li className="subNavListItem">
-              team 1
+              <p className="subNavListItemText">Team 1</p>
             </li>
             <li className="subNavListItem">
-              team 2
+              <p className="subNavListItemText">Team 2</p>
             </li>
             <li className="subNavListItem">
-              team 3
+              <p className="subNavListItemText">Team 3</p>
             </li>
           </ul>
         </div>
@@ -64,13 +64,13 @@ const Navigation = (props) => {
         <div className="subNavDiv desktop">
         <ul className="subNavList">
           <li className="subNavListItem">
-            experience 1
+            <p className="subNavListItemText">Experience 1</p>
           </li>
           <li className="subNavListItem">
-            experience 2
+            <p className="subNavListItemText">Experience 2</p>
           </li>
           <li className="subNavListItem">
-            experience 3
+            <p className="subNavListItemText">Experience 3</p>
           </li>
         </ul>
         </div>
@@ -79,13 +79,13 @@ const Navigation = (props) => {
         <div className="subNavDiv desktop">
         <ul className="subNavList">
           <li className="subNavListItem">
-            path 1
+            <p className="subNavListItemText">Path 1</p>
           </li>
           <li className="subNavListItem">
-            path 2
+            <p className="subNavListItemText">Path 2</p>
           </li>
           <li className="subNavListItem">
-            path 3
+            <p className="subNavListItemText">Path 3</p>
           </li>
         </ul>
         </div>
@@ -94,13 +94,13 @@ const Navigation = (props) => {
         <div className="subNavDiv desktop">
         <ul className="subNavList">
           <li className="subNavListItem">
-            joy 1
+            <p className="subNavListItemText">Joy 1</p>
           </li>
           <li className="subNavListItem">
-            joy 2
+            <p className="subNavListItemText">Joy 2</p>
           </li>
           <li className="subNavListItem">
-            joy 3
+            <p className="subNavListItemText">Joy 3</p>
           </li>
         </ul>
         </div>
