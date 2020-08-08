@@ -44,6 +44,12 @@ class App extends Component {
       overlayData: args
     })
   }
+  closeOverlay = () => {
+    this.setState({
+      showOverlay: false,
+      overlayData: null
+    })
+  }
 
   render() {
     return (
@@ -56,6 +62,7 @@ class App extends Component {
               {this.state.showOverlay === true && (
                 <Overlay
                   data={this.state.overlayData}
+                  closeOverlay={this.closeOverlay}
                 />
               )}
               <Switch>
@@ -68,7 +75,7 @@ class App extends Component {
                 showOverlay={this.showOverlay}
               />}/>
               <Route path="/experience" render={(props) => <ExperiencePage {...props}
-
+                showOverlay={this.showOverlay}
               />}/>
               <Route path="/path" render={(props) => <PathPage {...props}
 

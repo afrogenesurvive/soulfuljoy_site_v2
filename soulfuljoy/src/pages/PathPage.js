@@ -14,7 +14,7 @@ const PathPage = (props) => {
 
   return (
     <div className="maindiv" id="pathMaindiv">
-      <div className="pathHeader" id="header">
+      <div className="pathHeader desktop" id="header">
       <Row className="headerRow">
       <Col sm={8} className="headerCol headColLeft">
       <h1 className="headerHeading">
@@ -29,6 +29,20 @@ const PathPage = (props) => {
       </Col>
       </Row>
       </div>
+
+      <div className="pathHeader mobile" id="mobileHeader">
+      <Row className="headerRow">
+      <Col className="headerCol headColLeft">
+      <h1 className="headerHeading">
+      The Path Mobile
+      </h1>
+      <p className="headerText">
+      It takes input in the form of a hex color code value and converts that
+      </p>
+      </Col>
+      </Row>
+      </div>
+
       <div className="testPageRow" id="1">
         <div className="testPageRowInner">
         <h1 className="sectionHeading">The Path</h1>

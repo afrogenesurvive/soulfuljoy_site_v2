@@ -14,7 +14,7 @@ const ExperiencePage = (props) => {
 
   return (
     <div className="maindiv" id="experienceMaindiv">
-      <div className="experienceHeader" id="header">
+      <div className="experienceHeader desktop" id="header">
       <Row className="headerRow">
       <Col sm={8} className="headerCol headColLeft">
       <h1 className="headerHeading">
@@ -26,6 +26,19 @@ const ExperiencePage = (props) => {
       </Col>
       <Col sm={4} className="headerCol headColRight ">
       <Image src={Wht_ico} className="headerImg" fluid />
+      </Col>
+      </Row>
+      </div>
+
+      <div className="experienceHeader mobile" id="mobileHeader">
+      <Row className="headerRow">
+      <Col className="headerCol headColLeft">
+      <h1 className="headerHeading">
+      The Experience Mobile
+      </h1>
+      <p className="headerText">
+      It takes input in the form of a hex color code value and converts that
+      </p>
       </Col>
       </Row>
       </div>
@@ -78,10 +91,10 @@ const ExperiencePage = (props) => {
       <Row className="sectionRow">
 
 
-        <Image src={location1} className="locationImage roundImg" fluid />
+        <Image src={location1} className="locationImage roundImg" fluid onClick={props.showOverlay.bind(this, {type:'image',data:"location1"})}/>
 
 
-        <Image src={location1} className="locationImage roundImg" fluid />
+        <Image src={location1} className="locationImage roundImg" fluid onClick={props.showOverlay.bind(this, {type:'image',data:"location1"})}/>
 
 
         <Image src={location1} className="locationImage roundImg" fluid />
@@ -94,10 +107,10 @@ const ExperiencePage = (props) => {
       <Row className="sectionRow">
 
 
-        <Image src={location1} className="locationImage roundImg" fluid />
+        <Image src={location1} className="locationImage roundImg" fluid onClick={props.showOverlay.bind(this, {type:'image',data:"location1"})}/>
 
 
-        <Image src={location1} className="locationImage roundImg" fluid />
+        <Image src={location1} className="locationImage roundImg" fluid onClick={props.showOverlay.bind(this, {type:'image',data:"location1"})}/>
 
 
         <Image src={location1} className="locationImage roundImg" fluid />
@@ -116,10 +129,10 @@ const ExperiencePage = (props) => {
       <Row className="sectionRow">
 
 
-        <Image src={location1} className="locationImage roundImg" fluid />
+        <Image src={location1} className="locationImage roundImg" fluid onClick={props.showOverlay.bind(this, {type:'image',data:"location1"})}/>
 
 
-        <Image src={location1} className="locationImage roundImg" fluid />
+        <Image src={location1} className="locationImage roundImg" fluid onClick={props.showOverlay.bind(this, {type:'image',data:"location1"})}/>
 
 
       </Row>
@@ -152,10 +165,10 @@ const ExperiencePage = (props) => {
       <Row className="sectionRow">
 
 
-        <Image src={location1} className="locationImage sqImg" fluid />
+        <Image src={location1} className="locationImage sqImg" fluid onClick={props.showOverlay.bind(this, {type:'image',data:"location1"})}/>
 
 
-        <Image src={location1} className="locationImage sqImg" fluid />
+        <Image src={location1} className="locationImage sqImg" fluid onClick={props.showOverlay.bind(this, {type:'image',data:"location1"})}/>
 
 
         <Image src={location1} className="locationImage sqImg" fluid />
