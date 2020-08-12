@@ -46,7 +46,7 @@ return (
       <Carousel.Caption>
       <Row className="carousel_caption_row">
         <Col>
-        <NavLink to="/retreat">
+        <NavLink to="/experience">
           <h1 className="carousel_caption_heading">The Experience</h1>
         </NavLink>
 
@@ -150,7 +150,7 @@ return (
       <Carousel.Caption>
       <Row className="carousel_caption_row">
         <Col>
-        <NavLink to="/socialMedia">
+        <NavLink to="joy">
           <h1 className="carousel_caption_heading">Join the Joy</h1>
         </NavLink>
           <ul className="carousel_caption_list">

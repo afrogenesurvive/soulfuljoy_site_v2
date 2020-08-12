@@ -4,6 +4,15 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import { NavLink } from 'react-router-dom';
 import Image from 'react-bootstrap/Image';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faFacebookSquare,
+  faTwitterSquare,
+  faInstagram,
+  faLinkedin,
+  faYoutube,
+ } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 // import AuthContext from './context/auth-context';
 
 import Wht_ico from '../assets/imgs/wht_ico.png';
@@ -193,25 +202,51 @@ const ExperiencePage = (props) => {
 
       <div className="testPageFooter" id="footer">
 
-      <Col md={3} className="footerCol">
-      <ul className="footerLinkList">
-        <li className="footerLinkListItem">
-        <p className="footerLinkListItemText">a</p>
-        </li>
-        <li className="footerLinkListItem">
-        <p className="footerLinkListItemText">a</p>
-        </li>
-        <li className="footerLinkListItem">
-        <p className="footerLinkListItemText">a</p>
-        </li>
-        <li className="footerLinkListItem">
-        <p className="footerLinkListItemText">a</p>
-        </li>
-      </ul>
-      </Col>
-      <Col md={9} className="footerCol">
-      <p>.</p>
-      </Col>
+      <Row className="footer_midRow">
+              <Col md={3} className="footer_midCol">
+                <ul className="footer_navList">
+                  <li className="footer_navListItem">
+                    <NavLink to="/home" className="footer_navBar_link">Home</NavLink>
+                  </li>
+                  <li className="footer_navListItem">
+                    <NavLink to="/team" className="footer_navBar_link">Team</NavLink>
+                  </li>
+                </ul>
+              </Col>
+              <Col md={6} className="footer_midCol">
+
+              </Col>
+              <Col md={3} className="footer_midCol">
+                <ul className="footer_socialList">
+                  <li className="footer_socialListItem">
+                  <a href="https://www.facebook.com/SoulfulJoyJa" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={faFacebookSquare} className="footerIcon"/>
+                  </a>
+                  </li>
+                  <li className="footer_socialListItem">
+                  <a href="https://www.instagram.com/soulfuljoyjamaica" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={faInstagram} className="footerIcon"/>
+                  </a>
+                  </li>
+                  <li className="footer_socialListItem">
+                  <a href="https://www.linkedin.com/company/soulfuljoy/" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={faLinkedin} className="footerIcon"/>
+                  </a>
+                  </li>
+                  <li className="footer_socialListItem">
+                  <a href="https://www.facebook.com/SoulfulJoyJa" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={faYoutube} className="footerIcon"/>
+                  </a>
+                  </li>
+                </ul>
+              </Col>
+            </Row>
+            <Row className="footer_copyrightRow">
+            <a className="footer_copyrightRow_text" href="mailto:family@SoulfulJoy.com" target="_blank" rel="noopener noreferrer">
+              <p > family@SoulfulJoy.com | Planet Earth | </p>
+            </a>
+
+            </Row>
       </div>
     </div>
   )

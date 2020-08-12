@@ -7,7 +7,15 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import { NavLink } from 'react-router-dom';
 import Image from 'react-bootstrap/Image';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import AuthContext from './context/auth-context';
+import {
+  faFacebookSquare,
+  faTwitterSquare,
+  faInstagram,
+  faLinkedin,
+  faYoutube,
+ } from '@fortawesome/free-brands-svg-icons';
 
 import Wht_ico from '../../assets/imgs/wht_ico.png';
 import navBrand from '../../assets/imgs/navBrand.png';
@@ -105,6 +113,24 @@ const Navigation = (props) => {
         </ul>
         </div>
       )}
+
+      <Nav.Link className="navbar_divider">
+                </Nav.Link>
+                <Nav.Link className="navbar_item_social" href="https://www.facebook.com/SoulfulJoyJa" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faFacebookSquare} className="navbar_socialIcon"/>
+                </Nav.Link>
+                <Nav.Link className="navbar_item_social" href="https://www.instagram.com/soulfuljoyjamaica" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faInstagram} className="navbar_socialIcon"/>
+                </Nav.Link>
+                <Nav.Link className="navbar_item_social" href="https://www.linkedin.com/company/soulfuljoy/" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faLinkedin} className="navbar_socialIcon"/>
+                </Nav.Link>
+                <Nav.Link className="navbar_item_social" href="" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faYoutube} className="navbar_socialIcon"/>
+                </Nav.Link>
+                <Nav.Link className="navbar_divider">
+                </Nav.Link>
+
       </Nav>
     </Navbar.Collapse>
   </Navbar>
