@@ -52,7 +52,7 @@ return (
 
           <ul className="carousel_caption_list">
             <li  className="carousel_caption_listItem">
-              <p>Soulful Joy A Special time and Place</p>
+              <p>Relax & Rejuvenate While You Detox</p>
             </li>
           </ul>
         </Col>
@@ -86,7 +86,7 @@ return (
           </NavLink>
           <ul className="carousel_caption_list">
             <li  className="carousel_caption_listItem">
-              <p>Meet  our Soulful Joy team that will be guiding you on this inspirational journey.</p>
+              <p>Meet Our Soulful Joy Family</p>
             </li>
           </ul>
         </Col>
@@ -121,7 +121,7 @@ return (
           </NavLink>
           <ul className="carousel_caption_list">
             <li  className="carousel_caption_listItem">
-              <p>The 5 I's will help carve out your path to this amazing experience..</p>
+              <p>Di I Dem will be your guide</p>
             </li>
           </ul>
         </Col>
@@ -153,11 +153,6 @@ return (
         <NavLink to="joy">
           <h1 className="carousel_caption_heading">Join the Joy</h1>
         </NavLink>
-          <ul className="carousel_caption_list">
-            <li  className="carousel_caption_listItem">
-              <p>Join the Joy.</p>
-            </li>
-          </ul>
         </Col>
       </Row>
       </Carousel.Caption>

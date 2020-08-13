@@ -13,6 +13,14 @@ import ade from '../assets/imgs/team_2_ade.jpg';
 import khadijah from '../assets/imgs/team_3_khadijah.jpg';
 import kwasausya from '../assets/imgs/team_4_kwasausya.jpg';
 import perdella from '../assets/imgs/team_5_perdella.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faFacebookSquare,
+  faTwitterSquare,
+  faInstagram,
+  faLinkedin,
+  faYoutube,
+ } from '@fortawesome/free-brands-svg-icons';
 import "./main.css"
 
 const TeamPage = (props) => {
@@ -24,10 +32,10 @@ const TeamPage = (props) => {
       <Row className="headerRow">
       <Col sm={8} className="headerCol headColLeft">
       <h1 className="headerHeading">
-      The Team
+      Our Team
       </h1>
       <p className="headerText">
-      It takes input in the form of a hex color code value and converts that
+      Meet Our Soulful Joy Family
       </p>
       </Col>
       <Col sm={4} className="headerCol headColRight ">
@@ -40,67 +48,70 @@ const TeamPage = (props) => {
       <Row className="headerRow">
       <Col className="headerCol headColLeft">
       <h1 className="headerHeading">
-      The Team Mobile
+      Our Team
       </h1>
       <p className="headerText">
-      It takes input in the form of a hex color code value and converts that
+      Meet Our Soulful Joy Family.
       </p>
       </Col>
       </Row>
       </div>
 
       <div className="testPageRow" id="1">
+      <div className="testPageRowInner">
+      <h1 className="sectionHeading">Our Mission</h1>
+      <Row className="sectionRow">
+        <p className="sectionText">
+          Soulful Joy exists to provide a unique residential experience where people who give of themselves a lot & often can rejuvenate & relax while detoxing during a "5-day" long retreat in lush tropical locations.
+        </p>
+      </Row>
+      </div>
+      </div>
+
+      <div className="testPageRow">
         <div className="testPageRowInner">
-        <h1 className="sectionHeading">The Team</h1>
+        <h1 className="sectionHeading">Our Purpose</h1>
         <Row className="sectionRow">
           <p className="sectionText">
-            It takes input in the form of a hex color code value and converts that value to a RGB value that can be used to specify color in photo editing software. Photo editing software usually represents color in RGB and therefore if you would like to use the same colors that you use in your html pages in your photo editing software you will need the RGB values for the hex code. This tool allows you to get those values.
+            We come with over 90 years of collective experience in curating events and businesses based on wellness and transformational leadership.
           </p>
         </Row>
         <Row className="sectionRow">
           <p className="sectionText">
-            It takes input in the form of a hex color code value and converts that value to a RGB value that can be used to specify color in photo editing software. Photo editing software usually represents color in RGB and therefore if you would like to use the same colors that you use in your html pages in your photo editing software you will need the RGB values for the hex code. This tool allows you to get those values.
-          </p>
-        </Row>
-        <Row className="sectionRow">
-          <p className="sectionText">
-            It takes input in the form of a hex color code value and converts that value to a RGB value that can be used to specify color in photo editing software. Photo editing software usually represents color in RGB and therefore if you would like to use the same colors that you use in your html pages in your photo editing software you will need the RGB values for the hex code. This tool allows you to get those values.
-          </p>
-        </Row>
-        <Row className="sectionRow">
-          <p className="sectionText">
-            It takes input in the form of a hex color code value and converts that value to a RGB value that can be used to specify color in photo editing software. Photo editing software usually represents color in RGB and therefore if you would like to use the same colors that you use in your html pages in your photo editing software you will need the RGB values for the hex code. This tool allows you to get those values.
-          </p>
-        </Row>
-        <Row className="sectionRow">
-          <p className="sectionText">
-            It takes input in the form of a hex color code value and converts that value to a RGB value that can be used to specify color in photo editing software. Photo editing software usually represents color in RGB and therefore if you would like to use the same colors that you use in your html pages in your photo editing software you will need the RGB values for the hex code. This tool allows you to get those values.
-          </p>
-        </Row>
-        <Row className="sectionRow">
-          <p className="sectionText">
-            It takes input in the form of a hex color code value and converts that value to a RGB value that can be used to specify color in photo editing software. Photo editing software usually represents color in RGB and therefore if you would like to use the same colors that you use in your html pages in your photo editing software you will need the RGB values for the hex code. This tool allows you to get those values.
+            Our Purpose is to provide black and brown adults with wellness modalities rooted in Indigenous and African technologies, accessible and affordable through the environment and our family traditions, providing pathways for connection, longevity and joy.
           </p>
         </Row>
         </div>
       </div>
 
+
+
       <div className="testPageRow" id="2">
       <div className="testPageRowInner">
-      <h1 className="sectionHeading">Our Vision</h1>
+      <h1 className="sectionHeading">Our Story</h1>
       <Row className="sectionRow">
         <p className="sectionText">
-          It takes input in the form of a hex color code value and converts that value to a RGB value that can be used to specify color in photo editing software. Photo editing software usually represents color in RGB and therefore if you would like to use the same colors that you use in your html pages in your photo editing software you will need the RGB values for the hex code. This tool allows you to get those values.
+        Soulful Joy began as a wellness solution in response to the ever-increasing levels of stress  we are living with daily.
         </p>
       </Row>
       <Row className="sectionRow">
         <p className="sectionText">
-          It takes input in the form of a hex color code value and converts that value to a RGB value that can be used to specify color in photo editing software. Photo editing software usually represents color in RGB and therefore if you would like to use the same colors that you use in your html pages in your photo editing software you will need the RGB values for the hex code. This tool allows you to get those values.
+        Conceived in 2017 by Kwayera Archer, the goal was to launch Soulful Joy in 2020 as the 5 Is or what we call - Di I Dem.
         </p>
       </Row>
       <Row className="sectionRow">
         <p className="sectionText">
-          It takes input in the form of a hex color code value and converts that value to a RGB value that can be used to specify color in photo editing software. Photo editing software usually represents color in RGB and therefore if you would like to use the same colors that you use in your html pages in your photo editing software you will need the RGB values for the hex code. This tool allows you to get those values.
+          Ade, Khadija, Kwasa were all engaged for this endeavour and we formally began our team collaboration with  discussions in preparation to launch July 2020. The 5th I is a rotating position but will always be filled with a representative from the next generation.
+        </p>
+      </Row>
+      <Row className="sectionRow">
+        <p className="sectionText xText">
+          Thank you for Joining our "Soulful Joy" Movement!
+        </p>
+      </Row>
+      <Row className="sectionRow">
+        <p className="sectionText xText">
+          Read more about our <a href="" className="textLink" target="_blank" rel="noopener noreferrer">Story</a>
         </p>
       </Row>
       </div>
@@ -134,7 +145,7 @@ const TeamPage = (props) => {
       </div>
       </div>
 
-      <div className="testPageRow mobile" id="mobile3">
+      <div className="testPageRow mobile" id="mobile4">
       <div className="testPageRowInner">
       <h1 className="sectionHeading">Team</h1>
       <Row className="sectionRow">
@@ -171,25 +182,48 @@ const TeamPage = (props) => {
 
       <div className="testPageFooter" id="footer">
 
-      <Col md={3} className="footerCol">
-      <ul className="footerLinkList">
-        <li className="footerLinkListItem">
-        <p className="footerLinkListItemText">a</p>
-        </li>
-        <li className="footerLinkListItem">
-        <p className="footerLinkListItemText">a</p>
-        </li>
-        <li className="footerLinkListItem">
-        <p className="footerLinkListItemText">a</p>
-        </li>
-        <li className="footerLinkListItem">
-        <p className="footerLinkListItemText">a</p>
-        </li>
-      </ul>
-      </Col>
-      <Col md={9} className="footerCol">
-      <p>.</p>
-      </Col>
+      <Row className="footer_midRow">
+              <Col md={3} className="footer_midCol">
+                <ul className="footer_navList">
+                  <li className="footer_navListItem">
+                  <a href="mailto:family@SoulfulJoy.com" target="_blank" rel="noopener noreferrer" className="footer_navBar_link">Stay In Touch</a>
+                  </li>
+                </ul>
+              </Col>
+              <Col md={6} className="footer_midCol">
+
+              </Col>
+              <Col md={3} className="footer_midCol">
+                <ul className="footer_socialList">
+                  <li className="footer_socialListItem">
+                  <a href="https://www.facebook.com/SoulfulJoyJa" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={faFacebookSquare} className="footerIcon"/>
+                  </a>
+                  </li>
+                  <li className="footer_socialListItem">
+                  <a href="https://www.instagram.com/soulfuljoyjamaica" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={faInstagram} className="footerIcon"/>
+                  </a>
+                  </li>
+                  <li className="footer_socialListItem">
+                  <a href="https://www.linkedin.com/company/soulfuljoy/" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={faLinkedin} className="footerIcon"/>
+                  </a>
+                  </li>
+                  <li className="footer_socialListItem">
+                  <a href="https://www.facebook.com/SoulfulJoyJa" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={faYoutube} className="footerIcon"/>
+                  </a>
+                  </li>
+                </ul>
+              </Col>
+            </Row>
+            <Row className="footer_copyrightRow">
+            <a className="footer_copyrightRow_text" href="mailto:family@SoulfulJoy.com" target="_blank" rel="noopener noreferrer">
+              <p > family@SoulfulJoy.com | Planet Earth | </p>
+            </a>
+
+            </Row>
       </div>
     </div>
   )

@@ -30,7 +30,7 @@ const ExperiencePage = (props) => {
       The Experience
       </h1>
       <p className="headerText">
-      It takes input in the form of a hex color code value and converts that
+      Relax & Rejuvenate While You Detox
       </p>
       </Col>
       <Col sm={4} className="headerCol headColRight ">
@@ -43,10 +43,10 @@ const ExperiencePage = (props) => {
       <Row className="headerRow">
       <Col className="headerCol headColLeft">
       <h1 className="headerHeading">
-      The Experience Mobile
+      The Experience
       </h1>
       <p className="headerText">
-      It takes input in the form of a hex color code value and converts that
+      Relax & Rejuvenate While You Detox
       </p>
       </Col>
       </Row>
@@ -57,17 +57,19 @@ const ExperiencePage = (props) => {
         <h1 className="sectionHeading">Our Purpose</h1>
         <Row className="sectionRow">
           <p className="sectionText">
-            It takes input in the form of a hex color code value and converts that value to a RGB value that can be used to specify color in photo editing software. Photo editing software usually represents color in RGB and therefore if you would like to use the same colors that you use in your html pages in your photo editing software you will need the RGB values for the hex code. This tool allows you to get those values.
+            Join us for a curated experience focused on living a healthier life balancing the stress imposed on our mind, body, and souls. (use the word souls as link to pop out)
           </p>
         </Row>
         <Row className="sectionRow">
           <p className="sectionText">
-            It takes input in the form of a hex color code value and converts that value to a RGB value that can be used to specify color in photo editing software. Photo editing software usually represents color in RGB and therefore if you would like to use the same colors that you use in your html pages in your photo editing software you will need the RGB values for the hex code. This tool allows you to get those values.
+          Our retreat is a wellness lifestyle experience that will empower you to kick start your desired new lifestyle.
+
+          We are a team of experts who have dedicated our lives to the sustained wellness of black and brown communities.  We have over 90 years of collective experience offering excellent services in the United States, Caribbean, Africa, Central, and South America.
           </p>
         </Row>
         <Row className="sectionRow">
           <p className="sectionText">
-            It takes input in the form of a hex color code value and converts that value to a RGB value that can be used to specify color in photo editing software. Photo editing software usually represents color in RGB and therefore if you would like to use the same colors that you use in your html pages in your photo editing software you will need the RGB values for the hex code. This tool allows you to get those values.
+            From October 8-12, 2020 in Negril Jamaica we will take you on the Path to this amazing Experience.  (Link to subscribe page)
           </p>
         </Row>
         </div>
@@ -75,130 +77,317 @@ const ExperiencePage = (props) => {
 
       <div className="testPageRow" id="2">
       <div className="testPageRowInner">
-      <h1 className="sectionHeading">Our Vision</h1>
-      <Row className="sectionRow">
-        <p className="sectionText">
-          It takes input in the form of a hex color code value and converts that value to a RGB value that can be used to specify color in photo editing software. Photo editing software usually represents color in RGB and therefore if you would like to use the same colors that you use in your html pages in your photo editing software you will need the RGB values for the hex code. This tool allows you to get those values.
-        </p>
-      </Row>
-      <Row className="sectionRow">
-        <p className="sectionText">
-          It takes input in the form of a hex color code value and converts that value to a RGB value that can be used to specify color in photo editing software. Photo editing software usually represents color in RGB and therefore if you would like to use the same colors that you use in your html pages in your photo editing software you will need the RGB values for the hex code. This tool allows you to get those values.
-        </p>
-      </Row>
-      <Row className="sectionRow">
-        <p className="sectionText">
-          It takes input in the form of a hex color code value and converts that value to a RGB value that can be used to specify color in photo editing software. Photo editing software usually represents color in RGB and therefore if you would like to use the same colors that you use in your html pages in your photo editing software you will need the RGB values for the hex code. This tool allows you to get those values.
-        </p>
-      </Row>
+      <h1 className="sectionHeading">Itnerary</h1>
       </div>
       </div>
 
-      <div className="testPageRow desktop" id="3">
+      <div className="testPageRow">
       <div className="testPageRowInner">
-      <h1 className="sectionHeading">Location</h1>
+      <h1 className="sectionsubheading">The Experience at a Glance</h1>
       <Row className="sectionRow">
-
-
-        <Image src={location1} className="locationImage roundImg" fluid onClick={props.showOverlay.bind(this, {type:'image',data:"location1"})}/>
-
-
-        <Image src={location1} className="locationImage roundImg" fluid onClick={props.showOverlay.bind(this, {type:'image',data:"location1"})}/>
-
-
-        <Image src={location1} className="locationImage roundImg" fluid />
-
-
-        <Image src={location1} className="locationImage roundImg" fluid />
-
-
+        <p className="sectionText xText">Here is a <a href="https://3navvpy3.pages.infusionsoft.net/" className="textLink" target="_blank" rel="noopener noreferrer">snapshot</a> of what's in store. <NavLink to="/joy" className="textLink">Join the joy</NavLink>  for full details.</p>
       </Row>
       <Row className="sectionRow">
+      <p className="sectionText  xText">
+      Inspire & Immerse:
+      </p>
+      </Row>
+      <Row className="sectionRow">
+        <p className="sectionText">
+        Thursday, October 8, 2020:
+        -  Participants Arrive at the Negril Treehouse Resort
+        – The Soulful Joy Welcome Reception & Meet and Greet takes place into the evening
+        </p>
+      </Row>
+      <Row className="sectionRow">
+        <p className="sectionText">
+        Friday, October 9, 2020:
+        The first full day of the retreat is all about beginning your 3-day immersion:
 
+        </p>
+        <ul className="sectiontextList">
+          <li className="sectiontextListItem">
+          <p className="sectionText  xText">
+          –  Coaching + Wellness Activities
+          </p>
+          </li>
+          <li className="sectiontextListItem">
+          <p className="sectionText  xText">
+          * Morning Activities together
+          </p>
+          </li>
+          <li className="sectiontextListItem">
+          <p className="sectionText  xText">
+          * Afternoon Group Sessions
+          </p>
+          </li>
+          <li className="sectiontextListItem">
+          <p className="sectionText  xText">
+          * Individual Coaching Sessions
+          </p>
+          </li>
+          <li className="sectiontextListItem">
+          <p className="sectionText  xText">
+          * Evening Activities (Surprise)
+          </p>
+          </li>
+        </ul>
+      </Row>
+      </div>
+      </div>
 
+      <div className="testPageRow">
+      <div className="testPageRowInner">
+      <h1 className="sectionsubheading">At a Glance</h1>
+      <p className="sectionText">Invigorate & Improve</p>
+      <Row className="sectionRow">
+        <p className="sectionText">
+        Saturday, October 10 2020 The second full day of the retreat will keep the energy up as you delve deeper!
+        </p>
+      </Row>
+      <Row className="sectionRow">
+        <p className="sectionText">
+        Sunday, October 11, 2020 The third full day of the retreat is all about Affirming your Soulful Joy! Both group workshops and individual sessions are on deck before you depart to take you to the next level To IMPROVE Yourself.
+        </p>
+      </Row>
+      </div>
+      </div>
+
+      <div className="testPageRow">
+      <div className="testPageRowInner">
+      <h1 className="sectionsubheading">At a Glance</h1>
+      <p className="sectionText">Incorporate</p>
+      <Row className="sectionRow">
+        <p className="sectionText">
+        Monday, October 12, 2020
+        The final Day of the retreat is all about your personal time and starting your journey home!
+        Reaffirming all that you’ve experienced. You will have  beautiful new memories, new friends,  a full heart, and a personalized tool kit  to INCORPORATE  these tools you have received into your everyday life.
+        </p>
+      </Row>
+      </div>
+      </div>
+
+      <div className="testPageRow">
+      <div className="testPageRowInner">
+      <h1 className="sectionsubheading">Packages</h1>
+      <Row className="sectionRow">
+      <Col sm={3} className="packageCol">
+      <ul className="packageList">
+        <li>
+        <p className="sectionText ul">
+        Unity
+        </p>
+        </li>
+        <li>
+        <p className="sectionText">
+        $1500
+        </p>
+        </li>
+        <li>
+        <p className="sectionText">
+        Shared Triple Occupancy Accommodation.
+        </p>
+        </li>
+      </ul>
+      </Col>
+      <Col sm={3} className="packageCol">
+      <ul className="packageList">
+        <li>
+        <p className="sectionText ul">
+        I & I
+        </p>
+        </li>
+        <li>
+        <p className="sectionText">
+        $1750
+        </p>
+        </li>
+        <li>
+        <p className="sectionText">
+        Shared Double Occupancy Accommodation
+        </p>
+        </li>
+      </ul>
+      </Col>
+      <Col sm={3} className="packageCol">
+      <ul className="packageList">
+        <li>
+        <p className="sectionText ul">
+        Only I
+        </p>
+        </li>
+        <li>
+        <p className="sectionText">
+        $2250
+        </p>
+        </li>
+        <li>
+        <p className="sectionText">
+        Single occupancy Accommodation
+        </p>
+        </li>
+      </ul>
+      </Col>
+      </Row>
+      <Row className="sectionRow">
+      <p className="sectionText xText">Entitlements:</p>
+      </Row>
+      <Row className="sectionRow">
+      <p className="sectionText">
+      October 8- 12, 2020:
+      Weekend at 4 ½  Star Black-Owned Beach Front Hotel in Negril Jamaica
+      Personalized Meal Plans
+      One Complimentary 30-minute Therapeutic Massage
+      Daily Activities
+      Ground transportation and Airport Private Transfers to & From Resort
+      Exclusive Cultural Experience
+      Check out at 12pm On Oct 12, 2020
+      </p>
+      </Row>
+      </div>
+      </div>
+
+      <div className="testPageRow" id="3">
+      <div className="testPageRowInner">
+      <h1 className="sectionHeading">Our Location</h1>
+      </div>
+      </div>
+
+      <div className="testPageRow desktop">
+      <div className="testPageRowInner">
+      <h1 className="sectionsubheading">The Negril Treehouse Resort</h1>
+      <Row className="sectionRow">
         <Image src={location1} className="locationImage roundImg" fluid onClick={props.showOverlay.bind(this, {type:'image',data:"location1"})}/>
-
-
         <Image src={location1} className="locationImage roundImg" fluid onClick={props.showOverlay.bind(this, {type:'image',data:"location1"})}/>
-
-
         <Image src={location1} className="locationImage roundImg" fluid />
-
-
         <Image src={location1} className="locationImage roundImg" fluid />
-
-
+      </Row>
+      <Row className="sectionRow">
+        <Image src={location1} className="locationImage roundImg" fluid onClick={props.showOverlay.bind(this, {type:'image',data:"location1"})}/>
+        <Image src={location1} className="locationImage roundImg" fluid onClick={props.showOverlay.bind(this, {type:'image',data:"location1"})}/>
+        <Image src={location1} className="locationImage roundImg" fluid />
+        <Image src={location1} className="locationImage roundImg" fluid />
+      </Row>
+      <Row className="sectionRow">
+        <Image src={location1} className="locationImage sqImg" fluid onClick={props.showOverlay.bind(this, {type:'image',data:"location1"})}/>
+        <Image src={location1} className="locationImage sqImg" fluid onClick={props.showOverlay.bind(this, {type:'image',data:"location1"})}/>
+        <Image src={location1} className="locationImage sqImg" fluid />
+      </Row>
+      <Row className="sectionRow">
+        <Image src={location1} className="locationImage sqImg" fluid />
+        <Image src={location1} className="locationImage sqImg" fluid />
+        <Image src={location1} className="locationImage sqImg" fluid />
       </Row>
       </div>
       </div>
 
       <div className="testPageRow mobile" id="mobile3">
       <div className="testPageRowInner">
-      <h1 className="sectionHeading">Location</h1>
+      <h1 className="sectionsubheading">The Negril Treehouse Resort</h1>
       <Row className="sectionRow">
-
-
         <Image src={location1} className="locationImage roundImg" fluid onClick={props.showOverlay.bind(this, {type:'image',data:"location1"})}/>
-
-
         <Image src={location1} className="locationImage roundImg" fluid onClick={props.showOverlay.bind(this, {type:'image',data:"location1"})}/>
-
-
       </Row>
       <Row className="sectionRow">
-
-
         <Image src={location1} className="locationImage roundImg" fluid />
-
-
         <Image src={location1} className="locationImage roundImg" fluid />
-
-
       </Row>
       <Row className="sectionRow">
-
-
         <Image src={location1} className="locationImage roundImg" fluid />
-
-
         <Image src={location1} className="locationImage roundImg" fluid />
-
-
+      </Row>
+      <Row className="sectionRow">
+        <Image src={location1} className="locationImage sqImg" fluid />
+        <Image src={location1} className="locationImage sqImg" fluid />
+      </Row>
+      <Row className="sectionRow">
+        <Image src={location1} className="locationImage sqImg" fluid />
+        <Image src={location1} className="locationImage sqImg" fluid />
       </Row>
       </div>
       </div>
 
-      <div className="testPageRow desktop" id="4">
+      <div className="testPageRow">
       <div className="testPageRowInner">
-      <h1 className="sectionHeading">Location</h1>
+      <h1 className="sectionsubheading">Join us in Negril</h1>
       <Row className="sectionRow">
-
-
-        <Image src={location1} className="locationImage sqImg" fluid onClick={props.showOverlay.bind(this, {type:'image',data:"location1"})}/>
-
-
-        <Image src={location1} className="locationImage sqImg" fluid onClick={props.showOverlay.bind(this, {type:'image',data:"location1"})}/>
-
-
-        <Image src={location1} className="locationImage sqImg" fluid />
-
-
+        <p className="sectionText">
+        We have curated this unique Experience at the 4 1/2 star Negril Treehouse Resort.
+        One of the add-ons to your package can be extra nights after October 12. <a href="https://rt9gnc4f.pages.infusionsoft.net/" className="textLink" target="_blank" rel="noopener noreferrer">See More</a>
+        </p>
       </Row>
       <Row className="sectionRow">
-
-
-        <Image src={location1} className="locationImage sqImg" fluid />
-
-
-        <Image src={location1} className="locationImage sqImg" fluid />
-
-
-        <Image src={location1} className="locationImage sqImg" fluid />
-
-
+        <p className="sectionText">
+        Check out <a href="http://negriltreehouse.net/" className="textLink" target="_blank" rel="noopener noreferrer">their site</a> for the Re-opening Announcement  and how your health and safety will be catered to.
+        </p>
       </Row>
       </div>
       </div>
+
+      <div className="testPageRow">
+      <div className="testPageRowInner">
+      <h1 className="sectionsubheading">Our Get Here Guide</h1>
+      <Row className="sectionRow">
+        <p className="sectionText">
+        We've put together Our Get Here Guide with preparation tips and how to travel to Jamaica.
+        In light of the additional safety protocol required, we encourage everyone to be informed of the  travel restrictions implemented by the Government of Jamaica. https://www.visitjamaica.com/
+        </p>
+      </Row>
+      </div>
+      </div>
+
+      <div className="testPageRow" id="4">
+        <div className="testPageRowInner">
+        <h1 className="sectionHeading">Our Activities</h1>
+        <Row className="sectionRow">
+          <p className="sectionText">
+            During The Experience  you will participate in inspiring transformational leadership sessions, receive a personalized meal plan, and  enjoy a complimentary massage.
+          </p>
+        </Row>
+
+
+        <Row className="sectionRow">
+        <ul className="sectiontextList">
+          <li className="sectiontextListItem">
+          <p className="sectionText  xText">
+          African Drumming & Dance
+          </p>
+          </li>
+          <li className="sectiontextListItem">
+          <p className="sectionText  xText">
+          Homeopathy and Herbal Walks
+          </p>
+          </li>
+          <li className="sectiontextListItem">
+          <p className="sectionText  xText">
+          Mbongis
+          </p>
+          </li>
+          <li className="sectiontextListItem">
+          <p className="sectionText  xText">
+          Sunrise Yoga
+          </p>
+          </li>
+          <li className="sectiontextListItem">
+          <p className="sectionText  xText">
+          Cleansing Sea Baths
+          </p>
+          </li>
+          <li className="sectiontextListItem">
+          <p className="sectionText  xText">
+          Beach hikes
+          </p>
+          </li>
+          <li className="sectiontextListItem">
+          <p className="sectionText  xText">
+          This unique Experience will include activities grounded
+          </p>
+          </li>
+        </ul>
+        </Row>
+        </div>
+      </div>
+
 
       <div className="testPageFooter" id="footer">
 
@@ -206,10 +395,7 @@ const ExperiencePage = (props) => {
               <Col md={3} className="footer_midCol">
                 <ul className="footer_navList">
                   <li className="footer_navListItem">
-                    <NavLink to="/home" className="footer_navBar_link">Home</NavLink>
-                  </li>
-                  <li className="footer_navListItem">
-                    <NavLink to="/team" className="footer_navBar_link">Team</NavLink>
+                  <a href="mailto:family@SoulfulJoy.com" target="_blank" rel="noopener noreferrer" className="footer_navBar_link">Stay In Touch</a>
                   </li>
                 </ul>
               </Col>

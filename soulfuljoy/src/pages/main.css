@@ -92,7 +92,7 @@
   color: #ffffff;
   font-family: 'Quicksand', sans-serif;
   font-size: 1.5rem;
-  /* font-weight: bold; */
+  font-weight: bolder;
 }
 .sectionRow {
   margin: 3rem 0rem;
@@ -102,10 +102,26 @@
   font-family: 'Sacramento', cursive;
   font-size: 5rem;
 }
+.sectionsubheading {
+  color: #ffffff;
+  font-family: 'Sacramento', cursive;
+  font-size: 3rem;
+}
 .sectionText {
   color: #ffffff;
   font-family: 'Quicksand', sans-serif;
   font-weight: bold;
+  font-size: large;
+  line-height: 2;
+}
+.xText {
+  margin: 0 auto;
+}
+
+.textLink {
+  color: #ffffff;
+  text-decoration: underline;
+
 }
 .locationImageList {
   list-style-type: none;
@@ -129,6 +145,26 @@
 .locationImage {
   border: 2px solid #ffffff;
   box-shadow: 3px 7px 3px rgba(20,33,61,.4);
+}
+
+.sectiontextList {
+  padding: 0;
+  list-style-type: none;
+  margin: 0 auto;
+}
+
+.packageList {
+  padding: 0;
+  list-style-type: none;
+}
+.packageCol {
+  background-color: rgba(255,255,255, .4);
+  padding: 1rem;
+  box-shadow: 10px 10px 5px rgba(20,33,61,.2);
+  margin: 0 auto;
+}
+.ul {
+  text-decoration: underline;
 }
 #teamSectionRow {
   height: 17rem;
@@ -156,6 +192,20 @@
 #perdella {
 
 }
+.fiveIInnerRow {
+  /* border: 1px solid black; */
+}
+.fiveIImage {
+  border-radius: 15px;
+  border: 2px solid #ffffff;
+  box-shadow: 3px 7px 3px rgba(20,33,61,.4);
+}
+.joyIcon {
+  /* background-image: linear-gradient(rgba(197, 31, 113, .7),	rgba(236, 161, 48, .7)); */
+  color: #ffffff;
+  height: 15rem !important;
+  width: 15rem !important;
+}
 .testPageFooter {
   text-align: center;
   height: fit-content;
@@ -182,12 +232,12 @@
 }
 .footer_navList {
   list-style-type: none;
-  padding-left: 1rem;
+  padding-left: 2rem;
   text-align: left;
 }
 .footer_socialList {
   list-style-type: none;
-  padding-right: 1rem;
+  padding-right: 2rem;
   text-align: right;
 }
 .footer_copyrightRow_text {
@@ -219,6 +269,9 @@
   .headerText {
     font-size: 1rem;
     font-weight: bold;
+  }
+  .sectionHeading {
+    font-size: 3rem;
   }
   .testPageRowInner {
     padding: 2rem .5rem;

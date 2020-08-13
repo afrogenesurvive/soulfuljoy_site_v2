@@ -8,6 +8,14 @@ import Image from 'react-bootstrap/Image';
 
 import Wht_ico from '../assets/imgs/wht_ico.png';
 import location1 from '../assets/imgs/location_1.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faFacebookSquare,
+  faTwitterSquare,
+  faInstagram,
+  faLinkedin,
+  faYoutube,
+ } from '@fortawesome/free-brands-svg-icons';
 import "./main.css"
 
 const PathPage = (props) => {
@@ -18,10 +26,10 @@ const PathPage = (props) => {
       <Row className="headerRow">
       <Col sm={8} className="headerCol headColLeft">
       <h1 className="headerHeading">
-      The Joy
+      Join the Joy
       </h1>
       <p className="headerText">
-      It takes input in the form of a hex color code value and converts that
+      At A Special Time & Place
       </p>
       </Col>
       <Col sm={4} className="headerCol headColRight ">
@@ -34,10 +42,10 @@ const PathPage = (props) => {
       <Row className="headerRow">
       <Col className="headerCol headColLeft">
       <h1 className="headerHeading">
-      The Joy Mobile
+      Join the Joy
       </h1>
       <p className="headerText">
-      It takes input in the form of a hex color code value and converts that
+      At A Special Time & Place
       </p>
       </Col>
       </Row>
@@ -45,67 +53,70 @@ const PathPage = (props) => {
 
       <div className="testPageRow" id="1">
         <div className="testPageRowInner">
-        <h1 className="sectionHeading">The Joy</h1>
+        <h1 className="sectionHeading">Social</h1>
         <Row className="sectionRow">
-          <p className="sectionText">
-            It takes input in the form of a hex color code value and converts that value to a RGB value that can be used to specify color in photo editing software. Photo editing software usually represents color in RGB and therefore if you would like to use the same colors that you use in your html pages in your photo editing software you will need the RGB values for the hex code. This tool allows you to get those values.
-          </p>
+          <Col sm={6}>
+          <FontAwesomeIcon icon={faFacebookSquare} className="joyIcon"/>
+          </Col>
+          <Col sm={6}>
+          <FontAwesomeIcon icon={faInstagram} className="joyIcon"/>
+          </Col>
         </Row>
         <Row className="sectionRow">
-          <p className="sectionText">
-            It takes input in the form of a hex color code value and converts that value to a RGB value that can be used to specify color in photo editing software. Photo editing software usually represents color in RGB and therefore if you would like to use the same colors that you use in your html pages in your photo editing software you will need the RGB values for the hex code. This tool allows you to get those values.
-          </p>
-        </Row>
-        <Row className="sectionRow">
-          <p className="sectionText">
-            It takes input in the form of a hex color code value and converts that value to a RGB value that can be used to specify color in photo editing software. Photo editing software usually represents color in RGB and therefore if you would like to use the same colors that you use in your html pages in your photo editing software you will need the RGB values for the hex code. This tool allows you to get those values.
-          </p>
+          <Col sm={6}>
+          <FontAwesomeIcon icon={faLinkedin} className="joyIcon"/>
+          </Col>
+          <Col sm={6}>
+          <FontAwesomeIcon icon={faYoutube} className="joyIcon"/>
+          </Col>
         </Row>
         </div>
       </div>
 
-      <div className="testPageRow" id="2">
-      <div className="testPageRowInner">
-      <h1 className="sectionHeading">Our Vision</h1>
-      <Row className="sectionRow">
-        <p className="sectionText">
-          It takes input in the form of a hex color code value and converts that value to a RGB value that can be used to specify color in photo editing software. Photo editing software usually represents color in RGB and therefore if you would like to use the same colors that you use in your html pages in your photo editing software you will need the RGB values for the hex code. This tool allows you to get those values.
-        </p>
-      </Row>
-      <Row className="sectionRow">
-        <p className="sectionText">
-          It takes input in the form of a hex color code value and converts that value to a RGB value that can be used to specify color in photo editing software. Photo editing software usually represents color in RGB and therefore if you would like to use the same colors that you use in your html pages in your photo editing software you will need the RGB values for the hex code. This tool allows you to get those values.
-        </p>
-      </Row>
-      <Row className="sectionRow">
-        <p className="sectionText">
-          It takes input in the form of a hex color code value and converts that value to a RGB value that can be used to specify color in photo editing software. Photo editing software usually represents color in RGB and therefore if you would like to use the same colors that you use in your html pages in your photo editing software you will need the RGB values for the hex code. This tool allows you to get those values.
-        </p>
-      </Row>
-      </div>
-      </div>
-
       <div className="testPageFooter" id="footer">
 
-      <Col md={3} className="footerCol">
-      <ul className="footerLinkList">
-        <li className="footerLinkListItem">
-        <p className="footerLinkListItemText">a</p>
-        </li>
-        <li className="footerLinkListItem">
-        <p className="footerLinkListItemText">a</p>
-        </li>
-        <li className="footerLinkListItem">
-        <p className="footerLinkListItemText">a</p>
-        </li>
-        <li className="footerLinkListItem">
-        <p className="footerLinkListItemText">a</p>
-        </li>
-      </ul>
-      </Col>
-      <Col md={9} className="footerCol">
-      <p>.</p>
-      </Col>
+      <Row className="footer_midRow">
+        <Col md={3} className="footer_midCol">
+          <ul className="footer_navList">
+            <li className="footer_navListItem">
+            <a href="mailto:family@SoulfulJoy.com" target="_blank" rel="noopener noreferrer" className="footer_navBar_link">Stay In Touch</a>
+            </li>
+          </ul>
+        </Col>
+        <Col md={6} className="footer_midCol">
+
+        </Col>
+        <Col md={3} className="footer_midCol">
+          <ul className="footer_socialList">
+            <li className="footer_socialListItem">
+            <a href="https://www.facebook.com/SoulfulJoyJa" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faFacebookSquare} className="footerIcon"/>
+            </a>
+            </li>
+            <li className="footer_socialListItem">
+            <a href="https://www.instagram.com/soulfuljoyjamaica" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faInstagram} className="footerIcon"/>
+            </a>
+            </li>
+            <li className="footer_socialListItem">
+            <a href="https://www.linkedin.com/company/soulfuljoy/" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faLinkedin} className="footerIcon"/>
+            </a>
+            </li>
+            <li className="footer_socialListItem">
+            <a href="https://www.facebook.com/SoulfulJoyJa" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faYoutube} className="footerIcon"/>
+            </a>
+            </li>
+          </ul>
+        </Col>
+      </Row>
+      <Row className="footer_copyrightRow">
+      <a className="footer_copyrightRow_text" href="mailto:family@SoulfulJoy.com" target="_blank" rel="noopener noreferrer">
+        <p > family@SoulfulJoy.com | Planet Earth | </p>
+      </a>
+
+      </Row>
       </div>
     </div>
   )

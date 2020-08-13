@@ -57,13 +57,19 @@ const Navigation = (props) => {
           <div className="subNavDiv desktop">
           <ul className="subNavList">
             <li className="subNavListItem">
-              <p className="subNavListItemText">Team 1</p>
+            <a href="#1">
+              <p className="subNavListItemText">Mission</p>
+            </a>
             </li>
             <li className="subNavListItem">
-              <p className="subNavListItemText">Team 2</p>
+            <a href="#2">
+              <p className="subNavListItemText">Story</p>
+            </a>
             </li>
             <li className="subNavListItem">
-              <p className="subNavListItemText">Team 3</p>
+            <a href="#3">
+              <p className="subNavListItemText">Team</p>
+            </a>
             </li>
           </ul>
         </div>
@@ -72,13 +78,24 @@ const Navigation = (props) => {
         <div className="subNavDiv desktop">
         <ul className="subNavList">
           <li className="subNavListItem">
-            <p className="subNavListItemText">Experience 1</p>
+          <a href="#1">
+            <p className="subNavListItemText">Purpose</p>
+          </a>
           </li>
           <li className="subNavListItem">
-            <p className="subNavListItemText">Experience 2</p>
+          <a href="#2">
+            <p className="subNavListItemText">Itinerary</p>
+          </a>
           </li>
           <li className="subNavListItem">
-            <p className="subNavListItemText">Experience 3</p>
+          <a href="#3">
+            <p className="subNavListItemText">Location</p>
+          </a>
+          </li>
+          <li className="subNavListItem">
+          <a href="#4">
+            <p className="subNavListItemText">Activities</p>
+          </a>
           </li>
         </ul>
         </div>
@@ -87,32 +104,55 @@ const Navigation = (props) => {
         <div className="subNavDiv desktop">
         <ul className="subNavList">
           <li className="subNavListItem">
-            <p className="subNavListItemText">Path 1</p>
+          <a href="#1">
+            <p className="subNavListItemText">Vision</p>
+          </a>
           </li>
           <li className="subNavListItem">
-            <p className="subNavListItemText">Path 2</p>
+          <a href="#2">
+            <p className="subNavListItemText">Inspire</p>
+          </a>
           </li>
           <li className="subNavListItem">
-            <p className="subNavListItemText">Path 3</p>
+          <a href="#3">
+            <p className="subNavListItemText">Immerse</p>
+          </a>
+          </li>
+          <li className="subNavListItem">
+          <a href="#4">
+            <p className="subNavListItemText">Invogorate</p>
+          </a>
+          </li>
+          <li className="subNavListItem">
+          <a href="#5">
+            <p className="subNavListItemText">Improve</p>
+          </a>
+          </li>
+          <li className="subNavListItem">
+          <a href="#6">
+            <p className="subNavListItemText">Incorporate</p>
+          </a>
           </li>
         </ul>
         </div>
       )}
-      {location === 'joy' && (
-        <div className="subNavDiv desktop">
-        <ul className="subNavList">
-          <li className="subNavListItem">
-            <p className="subNavListItemText">Joy 1</p>
-          </li>
-          <li className="subNavListItem">
-            <p className="subNavListItemText">Joy 2</p>
-          </li>
-          <li className="subNavListItem">
-            <p className="subNavListItemText">Joy 3</p>
-          </li>
-        </ul>
-        </div>
-      )}
+      {
+      //   location === 'joy' && (
+      //   <div className="subNavDiv desktop">
+      //   <ul className="subNavList">
+      //     <li className="subNavListItem">
+      //       <p className="subNavListItemText">Joy 1</p>
+      //     </li>
+      //     <li className="subNavListItem">
+      //       <p className="subNavListItemText">Joy 2</p>
+      //     </li>
+      //     <li className="subNavListItem">
+      //       <p className="subNavListItemText">Joy 3</p>
+      //     </li>
+      //   </ul>
+      //   </div>
+      // )
+    }
 
       <Nav.Link className="navbar_divider">
                 </Nav.Link>

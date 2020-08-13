@@ -18,7 +18,7 @@
   left: 0;
   width: 100%;
   /* margin: 1rem auto; */
-  padding-left: 35vw;
+  padding-left: 20vw;
   padding-top: 1rem;
   background-color: rgba(229,229,229, .19);
 }
@@ -36,6 +36,9 @@
 .bold {
   font-weight: bolder;
   font-size: 1.3rem;
+}
+.navbar_socialIcon {
+  color: #ffffff;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Sacramento&display=swap');

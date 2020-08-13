@@ -18,15 +18,16 @@
   background-image: linear-gradient(rgba(197, 31, 113, .7),	rgba(236, 161, 48, .7));
   border-radius: 30%;
   padding: 1rem 3rem 3rem 3rem;
+  overflow: scroll;
 }
 .overlayTopRow {
-  float: right;
+  /* float: right; */
   display: block;
 }
 .overlayRow {
   /* border: 1px solid #ffffff; */
   display: block;
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
 }
 .overlayHeading {
   color: #ffffff;
