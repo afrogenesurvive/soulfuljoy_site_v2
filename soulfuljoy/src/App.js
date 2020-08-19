@@ -21,6 +21,7 @@ class App extends Component {
     location: window.location.pathname,
     showOverlay: false,
     overlayData: null,
+    showCookie: false,
   };
 
   constructor(props) {
@@ -33,6 +34,13 @@ class App extends Component {
   //
   componentDidMount() {
 
+    if (document.cookie.indexOf("visitedsfj") == -1) {
+      console.log('1st_time_user');
+      this.setState({showCookie: true})
+      document.cookie = 'visitedsfj=yes; expires=Wed, 10 Jan 2022 12:00:00 UTC';
+    } else {
+      console.log('return_user');
+    }
   }
   //
   // componentWillUnmount() {
@@ -51,6 +59,10 @@ class App extends Component {
     })
   }
 
+  cookieAgree = () => {
+    this.setState({showCookie: false})
+  }
+
   render() {
     return (
       <BrowserRouter>
@@ -67,6 +79,8 @@ class App extends Component {
               )}
               <Switch>
               <Route path="/welcome" render={(props) => <WelcomePage {...props}
+                showCookie={this.state.showCookie}
+                cookieAgree={this.cookieAgree}
               />}/>
               <Route path="/home" render={(props) => <HomePage {...props}
 

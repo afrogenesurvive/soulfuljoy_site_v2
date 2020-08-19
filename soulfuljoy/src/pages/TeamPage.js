@@ -8,7 +8,7 @@ import Image from 'react-bootstrap/Image';
 
 import Wht_ico from '../assets/imgs/wht_ico.png';
 import location1 from '../assets/imgs/location_1.jpg';
-import kwayera from '../assets/imgs/team_1_kwayera.jpeg';
+import kwayera from '../assets/imgs/kwayera.jpg';
 import ade from '../assets/imgs/team_2_ade.jpg';
 import khadijah from '../assets/imgs/team_3_khadijah.jpg';
 import kwasausya from '../assets/imgs/team_4_kwasausya.jpg';

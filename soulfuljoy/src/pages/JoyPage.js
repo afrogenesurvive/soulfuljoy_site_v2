@@ -56,19 +56,44 @@ const PathPage = (props) => {
         <h1 className="sectionHeading">Social</h1>
         <Row className="sectionRow">
           <Col sm={6}>
+          <a href="https://www.facebook.com/SoulfulJoyJa" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faFacebookSquare} className="joyIcon"/>
+          </a>
           </Col>
           <Col sm={6}>
+          <a href="https://www.instagram.com/soulfuljoyjamaica" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faInstagram} className="joyIcon"/>
+          </a>
           </Col>
         </Row>
         <Row className="sectionRow">
           <Col sm={6}>
+          <a href="https://www.linkedin.com/company/soulfuljoy/" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faLinkedin} className="joyIcon"/>
+          </a>
           </Col>
           <Col sm={6}>
+          <a href="https://www.facebook.com/SoulfulJoyJa" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faYoutube} className="joyIcon"/>
+          </a>
           </Col>
+        </Row>
+        </div>
+      </div>
+
+      <div className="testPageRow" id="2">
+        <div className="testPageRowInner">
+        <h1 className="sectionHeading">Our Affiliates</h1>
+        <Row className="sectionRow">
+          <p className="sectionText xText">
+            Follow our Ambassadors and Affiliates
+          </p>
+        </Row>
+        <Row className="sectionRow">
+          <Image src={location1} className="locationImage roundImg" fluid />
+          <Image src={location1} className="locationImage roundImg" fluid />
+          <Image src={location1} className="locationImage roundImg" fluid />
+          <Image src={location1} className="locationImage roundImg" fluid />
         </Row>
         </div>
       </div>

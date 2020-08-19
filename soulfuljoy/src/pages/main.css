@@ -12,19 +12,19 @@
   background-size: cover; */
 }
 #experienceMaindiv {
-  background-image: url("../assets/imgs/joyBackground.svg");
+  background-image: url("../assets/imgs/joyBackground.png");
   background-size: cover;
 }
 #teamMaindiv {
-  background-image: url("../assets/imgs/teamBackground.svg");
+  background-image: url("../assets/imgs/pathBackground.png");
   background-size: cover;
 }
 #joyMaindiv {
-  background-image: url("../assets/imgs/joyBackground.svg");
+  background-image: url("../assets/imgs/joyBackground.png");
   background-size: cover;
 }
 #pathMaindiv {
-  background-image: url("../assets/imgs/pathBackground.svg");
+  background-image: url("../assets/imgs/pathBackground.png");
   background-size: cover;
 }
 .testPageRow {
@@ -38,12 +38,12 @@
 .testPageRowInner {
   height: 100%;
   /* vertical-align: middle; */
-  background-color: rgba(255,255,255,.5);
+  background-color: rgba(255,255,255,.2);
   box-shadow: 10px 10px 5px rgba(20,33,61,.2);
   padding: 1.5rem 3rem;
 }
 .experienceHeader {
-  background-image: url("../assets/imgs/experienceHeader.jpg");
+  background-image: url("../assets/imgs/experienceHeader.png");
   background-size: cover;
 }
 .joyHeader {
@@ -166,6 +166,11 @@
 .ul {
   text-decoration: underline;
 }
+.packageTitle {
+  font-weight: bolder;
+  color: #ffffff;
+  font-family: 'Sacramento', cursive;
+}
 #teamSectionRow {
   height: 17rem;
 }
@@ -203,8 +208,8 @@
 .joyIcon {
   /* background-image: linear-gradient(rgba(197, 31, 113, .7),	rgba(236, 161, 48, .7)); */
   color: #ffffff;
-  height: 15rem !important;
-  width: 15rem !important;
+  height: 9rem !important;
+  width: 9rem !important;
 }
 .testPageFooter {
   text-align: center;
@@ -310,6 +315,9 @@
   }
   .singleImg {
     display: block;
+  }
+  .Row1 {
+    margin: .5rem auto;
   }
 
 }

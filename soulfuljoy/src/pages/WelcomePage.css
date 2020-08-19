@@ -30,7 +30,7 @@ font-family: 'Sacramento', cursive; */
   /* margin: 5rem; */
 }
 .Row2 {
-  margin-top: 3rem;
+  margin-top: 1.5rem;
 }
 
 .welcomePageCol {
@@ -67,6 +67,28 @@ font-family: 'Sacramento', cursive; */
   height: 35vh;
 }
 
+.cookieRow {
+  position: fixed;
+  bottom: 0;
+  left: 1rem;
+  width: 100vw;
+  height: 5rem;
+  background-color: rgba(255,255,255, .2);
+  /* padding: 1.5rem 5rem; */
+}
+.cookieCol {
+  text-align: center;
+  padding-top: 1.5rem;
+}
+.cookieRowBtn {
+  height: 2rem;
+  margin-left: 1rem;
+  display: inline-block;
+}
+.cookieText {
+  color: #ffffff;
+  display: inline-block;
+}
 
 
 @media only screen and (max-width: 420px) {
@@ -81,17 +103,24 @@ font-family: 'Sacramento', cursive; */
     max-width: 85%;
   }
   .Row1 {
-    margin: 1.5rem auto;
+    margin: 0rem auto;
   }
   .Row2 {
-    margin: 3rem auto;
+    margin: 0rem auto;
   }
   .welcomePageHeading {
-    font-size: 5rem;
+    font-size: 4rem;
   }
   .welcomePageSubHeading {
     font-size: 1.5rem;
     font-weight: bold;
+  }
+  .welcomePageEnterBtn {
+    padding: .1rem 1rem;
+  }
+  .cookieRow {
+    bottom: 4rem;
+    height: 8rem;
   }
 
 }
