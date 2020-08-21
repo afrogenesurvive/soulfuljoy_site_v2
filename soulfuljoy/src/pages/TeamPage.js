@@ -53,7 +53,12 @@ const TeamPage = (props) => {
       <p className="headerText">
       Meet Our Soulful Joy Family.
       </p>
+
       </Col>
+      {
+          // <Image src={Wht_ico} className="mobileHeaderLogo" fluid />
+      }
+
       </Row>
       </div>
 
@@ -111,7 +116,7 @@ const TeamPage = (props) => {
       </Row>
       <Row className="sectionRow">
         <p className="sectionText xText">
-          Read more about our <a href="" className="textLink" target="_blank" rel="noopener noreferrer">Story</a>
+          Read more about our <a href="https://www.linkedin.com/posts/soulfuljoy_the-soulful-joy-story-activity-6694342907010314241-vcH3" className="textLink" target="_blank" rel="noopener noreferrer">Story</a>
         </p>
       </Row>
       </div>

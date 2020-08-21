@@ -1,0 +1,48 @@
+.cookieRow {
+  position: fixed;
+  bottom: 0;
+  left: 1rem;
+  width: 100vw;
+  height: 7rem;
+  background-image: linear-gradient(
+    rgba(197, 31, 113, .9),
+    rgba(236, 161, 48, .9)
+    );
+  z-index: 16;
+  /* padding: 1.5rem 5rem; */
+}
+.covidRow {
+  position: fixed;
+  top: 0;
+  left: 1rem;
+  width: 100vw;
+  height: 7rem;
+  background-image: linear-gradient(
+    rgba(236, 161, 48, .9),
+    rgba(8,174,170, .9)
+    );
+  z-index: 16;
+  /* padding: 1.5rem 5rem; */
+}
+.cookieCol {
+  text-align: center;
+  padding-top: 1.5rem;
+}
+.cookieRowBtn {
+  height: 2rem;
+  margin-left: 1rem;
+  display: inline-block;
+}
+.cookieText {
+  color: #ffffff;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 420px) {
+  .covidRow{
+    height: 9rem;
+  }
+  .cookieRow{
+    height: 9rem;
+  }
+}

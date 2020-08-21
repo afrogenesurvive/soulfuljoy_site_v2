@@ -9,7 +9,7 @@ import Image from 'react-bootstrap/Image';
 import Wht_ico from '../assets/imgs/wht_ico.png';
 import location1 from '../assets/imgs/location_1.jpg';
 import immerse from '../assets/imgs/immerse.jpg';
-import improve from '../assets/imgs/improve.jpeg';
+import improve from '../assets/imgs/improve.jpg';
 import incorporate from '../assets/imgs/incorporate.jpg';
 import inspire from '../assets/imgs/inspire.jpg';
 import invigorate from '../assets/imgs/invigorate.jpg';

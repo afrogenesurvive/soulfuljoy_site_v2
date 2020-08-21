@@ -67,14 +67,13 @@ font-family: 'Sacramento', cursive; */
   height: 35vh;
 }
 
-.cookieRow {
+/* .cookieRow {
   position: fixed;
   bottom: 0;
   left: 1rem;
   width: 100vw;
-  height: 5rem;
+  height: 7rem;
   background-color: rgba(255,255,255, .2);
-  /* padding: 1.5rem 5rem; */
 }
 .cookieCol {
   text-align: center;
@@ -88,7 +87,7 @@ font-family: 'Sacramento', cursive; */
 .cookieText {
   color: #ffffff;
   display: inline-block;
-}
+} */
 
 
 @media only screen and (max-width: 420px) {
@@ -119,8 +118,21 @@ font-family: 'Sacramento', cursive; */
     padding: .1rem 1rem;
   }
   .cookieRow {
-    bottom: 4rem;
-    height: 8rem;
+    background-color: rgba(255,255,255, .);
+    /* bottom: 4rem; */
+    height: fit-content;
+    padding-bottom: .5rem;
+  }
+
+}
+
+@media only screen and (max-height: 570px) {
+  .welcomePageSubHeading {
+    font-size: 1rem;
+  }
+  .welcomePageEnterBtn {
+    font-size: 1.3rem;
+    line-height: 2rem;
   }
 
 }

@@ -130,3 +130,14 @@ a:hover {
   }
 
 }
+
+
+@media only screen and (max-height: 570px) {
+  .navbarBrandLogo {
+    height: 3rem;
+  }
+  .carousel_caption_heading {
+    font-size: 3rem;
+  }
+
+}

@@ -5,6 +5,8 @@ import Analytics from 'react-router-ga';
 
 import Navigation from './components/nav/Navigation';
 import Overlay from './components/overlay/Overlay';
+import CookieNotice from './components/notice/Cookie';
+import CovidNotice from './components/notice/Covid';
 import TeamPage from './pages/TeamPage';
 import ExperiencePage from './pages/ExperiencePage';
 import PathPage from './pages/PathPage';
@@ -22,6 +24,7 @@ class App extends Component {
     showOverlay: false,
     overlayData: null,
     showCookie: false,
+    showCovid: true
   };
 
   constructor(props) {
@@ -34,14 +37,15 @@ class App extends Component {
   //
   componentDidMount() {
 
-    if (document.cookie.indexOf("visitedsfj") == -1) {
-      console.log('1st_time_user');
-      this.setState({showCookie: true})
-      document.cookie = 'visitedsfj=yes; expires=Wed, 10 Jan 2022 12:00:00 UTC';
-    } else {
-      console.log('return_user');
-    }
+    // if (document.cookie.indexOf("visitedsfj") == -1) {
+    //   console.log('1st_time_user');
+    //   this.setState({showCookie: true})
+    //   document.cookie = 'visitedsfj=yes; expires=Wed, 10 Jan 2022 12:00:00 UTC';
+    // } else {
+    //   console.log('return_user');
+    // }
   }
+
   //
   // componentWillUnmount() {
   // }
@@ -62,6 +66,9 @@ class App extends Component {
   cookieAgree = () => {
     this.setState({showCookie: false})
   }
+  covidAgree = () => {
+    this.setState({showCovid: false})
+  }
 
   render() {
     return (
@@ -77,10 +84,19 @@ class App extends Component {
                   closeOverlay={this.closeOverlay}
                 />
               )}
+              {this.state.showCookie === true && (
+                <CookieNotice
+                  cookieAgree={this.cookieAgree}
+                />
+              )}
+              {this.state.showCovid === true && (
+                <CovidNotice
+                  covidAgree={this.covidAgree}
+                />
+              )}
               <Switch>
               <Route path="/welcome" render={(props) => <WelcomePage {...props}
-                showCookie={this.state.showCookie}
-                cookieAgree={this.cookieAgree}
+
               />}/>
               <Route path="/home" render={(props) => <HomePage {...props}
 

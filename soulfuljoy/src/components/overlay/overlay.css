@@ -20,15 +20,26 @@
   padding: 1rem 3rem 3rem 3rem;
   overflow: scroll;
 }
+.overlayImageRow {
+  width: 90vw;
+  margin: 0 auto;
+}
 .overlayTopRow {
   /* float: right; */
-  display: block;
+  /* display: block; */
+  position: fixed;
+}
+.overlayImageTopRow {
+  /* float: right; */
+  position: absolute;
+  left: 3rem;
 }
 .overlayRow {
   /* border: 1px solid #ffffff; */
   display: block;
-  /* margin-top: 3rem; */
+  margin-top: 3rem;
 }
+
 .overlayHeading {
   color: #ffffff;
   font-family: 'Sacramento', cursive;
@@ -41,8 +52,13 @@
 }
 .overlayImage {
   border-radius: 10px;
-  max-width: 100%;
-  padding-top: 1rem;
+  /* max-width: 100%; */
+  height: 90vh;
+  /* padding-top: 1rem; */
+  margin: 0 auto;
+}
+.overlayClose {
+  /* margin-right: 3rem; */
 }
 
 @media only screen and (max-width: 420px) {
@@ -55,9 +71,14 @@
     overflow: scroll;
     height: 90%;
   }
+  .overlayImageRow {
+
+  }
   .overlayImage {
-    max-width: 75vw;
-    margin-top: 3rem;
+    /* max-width: 75vw; */
+    width: 95%;
+    height: 50%;
+    margin-top: 7rem;
   }
 
 }

@@ -12,6 +12,11 @@ import Image from 'react-bootstrap/Image';
 import Wht_ico from '../../assets/imgs/wht_ico.png';
 import navBrand from '../../assets/imgs/navBrand.png';
 import location1 from '../../assets/imgs/location_1.jpg';
+import location2 from '../../assets/imgs/location_2.jpg';
+import location3 from '../../assets/imgs/location_3.jpg';
+import location4 from '../../assets/imgs/location_4.jpg';
+import location5 from '../../assets/imgs/location_5.jpg';
+import location6 from '../../assets/imgs/location_6.jpg';
 import kwayera from '../../assets/imgs/kwayera.jpg';
 import ade from '../../assets/imgs/team_2_ade.jpg';
 import khadijah from '../../assets/imgs/team_3_khadijah.jpg';
@@ -25,13 +30,13 @@ const Overlay = (props) => {
 
   return (
     <div className="overlayTopdiv">
-      <Col className="overlayCol">
-      <Row className="overlayTopRow">
-      <Button variant="outline-light" size="sm" className="overlayClose" onClick={props.closeOverlay}>X</Button>
-      </Row>
-
 
       {props.data.type === 'info' && (
+
+        <Col className="overlayCol">
+        <Row className="overlayTopRow">
+        <Button variant="outline-light" size="sm" className="overlayClose" onClick={props.closeOverlay}>X</Button>
+        </Row>
         <Row className="overlayRow">
 
         {props.data.data === 'kwayera' && (
@@ -189,14 +194,20 @@ const Overlay = (props) => {
           </React.Fragment>
         )}
 
-
-
         </Row>
+        </Col>
 
       )}
 
       {props.data.type === 'image' && (
-        <Row className="overlayRow">
+
+        <React.Fragment>
+        <Row className="overlayImageTopRow">
+        <Button variant="outline-light" size="md" className="overlayClose" onClick={props.closeOverlay}>X</Button>
+        </Row>
+
+        <Row className="overlayImageRow">
+
         {props.data.data === 'kwayera' && (
           <Image src={kwayera} className="overlayImage" />
         )}
@@ -215,10 +226,28 @@ const Overlay = (props) => {
         {props.data.data === 'location1' && (
           <Image src={location1} className="overlayImage" />
         )}
+        {props.data.data === 'location2' && (
+          <Image src={location2} className="overlayImage" />
+        )}
+        {props.data.data === 'location3' && (
+          <Image src={location3} className="overlayImage" />
+        )}
+        {props.data.data === 'location4' && (
+          <Image src={location4} className="overlayImage" />
+        )}
+        {props.data.data === 'location5' && (
+          <Image src={location5} className="overlayImage" />
+        )}
+        {props.data.data === 'location6' && (
+          <Image src={location6} className="overlayImage" />
+        )}
         </Row>
+
+        </React.Fragment>
+
       )}
 
-      </Col>
+
     </div>
   )
 }

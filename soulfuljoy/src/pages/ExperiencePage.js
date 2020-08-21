@@ -277,13 +277,13 @@ const ExperiencePage = (props) => {
     }
       <Row className="sectionRow">
         <Image src={location1} className="locationImage sqImg" fluid onClick={props.showOverlay.bind(this, {type:'image',data:"location1"})}/>
-        <Image src={location2} className="locationImage sqImg" fluid onClick={props.showOverlay.bind(this, {type:'image',data:"location1"})}/>
-        <Image src={location3} className="locationImage sqImg" fluid />
+        <Image src={location2} className="locationImage sqImg" fluid onClick={props.showOverlay.bind(this, {type:'image',data:"location2"})}/>
+        <Image src={location3} className="locationImage sqImg" fluid onClick={props.showOverlay.bind(this, {type:'image',data:"location3"})}/>
       </Row>
       <Row className="sectionRow">
-        <Image src={location4} className="locationImage sqImg" fluid />
-        <Image src={location5} className="locationImage sqImg" fluid />
-        <Image src={location6} className="locationImage sqImg" fluid />
+        <Image src={location4} className="locationImage sqImg" fluid onClick={props.showOverlay.bind(this, {type:'image',data:"location4"})}/>
+        <Image src={location5} className="locationImage sqImg" fluid onClick={props.showOverlay.bind(this, {type:'image',data:"location5"})}/>
+        <Image src={location6} className="locationImage sqImg" fluid onClick={props.showOverlay.bind(this, {type:'image',data:"location6"})}/>
       </Row>
       </div>
       </div>
@@ -308,16 +308,16 @@ const ExperiencePage = (props) => {
       }
 
       <Row className="sectionRow">
-        <Image src={location1} className="locationImage sqImg" fluid />
-        <Image src={location2} className="locationImage sqImg" fluid />
+        <Image src={location1} className="locationImage sqImg" fluid onClick={props.showOverlay.bind(this, {type:'image',data:"location1"})}/>
+        <Image src={location2} className="locationImage sqImg" fluid onClick={props.showOverlay.bind(this, {type:'image',data:"location2"})}/>
       </Row>
       <Row className="sectionRow">
-        <Image src={location3} className="locationImage sqImg" fluid />
-        <Image src={location4} className="locationImage sqImg" fluid />
+        <Image src={location3} className="locationImage sqImg" fluid onClick={props.showOverlay.bind(this, {type:'image',data:"location3"})}/>
+        <Image src={location4} className="locationImage sqImg" fluid onClick={props.showOverlay.bind(this, {type:'image',data:"location4"})}/>
       </Row>
       <Row className="sectionRow">
-        <Image src={location5} className="locationImage sqImg" fluid />
-        <Image src={location6} className="locationImage sqImg" fluid />
+        <Image src={location5} className="locationImage sqImg" fluid onClick={props.showOverlay.bind(this, {type:'image',data:"location5"})}/>
+        <Image src={location6} className="locationImage sqImg" fluid onClick={props.showOverlay.bind(this, {type:'image',data:"location6"})}/>
       </Row>
       </div>
       </div>
@@ -359,7 +359,7 @@ const ExperiencePage = (props) => {
             During The Experience  you will participate in inspiring transformational leadership sessions, receive a personalized meal plan, and  enjoy a complimentary massage.
           </p>
         </Row>
-        
+
         <Row className="sectionRow">
         <ul className="sectiontextList">
           <li className="sectiontextListItem">

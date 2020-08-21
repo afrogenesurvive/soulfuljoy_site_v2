@@ -46,13 +46,18 @@ const WelcomePage = (props) => {
 
             </Col>
           </Row>
-          {props.showCookie === true && (
-            <Row className="cookieRow">
-            <Col className="cookieCol">
-            <p className="cookieText">This site uses cookie. By procceding you consent to their usage.</p><Button variant="outline-warning" size="sm" className="cookieRowBtn" onClick={props.cookieAgree}>Accept</Button>
-            </Col>
-            </Row>
-          )}
+          {
+          //   props.showCookie === true && (
+          //   <Row className="cookieRow">
+          //   <Col sm={11} className="cookieCol">
+          //   <p className="cookieText">By using this website you agree to our use of cookies. We use Cookies to provide you with a great experience and to help our website run effectively. For further information, visit allaboutcookies.org.</p>
+          //   </Col>
+          //   <Col sm={1} className="cookieCol">
+          //   <Button variant="outline-warning" size="sm" className="cookieRowBtn" onClick={props.cookieAgree}>Got It</Button>
+          //   </Col>
+          //   </Row>
+          // )
+        }
 
         </div>
       )
