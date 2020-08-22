@@ -11,19 +11,16 @@ import "./notice.css"
 
 const CookieNotice = (props) => {
 
-      return (
-
-            <Row className="cookieRow">
-            <Col sm={10} className="cookieCol">
-            <p className="cookieText">By using this website you agree to our use of cookies. We use Cookies to provide you with a great experience and to help our website run effectively. For further information, visit allaboutcookies.org.</p>
-            </Col>
-            <Col sm={2} className="cookieCol">
-            <Button variant="outline-light" size="sm" className="cookieRowBtn" onClick={props.cookieAgree}>Got It</Button>
-            </Col>
-            </Row>
-      )
-
-
+  return (
+    <Row className="cookieRow">
+    <Col sm={10} className="cookieCol">
+    <p className="cookieText">By using this website you agree to our use of cookies. We use Cookies to provide you with a great experience and to help our website run effectively. For further information, visit allaboutcookies.org.</p>
+    </Col>
+    <Col sm={2} className="cookieCol">
+    <Button variant="outline-light" size="sm" className="cookieRowBtn" onClick={props.cookieAgree}>Got It</Button>
+    </Col>
+    </Row>
+  )
 }
 
 export default CookieNotice;
