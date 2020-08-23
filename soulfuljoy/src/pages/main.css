@@ -59,6 +59,16 @@
   background-size: cover;
 }
 
+.groupPic {
+  height: fit-content !important;
+  width: fit-content;
+  margin: 0 auto;
+}
+.groupPhoto {
+  margin: .5rem auto;
+  border-radius: 5px;
+}
+
 #header {
   height: 20rem;
 
@@ -177,6 +187,7 @@
 .teamImg {
   height: 9rem;
   border: none;
+  display: block;
 }
 .teamBtn {
   border-radius: 15px;
@@ -322,6 +333,9 @@
   }
   .Row1 {
     margin: .5rem auto;
+  }
+  .groupPhoto {
+    width: 70vw;
   }
 
 

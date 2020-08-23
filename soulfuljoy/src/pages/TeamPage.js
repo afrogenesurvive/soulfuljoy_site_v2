@@ -150,6 +150,15 @@ const TeamPage = (props) => {
       </div>
       </div>
 
+      <div className="testPageRow desktop groupSnap" >
+      <div className="testPageRowInner groupPic">
+      <h1 className="sectionsubheading">Group Photo</h1>
+
+      <Image src={location1} className="groupPhoto"  onClick={props.showOverlay.bind(this, {type:'image',data:"location1"})}/>
+
+      </div>
+      </div>
+
       <div className="testPageRow mobile" id="mobile4">
       <div className="testPageRowInner">
       <h1 className="sectionHeading">Team</h1>
@@ -182,6 +191,15 @@ const TeamPage = (props) => {
         <Button variant="outline-light" size="sm" className="teamBtn" onClick={props.showOverlay.bind(this, {type:'info',data:"perdella"})}>Perdella</Button>
         </Col>
       </Row>
+      </div>
+      </div>
+
+      <div className="testPageRow mobile groupSnap" >
+      <div className="testPageRowInner groupPic">
+      <h1 className="sectionsubheading">Group Photo</h1>
+
+      <Image src={location1} className="groupPhoto"  onClick={props.showOverlay.bind(this, {type:'image',data:"location1"})}/>
+
       </div>
       </div>
 
