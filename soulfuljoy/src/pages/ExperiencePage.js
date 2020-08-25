@@ -62,20 +62,25 @@ const ExperiencePage = (props) => {
         <h1 className="sectionHeading">Our Purpose</h1>
         <Row className="sectionRow">
           <p className="sectionText">
-            Join us for a curated experience focused on living a healthier life balancing the stress imposed on our mind, body, and souls. (use the word souls as link to pop out)
+            Join us for a curated experience focused on living a healthier life balancing the stress imposed on our mind, body, and souls.
           </p>
         </Row>
         <Row className="sectionRow">
           <p className="sectionText">
-          Our retreat is a wellness lifestyle experience that will empower you to kick start your desired new lifestyle.
-
-          We are a team of experts who have dedicated our lives to the sustained wellness of black and brown communities.  We have over 90 years of collective experience offering excellent services in the United States, Caribbean, Africa, Central, and South America.
+          This is a wellness lifestyle experience that will empower you to kick start your desired new lifestyle or strengthen the existing one.
+          We are a team of experts who have dedicated our lives to the sustained wellness of Black and Brown communities.
           </p>
         </Row>
         <Row className="sectionRow">
           <p className="sectionText">
-            From October 8-12, 2020 in Negril Jamaica we will take you on the Path to this amazing Experience.  (Link to subscribe page)
+          We have over 90 years of collective experience offering excellent services in the United States, Caribbean, Africa, Central, and South America.
           </p>
+        </Row>
+        <Row className="sectionRow">
+          <p className="sectionText">
+            During October 8-12, 2020 in Negril Jamaica, we will take you on the Path to this amazing Experience.
+          </p>
+          <a href="#" className="textLink" target="_blank" rel="noopener noreferrer">Subscribe</a>
         </Row>
         </div>
       </div>
@@ -98,19 +103,42 @@ const ExperiencePage = (props) => {
       </p>
       </Row>
       <Row className="sectionRow">
-        <p className="sectionText">
+      <ul className="sectiontextList">
+        <li className="sectiontextListItem">
+        <p className="sectionText xText">
         Thursday, October 8, 2020:
-        -  Participants Arrive at the Negril Treehouse Resort
-        – The Soulful Joy Welcome Reception & Meet and Greet takes place into the evening
         </p>
+        </li>
+        <li className="sectiontextListItem">
+        <p className="sectionText xText">
+        *Participants Arrive at the Negril Treehouse Resort
+        </p>
+        </li>
+        <li className="sectiontextListItem">
+        <p className="sectionText xText">
+        *The Soulful Joy Welcome Reception & Meet and Greet takes place into the evening
+        </p>
+        </li>
+        <li className="sectiontextListItem">
+        <p className="sectionText xText">
+        *Meet and Greet takes place into the evening
+        </p>
+        </li>
+      </ul>
+
       </Row>
       <Row className="sectionRow">
-        <p className="sectionText">
-        Friday, October 9, 2020:
-        The first full day of the retreat is all about beginning your 3-day immersion:
-
-        </p>
         <ul className="sectiontextList">
+          <li className="sectiontextListItem">
+          <p className="sectionText  xText">
+          Friday, October 9, 2020:
+          </p>
+          </li>
+          <li className="sectiontextListItem">
+          <p className="sectionText  xText">
+          The first full day of the retreat is all about beginning your 3-day immersion:
+          </p>
+          </li>
           <li className="sectiontextListItem">
           <p className="sectionText  xText">
           –  Coaching + Wellness Activities
@@ -146,13 +174,39 @@ const ExperiencePage = (props) => {
       <h1 className="sectionsubheading">At a Glance</h1>
       <p className="sectionText">Invigorate & Improve</p>
       <Row className="sectionRow">
-        <p className="sectionText">
-        Saturday, October 10 2020 The second full day of the retreat will keep the energy up as you delve deeper!
+      <ul className="sectiontextList">
+        <li className="sectiontextListItem">
+        <p className="sectionText  xText">
+        Saturday, October 10 2020
         </p>
+        </li>
+        <li className="sectiontextListItem">
+        <p className="sectionText  xText">
+         The second full day will keep the energy up as you delve deeper!
+        </p>
+        </li>
+      </ul>
       </Row>
       <Row className="sectionRow">
+        <ul className="sectiontextList">
+          <li className="sectiontextListItem">
+          <p className="sectionText  xText">
+          Saturday, October 10 2020
+          </p>
+          </li>
+          <li className="sectiontextListItem">
+          <p className="sectionText  xText">
+           The third full day of the retreat is all about Affirming your Soulful Joy!
+          </p>
+          </li>
+          <li className="sectiontextListItem">
+          <p className="sectionText  xText">
+           Both group workshops and individual sessions are on deck before you depart to take you to the next level To IMPROVE Yourself.
+          </p>
+          </li>
+        </ul>
         <p className="sectionText">
-        Sunday, October 11, 2020 The third full day of the retreat is all about Affirming your Soulful Joy! Both group workshops and individual sessions are on deck before you depart to take you to the next level To IMPROVE Yourself.
+
         </p>
       </Row>
       </div>
@@ -235,18 +289,15 @@ const ExperiencePage = (props) => {
       </Col>
       </Row>
       <Row className="sectionRow">
-      <p className="sectionText xText">Entitlements:</p>
+      <p className="sectionText xText">Experience Includes:</p>
       </Row>
       <Row className="sectionRow">
       <p className="sectionText">
-      October 8- 12, 2020:
-      Weekend at 4 ½  Star Black-Owned Beach Front Hotel in Negril Jamaica
-      Personalized Meal Plans
-      One Complimentary 30-minute Therapeutic Massage
-      Daily Activities
-      Ground transportation and Airport Private Transfers to & From Resort
-      Exclusive Cultural Experience
-      Check out at 12pm On Oct 12, 2020
+      Five days at 4.5 star Black-owned beach front hotel in Negril, Jamaica  with personalized meal plans, one complimentary 30-minute therapeutic massage, daily activities, ground transportation,  airport private transfers to & from resort and exclusive cultural experience then checking out at 12pm on Oct 12, 2020.
+      We have Limited  Quadruple Shared Occupancy Accommodation Available.
+      </p>
+      <p className="sectionText">
+      WE strongly recommend that groups and families book together and select Double / Triple occupancy. Groups of 4 and over must select Triple Occupancy and the price will be adjusted in the payment portal
       </p>
       </Row>
       </div>
@@ -409,7 +460,7 @@ const ExperiencePage = (props) => {
               <Col md={3} className="footer_midCol">
                 <ul className="footer_navList">
                   <li className="footer_navListItem">
-                  <a href="mailto:family@SoulfulJoy.com" target="_blank" rel="noopener noreferrer" className="footer_navBar_link">Stay In Touch</a>
+                  <a href="https://3navvpy3.pages.infusionsoft.net" target="_blank" rel="noopener noreferrer" className="footer_navBar_link">Stay In Touch</a>
                   </li>
                 </ul>
               </Col>

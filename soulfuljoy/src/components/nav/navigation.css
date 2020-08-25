@@ -12,6 +12,7 @@
   margin: .5rem;
 }
 .subNavDiv {
+  display: none;
   position: fixed;
   top: 5.5rem;
   height: 4rem;
@@ -22,7 +23,6 @@
   padding-top: 1rem;
   /* background-color: rgba(229,229,229, .19); */
   background-color: rgba(249,176,182, .6);
-  /* display: none; */
 }
 .subNavList {
   list-style-type: none;

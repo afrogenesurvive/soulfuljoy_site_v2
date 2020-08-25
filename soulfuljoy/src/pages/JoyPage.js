@@ -104,7 +104,7 @@ const PathPage = (props) => {
         <Col md={3} className="footer_midCol">
           <ul className="footer_navList">
             <li className="footer_navListItem">
-            <a href="mailto:family@SoulfulJoy.com" target="_blank" rel="noopener noreferrer" className="footer_navBar_link">Stay In Touch</a>
+            <a href="https://3navvpy3.pages.infusionsoft.net" target="_blank" rel="noopener noreferrer" className="footer_navBar_link">Stay In Touch</a>
             </li>
           </ul>
         </Col>
@@ -138,7 +138,7 @@ const PathPage = (props) => {
       </Row>
       <Row className="footer_copyrightRow">
       <a className="footer_copyrightRow_text" href="mailto:family@SoulfulJoy.com" target="_blank" rel="noopener noreferrer">
-        <p > family@SoulfulJoy.com | Planet Earth | </p>
+        <p> family@SoulfulJoy.com | Planet Earth | </p>
       </a>
 
       </Row>

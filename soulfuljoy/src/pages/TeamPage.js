@@ -67,7 +67,7 @@ const TeamPage = (props) => {
       <h1 className="sectionHeading">Our Mission</h1>
       <Row className="sectionRow">
         <p className="sectionText">
-          Soulful Joy exists to provide a unique residential experience where people who give of themselves a lot & often can rejuvenate & relax while detoxing during a "5-day" long retreat in lush tropical locations.
+          Soulful Joy exists to provide unique residential wellness experiences where attendees who constantly give of themselves can rejuvenate & relax while detoxing during a 5-day long experience in lush tropical locations.
         </p>
       </Row>
       </div>
@@ -78,12 +78,12 @@ const TeamPage = (props) => {
         <h1 className="sectionHeading">Our Purpose</h1>
         <Row className="sectionRow">
           <p className="sectionText">
-            We come with over 90 years of collective experience in curating events and businesses based on wellness and transformational leadership.
+            We have over 90 years of collective experience in community organizing and service, curating international events and creating and growing businesses based in wellness and transformational living approaches.
           </p>
         </Row>
         <Row className="sectionRow">
           <p className="sectionText">
-            Our Purpose is to provide black and brown adults with wellness modalities rooted in Indigenous and African technologies, accessible and affordable through the environment and our family traditions, providing pathways for connection, longevity and joy.
+            Our Purpose is to provide Black and Brown adults with wellness modalities rooted in Indigenous and African technologies, accessible and affordable, while incorporating our family traditions, providing pathways for connection, longevity and joy.
           </p>
         </Row>
         </div>
@@ -96,7 +96,7 @@ const TeamPage = (props) => {
       <h1 className="sectionHeading">Our Story</h1>
       <Row className="sectionRow">
         <p className="sectionText">
-        Soulful Joy began as a wellness solution in response to the ever-increasing levels of stress  we are living with daily.
+        Soulful Joy began as a wellness solution in response to the ever-increasing levels of stress we are living with daily.
         </p>
       </Row>
       <Row className="sectionRow">
@@ -106,7 +106,17 @@ const TeamPage = (props) => {
       </Row>
       <Row className="sectionRow">
         <p className="sectionText">
-          Ade, Khadija, Kwasa were all engaged for this endeavour and we formally began our team collaboration with  discussions in preparation to launch July 2020. The 5th I is a rotating position but will always be filled with a representative from the next generation.
+        Conceived in 2017 by Kwayera Archer who hails from Jamaica, the goal was to launch Soulful Joy in 2020 as the 5 Is or what we call - Di I Dem.
+        </p>
+      </Row>
+      <Row className="sectionRow">
+        <p className="sectionText">
+        Ade from Jamaica, Khadija from Guyana, Kwasausya with roots in Barbados, were all engaged for this endeavor and we formally began our team collaboration planning to launch July 2020.
+        </p>
+      </Row>
+      <Row className="sectionRow">
+        <p className="sectionText">
+        The 5th “I” is a dedicated to our commitment to “each one - teaching one”, and creating opportunities for hands on business training opportunities. Through a rotating position that will always be filled with an aspiring entrepreneur representing the next generation business leaders from our nonprofit partnership youth development organization, Ifetayo Cultural Arts Academy’s alumni pool in Brooklyn, NY.
         </p>
       </Row>
       <Row className="sectionRow">
@@ -144,7 +154,7 @@ const TeamPage = (props) => {
       </Col>
       <Col className="teamImgCol" id="perdella">
       <Image src={perdella} className="locationImage roundImg teamImg"  fluid onClick={props.showOverlay.bind(this, {type:'image',data:"perdella"})}/>
-      <Button variant="outline-light" size="sm" className="teamBtn" onClick={props.showOverlay.bind(this, {type:'info',data:"perdella"})}>Perdella</Button>
+      <Button variant="outline-light" size="sm" className="teamBtn" onClick={props.showOverlay.bind(this, {type:'info',data:"perdella"})}>Next Generation Entrepreneurs</Button>
       </Col>
       </Row>
       </div>
@@ -209,7 +219,7 @@ const TeamPage = (props) => {
               <Col md={3} className="footer_midCol">
                 <ul className="footer_navList">
                   <li className="footer_navListItem">
-                  <a href="mailto:family@SoulfulJoy.com" target="_blank" rel="noopener noreferrer" className="footer_navBar_link">Stay In Touch</a>
+                  <a href="https://3navvpy3.pages.infusionsoft.net" target="_blank" rel="noopener noreferrer" className="footer_navBar_link">Stay In Touch</a>
                   </li>
                 </ul>
               </Col>
