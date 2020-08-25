@@ -18,7 +18,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import Wht_ico from '../assets/imgs/wht_ico.png';
 import location1 from '../assets/imgs/location_1.jpg';
 import location2 from '../assets/imgs/location_2.jpg';
-import location3 from '../assets/imgs/location_3.jpg';
+import location3 from '../assets/imgs/location_3.png';
 import location4 from '../assets/imgs/location_4.jpg';
 import location5 from '../assets/imgs/location_5.jpg';
 import location6 from '../assets/imgs/location_6.jpg';
@@ -80,7 +80,11 @@ const ExperiencePage = (props) => {
           <p className="sectionText">
             During October 8-12, 2020 in Negril Jamaica, we will take you on the Path to this amazing Experience.
           </p>
-          <a href="#" className="textLink" target="_blank" rel="noopener noreferrer">Subscribe</a>
+          <a href="#" className="textLink xText" target="_blank" rel="noopener noreferrer">
+          <p className="sectionText ">
+          Subscribe
+          </p>
+          </a>
         </Row>
         </div>
       </div>

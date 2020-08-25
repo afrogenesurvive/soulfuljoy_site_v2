@@ -13,7 +13,7 @@ import Wht_ico from '../../assets/imgs/wht_ico.png';
 import navBrand from '../../assets/imgs/navBrand.png';
 import location1 from '../../assets/imgs/location_1.jpg';
 import location2 from '../../assets/imgs/location_2.jpg';
-import location3 from '../../assets/imgs/location_3.jpg';
+import location3 from '../../assets/imgs/location_3.png';
 import location4 from '../../assets/imgs/location_4.jpg';
 import location5 from '../../assets/imgs/location_5.jpg';
 import location6 from '../../assets/imgs/location_6.jpg';
