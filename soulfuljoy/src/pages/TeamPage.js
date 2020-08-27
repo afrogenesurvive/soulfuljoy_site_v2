@@ -67,7 +67,7 @@ const TeamPage = (props) => {
       <h1 className="sectionHeading">Our Mission</h1>
       <Row className="sectionRow">
         <p className="sectionText">
-          Soulful Joy exists to provide unique residential wellness experiences where attendees who constantly give of themselves can rejuvenate & relax while detoxing during a 5-day long experience in lush tropical locations.
+          Soulful Joy exists to provide unique residential wellness experiences where guests who constantly give of themselves can rejuvenate & relax while detoxing during a 5-day long __experience__ in lush tropical locations.
         </p>
       </Row>
       </div>
@@ -95,27 +95,22 @@ const TeamPage = (props) => {
       <div className="testPageRowInner">
       <h1 className="sectionHeading">Our Story</h1>
       <Row className="sectionRow">
-        <p className="sectionText">
+        <p className="sectionText xText">
         Soulful Joy began as a wellness solution in response to the ever-increasing levels of stress we are living with daily.
         </p>
       </Row>
       <Row className="sectionRow">
-        <p className="sectionText">
-        Conceived in 2017 by Kwayera Archer, the goal was to launch Soulful Joy in 2020 as the 5 Is or what we call - Di I Dem.
+        <p className="sectionText xText">
+        Conceived in 2017 by Kwayera Archer who hails from Jamaica, the goal was to launch Soulful Joy in 2020 as the 5 I’s or what we call - Di I Dem.
         </p>
       </Row>
       <Row className="sectionRow">
-        <p className="sectionText">
-        Conceived in 2017 by Kwayera Archer who hails from Jamaica, the goal was to launch Soulful Joy in 2020 as the 5 Is or what we call - Di I Dem.
-        </p>
-      </Row>
-      <Row className="sectionRow">
-        <p className="sectionText">
+        <p className="sectionText xText">
         Ade from Jamaica, Khadija from Guyana, Kwasausya with roots in Barbados, were all engaged for this endeavor and we formally began our team collaboration planning to launch July 2020.
         </p>
       </Row>
       <Row className="sectionRow">
-        <p className="sectionText">
+        <p className="sectionText xText">
         The 5th “I” is a dedicated to our commitment to “each one - teaching one”, and creating opportunities for hands on business training opportunities. Through a rotating position that will always be filled with an aspiring entrepreneur representing the next generation business leaders from our nonprofit partnership youth development organization, Ifetayo Cultural Arts Academy’s alumni pool in Brooklyn, NY.
         </p>
       </Row>

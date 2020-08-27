@@ -61,30 +61,31 @@ const ExperiencePage = (props) => {
         <div className="testPageRowInner">
         <h1 className="sectionHeading">Our Purpose</h1>
         <Row className="sectionRow">
-          <p className="sectionText">
+          <p className="sectionText xText">
             Join us for a curated experience focused on living a healthier life balancing the stress imposed on our mind, body, and souls.
           </p>
         </Row>
         <Row className="sectionRow">
-          <p className="sectionText">
-          This is a wellness lifestyle experience that will empower you to kick start your desired new lifestyle or strengthen the existing one.
-          We are a team of experts who have dedicated our lives to the sustained wellness of Black and Brown communities.
+          <p className="sectionText xText">
+          This is a wellness lifestyle experience that will empower you to kick start your desired new lifestyle. We are a team of experts who have dedicated our lives to the sustained wellness of Black and Brown communities.
           </p>
         </Row>
         <Row className="sectionRow">
-          <p className="sectionText">
+          <p className="sectionText xText">
           We have over 90 years of collective experience offering excellent services in the United States, Caribbean, Africa, Central, and South America.
           </p>
         </Row>
         <Row className="sectionRow">
-          <p className="sectionText">
+          <p className="sectionText xText">
             During October 8-12, 2020 in Negril Jamaica, we will take you on the Path to this amazing Experience.
           </p>
-          <a href="#" className="textLink xText" target="_blank" rel="noopener noreferrer">
-          <p className="sectionText ">
-          Subscribe
-          </p>
-          </a>
+        </Row>
+        <Row className="sectionRow">
+        <a href="#" className="textLink xText" target="_blank" rel="noopener noreferrer">
+        <p className="sectionText ">
+        Subscribe
+        </p>
+        </a>
         </Row>
         </div>
       </div>

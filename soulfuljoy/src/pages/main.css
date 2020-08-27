@@ -186,6 +186,7 @@
 }
 .teamImg {
   height: 9rem;
+  width: 9rem;
   border: none;
   display: block;
 }
@@ -310,6 +311,7 @@
   }
   .roundImg {
     height: 7rem;
+    width: 7rem;
     margin: .5rem auto;
   }
 

@@ -13,10 +13,12 @@ const CookieNotice = (props) => {
 
   return (
     <Row className="cookieRow">
-    <Col sm={10} className="cookieCol">
-    <p className="cookieText">By using this website you agree to our use of cookies. We use Cookies to provide you with a great experience and to help our website run effectively. For further information, visit allaboutcookies.org.</p>
+    <Col sm={11} className="cookieCol">
+    <p className="cookieText">
+    By using this website you agree to our use of cookies. We use Cookies to provide you with a great experience and to help our website run effectively.
+    </p>
     </Col>
-    <Col sm={2} className="cookieCol closeCol">
+    <Col sm={1} className="cookieCol closeCol">
     <Button variant="outline-light" size="sm" className="cookieRowBtn" onClick={props.cookieAgree}>Got It</Button>
     </Col>
     </Row>

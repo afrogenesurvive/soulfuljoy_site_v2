@@ -37,13 +37,13 @@ class App extends Component {
   //
   componentDidMount() {
 
-    // if (document.cookie.indexOf("visitedsfj") == -1) {
-    //   console.log('1st_time_user');
-    //   this.setState({showCookie: true})
-    //   document.cookie = 'visitedsfj=yes; expires=Wed, 10 Jan 2022 12:00:00 UTC';
-    // } else {
-    //   console.log('return_user');
-    // }
+    if (document.cookie.indexOf("visitedsfj") == -1) {
+      console.log('1st_time_user');
+      this.setState({showCookie: true})
+      document.cookie = 'visitedsfj=yes; expires=Wed, 10 Jan 2022 12:00:00 UTC';
+    } else {
+      console.log('return_user');
+    }
   }
 
   //

@@ -76,7 +76,7 @@ const PathPage = (props) => {
         </Col>
         <Col sm={9} className="fiveIInnerRow">
         <p className="sectionText">
-          Be inspired to detox during this 5 day long retreat in  a lush tropical location while rejuvenating your soul. We will inspire you to believe you can be your best version of yourself every day.
+        Be inspired to detox during this 5-day long experience in  Negril Jamaica, while rejuvenating your soul. We will inspire you to believe you can be your best version of yourself everyday.
         </p>
         </Col>
       </Row>
@@ -92,8 +92,7 @@ const PathPage = (props) => {
         </Col>
         <Col sm={9} className="fiveIInnerRow">
         <p className="sectionText">
-        Commit and immerse your entire body and being in exclusive and impactful cultural experiences each day.
-        We will immerse you in top relaxing, healing transformative and services and offerings that  the region and world has to offer.
+        Commit and immerse your entire body and being in exclusive and impactful cultural experiences each day. We will immerse you in top relaxing, healing transformative and services and offerings that  the region and world has to offer.
         </p>
         </Col>
       </Row>
@@ -109,7 +108,7 @@ const PathPage = (props) => {
         </Col>
         <Col sm={9} className="fiveIInnerRow">
         <p className="sectionText">
-          Together, we will invigorate our body mind & soul with the purest energy and strength from the natural elements to design our best selves. Your life energy will be invigorated  during our daily High Vitality activities and food.
+          Together, we will invigorate your body mind & soul with the purest energy and strength from the natural elements to design our best selves. Your life energy will be invigorated  during our daily high vitality activities and food.
         </p>
         </Col>
       </Row>

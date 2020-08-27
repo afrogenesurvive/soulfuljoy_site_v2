@@ -52,13 +52,13 @@ const Overlay = (props) => {
             Kwayera’s cultural curiosity  was piqued in her earlier years with combinations of frequent international travels with her parents, as well as being raised in both Jamaica, and New York City in the USA.  She developed a respect and deep passion for understanding and working in partnership with communities to reach to their desired outcomes.
           </p>
           <p className="overlayText">
-          Kwayera was a real- life, professional ballet dancer, who is now the proud mother of three beautiful adult children and also holds many field related certificates and honors. She is is an alumna of Columbia Business School’s Executive-Level Graduate Training program with the Institute for Nonprofit Management and holds Masters degrees in  Community Economic Development with a focus in Community Organizing and Nonprofit Management .
+          Kwayera was a real- life, professional ballet dancer, who is now the proud mother of three beautiful adult children and also holds many field related certificates and honors. She is is an alumna of Columbia Business School’s Executive-Level Graduate Training program with the Institute for Nonprofit Management and holds Masters degrees in  Community Economic Development with a focus in Community Organizing and Nonprofit Management.
           </p>
           <p className="overlayText">
           Her proven track record in designing and delivering initiatives, that are sustainable and inclusive of the community’s voice, has become the basis for some of her most requested consultancies, through her International consulting firm Global Ase. Kwayera’s work also received the attention of the Obama’s in 2014 when she received an award at the White House for designing and running one of the best arts and humanities programs in the nation-- the NYC based Ifetayo Cultural Arts Academy, Inc.
           </p>
           <p className="overlayText">
-          Kwayera is a community strategist and travels throughout the Caribbean, Africa and the Americas sharing insights on philanthropy, social responsibility, cultural intelligence, organizational transformation, mindful leadership, and community  engagement.
+          Kwayera is a community strategist and travels throughout the Caribbean, Africa and the Americas sharing insights on philanthropy, social responsibility, cultural intelligence, organizational transformation, mindful leadership, and community engagement.
           </p>
           <p className="overlayText">
           She is  a visiting professor at multiple Universities and sits on various corporate boards  and cultural arts panels  globally. She advises philanthropic entities, social venture firms, and non-profit organizations and their leaders on best practices for creating, transforming, leading and sustaining their organizations.
