@@ -18,7 +18,7 @@
   top: 0;
   left: 1rem;
   width: 100vw;
-  height: 9rem;
+  height: 11rem;
   /* background-image: linear-gradient(
     rgba(236, 161, 48, .9),
     rgba(8,174,170, .9)
@@ -34,12 +34,15 @@
 }
 .cookieRowBtn {
   height: 2rem;
-  margin-left: 1rem;
+  margin: 0;
   display: inline-block;
 }
 .cookieText {
   color: #ffffff;
   display: inline-block;
+
+}
+@media only screen and (mix-width: 768px) and (max-width: 1024px) {
 
 }
 

@@ -25,14 +25,20 @@ const WelcomePage = (props) => {
               </Row>
 
               <Row className="welcomePageSubRow Row2">
-              <h3 className='welcomePageSubHeading'>A Special Time & Place</h3>
-              <h3 className='welcomePageSubHeading'>Negril Treehouse Resort</h3>
-              <h3 className='welcomePageSubHeading'>Jamaica, Oct 8-12, 2020</h3>
-              <a  href="https://3navvpy3.pages.infusionsoft.net/" target="_blank" rel="noopener noreferrer">
+
+              <NavLink to="/home">
                 <Button variant="outline-light" size="lg" className="welcomePageEnterBtn">Join the Joy</Button>
-              </a>
+              </NavLink>
 
               {
+
+                // <h3 className='welcomePageSubHeading'>A Special Time & Place</h3>
+                // <h3 className='welcomePageSubHeading'>Negril Treehouse Resort</h3>
+                // <h3 className='welcomePageSubHeading'>Jamaica, Oct 8-12, 2020</h3>
+                // <a  href="https://3navvpy3.pages.infusionsoft.net/" target="_blank" rel="noopener noreferrer">
+                //   <Button variant="outline-light" size="lg" className="welcomePageEnterBtn">Join the Joy</Button>
+                // </a>
+
                 // <a  href="https://3navvpy3.pages.infusionsoft.net/" target="_blank">
                 //   <Button variant="outline-light" size="lg" className="welcomePageEnterBtn">Join the Joy</Button>
                 // </a>

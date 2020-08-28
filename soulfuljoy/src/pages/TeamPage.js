@@ -67,7 +67,7 @@ const TeamPage = (props) => {
       <h1 className="sectionHeading">Our Mission</h1>
       <Row className="sectionRow">
         <p className="sectionText">
-          Soulful Joy exists to provide unique residential wellness experiences where guests who constantly give of themselves can rejuvenate & relax while detoxing during a 5-day long __experience__ in lush tropical locations.
+          Soulful Joy exists to provide unique residential wellness experiences where guests who constantly give of themselves can rejuvenate & relax while detoxing during a 5-day long <NavLink to="/experience" className="textLink">experience</NavLink> in lush tropical locations.
         </p>
       </Row>
       </div>
@@ -149,20 +149,21 @@ const TeamPage = (props) => {
       </Col>
       <Col className="teamImgCol" id="perdella">
       <Image src={perdella} className="locationImage roundImg teamImg"  fluid onClick={props.showOverlay.bind(this, {type:'image',data:"perdella"})}/>
-      <Button variant="outline-light" size="sm" className="teamBtn" onClick={props.showOverlay.bind(this, {type:'info',data:"perdella"})}>Next Generation Entrepreneurs</Button>
+      <Button variant="outline-light" size="sm" className="teamBtn" >Next Generation Entrepreneurs</Button>
       </Col>
       </Row>
       </div>
       </div>
 
-      <div className="testPageRow desktop groupSnap" >
-      <div className="testPageRowInner groupPic">
-      <h1 className="sectionsubheading">Group Photo</h1>
+      {
+        // <div className="testPageRow desktop groupSnap" >
+        // <div className="testPageRowInner groupPic">
+        // <h1 className="sectionsubheading">Group Photo</h1>
+        // <Image src={location1} className="groupPhoto"  onClick={props.showOverlay.bind(this, {type:'image',data:"location1"})}/>
+        // </div>
+        // </div>
+      }
 
-      <Image src={location1} className="groupPhoto"  onClick={props.showOverlay.bind(this, {type:'image',data:"location1"})}/>
-
-      </div>
-      </div>
 
       <div className="testPageRow mobile" id="mobile4">
       <div className="testPageRowInner">
@@ -193,20 +194,20 @@ const TeamPage = (props) => {
       <Row className="sectionRow">
         <Col className="teamImgCol" id="perdella">
         <Image src={perdella} className="locationImage roundImg teamImg singleImg" onClick={props.showOverlay.bind(this, {type:'image',data:"perdella"})} fluid />
-        <Button variant="outline-light" size="sm" className="teamBtn" onClick={props.showOverlay.bind(this, {type:'info',data:"perdella"})}>Perdella</Button>
+        <Button variant="outline-light" size="sm" className="teamBtn" >Next Generation Entrepreneurs</Button>
         </Col>
       </Row>
       </div>
       </div>
 
-      <div className="testPageRow mobile groupSnap" >
-      <div className="testPageRowInner groupPic">
-      <h1 className="sectionsubheading">Group Photo</h1>
-
-      <Image src={location1} className="groupPhoto"  onClick={props.showOverlay.bind(this, {type:'image',data:"location1"})}/>
-
-      </div>
-      </div>
+      {
+        // <div className="testPageRow mobile groupSnap" >
+        // <div className="testPageRowInner groupPic">
+        // <h1 className="sectionsubheading">Group Photo</h1>
+        // <Image src={location1} className="groupPhoto"  onClick={props.showOverlay.bind(this, {type:'image',data:"location1"})}/>
+        // </div>
+        // </div>
+      }
 
       <div className="testPageFooter" id="footer">
 
@@ -239,7 +240,7 @@ const TeamPage = (props) => {
                   </a>
                   </li>
                   <li className="footer_socialListItem">
-                  <a href="https://www.facebook.com/SoulfulJoyJa" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.youtube.com/watch?v=SEzV3UPGTDw" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faYoutube} className="footerIcon"/>
                   </a>
                   </li>

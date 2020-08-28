@@ -173,19 +173,22 @@ const Overlay = (props) => {
         {props.data.data === 'perdella' && (
           <React.Fragment>
           <h2 className="overlayHeading">
-          Perdella Jn. Baptiste
+          Next Generation Entrepreneur
           </h2>
 
           <p className="overlayText">
-          The Young I (Ifetayo Representative)
+          This year the Young I is represented by Perdella Jn. Baptiste
+          (Ifetayo Representative)
           </p>
-
 
           <p className="overlayText">
           Perdella believes that having a strong foundation is essential when aspiring to achieve your best. Being born into a family in the island of Saint Lucia who believe in rearing a child with strong work and moral ethics has resulted in her becoming a well-rounded individual. This foundation kept her grounded in ways that allowed her the freedom to explore the true essence of life.
           </p>
           <p className="overlayText">
-          This student of life is pursuing a Liberal Arts Degree with a minor in early childhood intervention from Medgar Evers College in Brooklyn New York. Perdella has joined the Soulful Joy Family since March 2020 as the first to hold the position as an Ifetayo Alumni representative for the next generation.
+          This student of life is pursuing a Liberal Arts Degree with a minor in early childhood intervention from Medgar Evers College in Brooklyn New York.
+          </p>
+          <p className="overlayText">
+          Perdella has joined the Soulful Joy Family since March 2020 as the first to hold the position as an Ifetayo Alumni representative for the next generation.
           </p>
           <p className="overlayText">
           Perdella sums up her outlook on this life experience: “...As important as it may seem to know what I want to become in life, it is equally essential to know where I am coming from...Dance is my life. Social change is what I live for. Purpose keeps me motivated. Love keeps me alive, but above all, the breath of my ancestors living inside me gives me the strength to endure.”

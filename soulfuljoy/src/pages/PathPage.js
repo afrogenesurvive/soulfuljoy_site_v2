@@ -178,7 +178,7 @@ const PathPage = (props) => {
                   </a>
                   </li>
                   <li className="footer_socialListItem">
-                  <a href="https://www.facebook.com/SoulfulJoyJa" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.youtube.com/watch?v=SEzV3UPGTDw" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faYoutube} className="footerIcon"/>
                   </a>
                   </li>

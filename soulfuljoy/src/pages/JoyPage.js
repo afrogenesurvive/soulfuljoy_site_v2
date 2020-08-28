@@ -7,7 +7,9 @@ import Image from 'react-bootstrap/Image';
 // import AuthContext from './context/auth-context';
 
 import Wht_ico from '../assets/imgs/wht_ico.png';
-import location1 from '../assets/imgs/location_1.jpg';
+import altLogo1 from '../assets/imgs/altLogo_1.png';
+import altLogo2 from '../assets/imgs/altLogo_2.png';
+import altLogo3 from '../assets/imgs/altLogo_3.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faFacebookSquare,
@@ -73,7 +75,7 @@ const PathPage = (props) => {
           </a>
           </Col>
           <Col sm={6}>
-          <a href="https://www.facebook.com/SoulfulJoyJa" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.youtube.com/watch?v=SEzV3UPGTDw" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faYoutube} className="joyIcon"/>
           </a>
           </Col>
@@ -90,10 +92,9 @@ const PathPage = (props) => {
           </p>
         </Row>
         <Row className="sectionRow">
-          <Image src={location1} className="locationImage roundImg" fluid />
-          <Image src={location1} className="locationImage roundImg" fluid />
-          <Image src={location1} className="locationImage roundImg" fluid />
-          <Image src={location1} className="locationImage roundImg" fluid />
+          <Image src={altLogo1} className="locationImage roundImg" fluid />
+          <Image src={altLogo3} className="locationImage roundImg" fluid />
+          <Image src={altLogo2} className="locationImage roundImg" fluid />
         </Row>
         </div>
       </div>
@@ -129,7 +130,7 @@ const PathPage = (props) => {
             </a>
             </li>
             <li className="footer_socialListItem">
-            <a href="https://www.facebook.com/SoulfulJoyJa" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.youtube.com/watch?v=SEzV3UPGTDw" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faYoutube} className="footerIcon"/>
             </a>
             </li>

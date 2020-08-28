@@ -41,16 +41,16 @@ const Navigation = (props) => {
         {location === 'home' ? (<p className="navListItemText bold">Home</p>):(<p className="navListItemText">Home</p>)}
         </NavLink>
         <NavLink to="/team" className="navListItemLink">
-        {location === 'team' ? (<p className="navListItemText bold">Team</p>):(<p className="navListItemText">The Team</p>)}
+        {location === 'team' ? (<p className="navListItemText bold">Team</p>):(<p className="navListItemText">Team</p>)}
         </NavLink>
         <NavLink to="/experience" className="navListItemLink">
-        {location === 'experience' ? (<p className="navListItemText bold">Experience</p>):(<p className="navListItemText">The Experience</p>)}
+        {location === 'experience' ? (<p className="navListItemText bold">Experience</p>):(<p className="navListItemText">Experience</p>)}
         </NavLink>
         <NavLink to="/path" className="navListItemLink">
-        {location === 'path' ? (<p className="navListItemText bold">Path</p>):(<p className="navListItemText">The Path</p>)}
+        {location === 'path' ? (<p className="navListItemText bold">Path</p>):(<p className="navListItemText">Path</p>)}
         </NavLink>
         <NavLink to="/joy" className="navListItemLink">
-        {location === 'joy' ? (<p className="navListItemText bold">Joy</p>):(<p className="navListItemText">The Joy</p>)}
+        {location === 'joy' ? (<p className="navListItemText bold">Joy</p>):(<p className="navListItemText">Joy</p>)}
         </NavLink>
 
         {location === 'team' && (

@@ -104,6 +104,14 @@
   font-size: 1.5rem;
   font-weight: bolder;
 }
+
+.bold {
+  font-weight: bolder !important;
+  font-size: 1.5rem !important;
+}
+.ul {
+  text-decoration: underline;
+}
 .sectionRow {
   margin: 3rem 0rem;
 }
@@ -124,8 +132,20 @@
   font-size: large;
   line-height: 2;
 }
+.sectionListText {
+  margin: .3rem auto;
+  color: #ffffff;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
 .xText {
   margin: 0 auto;
+}
+.activitiesTitle {
+  color: #ffffff;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  font-size: 1.7rem;
 }
 
 .textLink {
@@ -194,6 +214,9 @@
   border-radius: 15px;
   margin-top: .5rem;
 }
+.centered {
+  margin: 0 auto;
+}
 #kwayera {
   /* padding-top: 3rem; */
 }
@@ -227,7 +250,7 @@
   text-align: center;
   height: fit-content;
   margin-top: 3rem;
-  background-color: rgba(255,255,255,.5);
+  background-color: rgba(197, 31, 113, .5);
   padding-top: 1rem;
 }
 .footer_navBar_link {

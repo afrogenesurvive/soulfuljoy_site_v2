@@ -81,7 +81,7 @@ const ExperiencePage = (props) => {
           </p>
         </Row>
         <Row className="sectionRow">
-        <a href="#" className="textLink xText" target="_blank" rel="noopener noreferrer">
+        <a href="https://3navvpy3.pages.infusionsoft.net/#33f6a7d2-a57c-4e0c-af4d-504854612019" className="textLink xText" target="_blank" rel="noopener noreferrer">
         <p className="sectionText ">
         Subscribe
         </p>
@@ -90,28 +90,22 @@ const ExperiencePage = (props) => {
         </div>
       </div>
 
-      <div className="testPageRow" id="2">
-      <div className="testPageRowInner">
-      <h1 className="sectionHeading">Itnerary</h1>
-      </div>
-      </div>
-
       <div className="testPageRow">
       <div className="testPageRowInner">
-      <h1 className="sectionsubheading">The Experience at a Glance</h1>
+      <h1 className="sectionsubheading">The Experience At A Glance</h1>
       <Row className="sectionRow">
-        <p className="sectionText xText">Here is a <a href="https://3navvpy3.pages.infusionsoft.net/" className="textLink" target="_blank" rel="noopener noreferrer">snapshot</a> of what's in store. <NavLink to="/joy" className="textLink">Join the joy</NavLink>  for full details.</p>
+        <p className="sectionText xText">Here is a <a href="https://3navvpy3.pages.infusionsoft.net/" className="textLink" target="_blank" rel="noopener noreferrer">snapshot</a> of what's in store. <NavLink to="/joy" className="textLink">Join the Joy</NavLink>  for full details.</p>
       </Row>
       <Row className="sectionRow">
-      <p className="sectionText  xText">
-      Inspire & Immerse:
+      <p className="sectionText xText bold">
+      Inspire & Immerse
       </p>
       </Row>
       <Row className="sectionRow">
       <ul className="sectiontextList">
         <li className="sectiontextListItem">
-        <p className="sectionText xText">
-        Thursday, October 8, 2020:
+        <p className="sectionText xText ul">
+        Thursday, October 8, 2020
         </p>
         </li>
         <li className="sectiontextListItem">
@@ -124,29 +118,24 @@ const ExperiencePage = (props) => {
         *The Soulful Joy Welcome Reception & Meet and Greet takes place into the evening
         </p>
         </li>
-        <li className="sectiontextListItem">
-        <p className="sectionText xText">
-        *Meet and Greet takes place into the evening
-        </p>
-        </li>
       </ul>
 
       </Row>
       <Row className="sectionRow">
         <ul className="sectiontextList">
           <li className="sectiontextListItem">
-          <p className="sectionText  xText">
-          Friday, October 9, 2020:
+          <p className="sectionText xText ul">
+          Friday, October 9, 2020
           </p>
           </li>
           <li className="sectiontextListItem">
           <p className="sectionText  xText">
-          The first full day of the retreat is all about beginning your 3-day immersion:
+          The first full day of the retreat is all about beginning your 3-day immersion
           </p>
           </li>
           <li className="sectiontextListItem">
           <p className="sectionText  xText">
-          –  Coaching + Wellness Activities
+          * Coaching + Wellness Activities
           </p>
           </li>
           <li className="sectiontextListItem">
@@ -177,11 +166,11 @@ const ExperiencePage = (props) => {
       <div className="testPageRow">
       <div className="testPageRowInner">
       <h1 className="sectionsubheading">At a Glance</h1>
-      <p className="sectionText">Invigorate & Improve</p>
+      <p className="sectionText bold">Invigorate & Improve</p>
       <Row className="sectionRow">
       <ul className="sectiontextList">
         <li className="sectiontextListItem">
-        <p className="sectionText  xText">
+        <p className="sectionText xText ul">
         Saturday, October 10 2020
         </p>
         </li>
@@ -195,7 +184,7 @@ const ExperiencePage = (props) => {
       <Row className="sectionRow">
         <ul className="sectiontextList">
           <li className="sectiontextListItem">
-          <p className="sectionText  xText">
+          <p className="sectionText ul xText">
           Saturday, October 10 2020
           </p>
           </li>
@@ -210,9 +199,6 @@ const ExperiencePage = (props) => {
           </p>
           </li>
         </ul>
-        <p className="sectionText">
-
-        </p>
       </Row>
       </div>
       </div>
@@ -220,10 +206,12 @@ const ExperiencePage = (props) => {
       <div className="testPageRow">
       <div className="testPageRowInner">
       <h1 className="sectionsubheading">At a Glance</h1>
-      <p className="sectionText">Incorporate</p>
+      <p className="sectionText bold">Incorporate</p>
       <Row className="sectionRow">
-        <p className="sectionText">
+        <p className="sectionText xText ul">
         Monday, October 12, 2020
+        </p>
+        <p className="sectionText">
         The final Day of the retreat is all about your personal time and starting your journey home!
         Reaffirming all that you’ve experienced. You will have  beautiful new memories, new friends,  a full heart, and a personalized tool kit  to INCORPORATE  these tools you have received into your everyday life.
         </p>
@@ -294,15 +282,66 @@ const ExperiencePage = (props) => {
       </Col>
       </Row>
       <Row className="sectionRow">
-      <p className="sectionText xText">Experience Includes:</p>
+      <p className="sectionText xText">Your Experience Includes</p>
       </Row>
       <Row className="sectionRow">
-      <p className="sectionText">
-      Five days at 4.5 star Black-owned beach front hotel in Negril, Jamaica  with personalized meal plans, one complimentary 30-minute therapeutic massage, daily activities, ground transportation,  airport private transfers to & from resort and exclusive cultural experience then checking out at 12pm on Oct 12, 2020.
-      We have Limited  Quadruple Shared Occupancy Accommodation Available.
+      <ul className="sectiontextList">
+        <li className="sectiontextListItem">
+        <p className="sectionText xText ">
+        * Five days at 4.5 star Black-owned beach front hotel in Negril, Jamaica.
+        </p>
+        </li>
+        <li className="sectiontextListItem">
+        <p className="sectionText  xText">
+        * Personalized meal plans
+        </p>
+        </li>
+        <li className="sectiontextListItem">
+        <p className="sectionText  xText">
+        * One complimentary 30-minute therapeutic massage
+        </p>
+        </li>
+        <li className="sectiontextListItem">
+        <p className="sectionText  xText">
+        * Daily morning and afternoon wellness activities
+        </p>
+        </li>
+        <li className="sectiontextListItem">
+        <p className="sectionText  xText">
+        * Ground transportation and airport transfers to & from resort
+        </p>
+        </li>
+        <li className="sectiontextListItem">
+        <p className="sectionText  xText">
+        * Exclusive cultural experience
+        </p>
+        </li>
+        <li className="sectiontextListItem">
+        <p className="sectionText  xText">
+        * Check-out at 12pm on Oct 12, 2020
+        </p>
+        </li>
+        <li className="sectiontextListItem">
+        <p className="sectionText  xText">
+
+        </p>
+        </li>
+        <li className="sectiontextListItem">
+        <p className="sectionText  xText">
+        You can further personalize your package with Add-ons once you
+        </p>
+        </li>
+      </ul>
+
+      <a href="https://fw723.infusionsoft.com/app/form/46662d44c5d7114cf75a3fe57aa3d041" className="textLink xText" target="_blank" rel="noopener noreferrer">
+      <p className="sectionText xText">
+      Begin Your Journey.
       </p>
-      <p className="sectionText">
-      WE strongly recommend that groups and families book together and select Double / Triple occupancy. Groups of 4 and over must select Triple Occupancy and the price will be adjusted in the payment portal
+      </a>
+
+      <p className="sectionText xText">
+      In light of the increased safety protocols required due to Covid-19 we have limited accommodations available and therefore have to reduce the number of guests.
+      While each person must complete their individual registration forms, we strongly recommend that groups and families book together and select Double / Triple occupancy packages.
       </p>
       </Row>
       </div>
@@ -383,8 +422,8 @@ const ExperiencePage = (props) => {
       <h1 className="sectionsubheading">Join us in Negril</h1>
       <Row className="sectionRow">
         <p className="sectionText">
-        We have curated this unique Experience at the 4 1/2 star Negril Treehouse Resort.
-        One of the add-ons to your package can be extra nights after October 12. <a href="https://rt9gnc4f.pages.infusionsoft.net/" className="textLink" target="_blank" rel="noopener noreferrer">See More</a>
+        We have curated this unique Experience at the 4.5 star Negril Treehouse Resort. One of the add-ons to your package can be extra nights after October 12th.
+        Please visit The Negril Tree House link below to learn about the  COVID-19 re-opening safety and health procedures.
         </p>
       </Row>
       <Row className="sectionRow">
@@ -399,10 +438,20 @@ const ExperiencePage = (props) => {
       <div className="testPageRowInner">
       <h1 className="sectionsubheading">Our Get Here Guide</h1>
       <Row className="sectionRow">
-        <p className="sectionText">
+        <p className="sectionText xText">
         We've put together Our Get Here Guide with preparation tips and how to travel to Jamaica.
-        In light of the additional safety protocol required, we encourage everyone to be informed of the  travel restrictions implemented by the Government of Jamaica. https://www.visitjamaica.com/
         </p>
+        <p className="sectionText xText">
+        In light of the additional safety protocol required, we encourage everyone to be informed of the  travel restrictions implemented by the <a href="https://www.visitjamaica.com/" className="textLink" target="_blank" rel="noopener noreferrer">Government of Jamaica</a>
+        </p>
+
+      </Row>
+      <Row className="sectionRow">
+      <a href="#" className="centered" target="_blank" rel="noopener noreferrer">
+      <Button variant="outline-light" size="sm">
+      Get Your Guide
+      </Button>
+      </a>
       </Row>
       </div>
       </div>
@@ -410,51 +459,202 @@ const ExperiencePage = (props) => {
       <div className="testPageRow" id="4">
         <div className="testPageRowInner">
         <h1 className="sectionHeading">Our Activities</h1>
-        <Row className="sectionRow">
-          <p className="sectionText">
-            During The Experience  you will participate in inspiring transformational leadership sessions, receive a personalized meal plan, and  enjoy a complimentary massage.
-          </p>
-        </Row>
 
         <Row className="sectionRow">
         <ul className="sectiontextList">
           <li className="sectiontextListItem">
-          <p className="sectionText  xText">
-          African Drumming & Dance
+          <p className="sectionText xText ">
+          We have carefully curated this Experience for guests who continuously give of themselves, from all walks of life who are ready to align their mind, body, and spirit with their purpose.
           </p>
           </li>
           <li className="sectiontextListItem">
-          <p className="sectionText  xText">
-          Homeopathy and Herbal Walks
+          <p className="sectionText xText ">
+          Join the Joy October 8-12, 2020
           </p>
           </li>
           <li className="sectiontextListItem">
-          <p className="sectionText  xText">
-          Mbongis
-          </p>
-          </li>
-          <li className="sectiontextListItem">
-          <p className="sectionText  xText">
-          Sunrise Yoga
-          </p>
-          </li>
-          <li className="sectiontextListItem">
-          <p className="sectionText  xText">
-          Cleansing Sea Baths
-          </p>
-          </li>
-          <li className="sectiontextListItem">
-          <p className="sectionText  xText">
-          Beach hikes
-          </p>
-          </li>
-          <li className="sectiontextListItem">
-          <p className="sectionText  xText">
-          This unique Experience will include activities grounded
+          <p className="sectionText xText ">
+          at Negril Treehouse Resort, Jamaica.
           </p>
           </li>
         </ul>
         </Row>
+
+        <Row className="sectionRow">
+        <Col sm={3} className="packageCol">
+        <ul className="packageList">
+          <li>
+          <h1 className=" activitiesTitle">
+          Morning Activities
+          </h1>
+          </li>
+          <li>
+          <p className="sectionListText">
+          Breathing/Stretching
+          </p>
+          </li>
+          <li>
+          <p className="sectionListText">
+          Yoga
+          </p>
+          </li>
+          <li>
+          <p className="sectionListText">
+          Cleansing Sea Bath Ritual
+          </p>
+          </li>
+          <li>
+          <p className="sectionListText">
+          Hiking on the Beach
+          </p>
+          </li>
+          <li>
+          <p className="sectionListText">
+          Beach Jog/Run
+          </p>
+          </li>
+          <li>
+          <p className="sectionListText">
+          Fitness Session
+          </p>
+          </li>
+          <li>
+          <p className="sectionListText">
+          Group Swim
+          </p>
+          </li>
+          <li>
+          <p className="sectionListText">
+          Hiking on the Beach
+          </p>
+          </li>
+          <li>
+          <p className="sectionListText">
+          Snorkeling
+          </p>
+          </li>
+          <li>
+          <p className="sectionListText">
+          Paddle Board
+          </p>
+          </li>
+          <li>
+          <p className="sectionListText">
+          Partner Massage
+          </p>
+          </li>
+        </ul>
+        </Col>
+        <Col sm={3} className="packageCol">
+        <ul className="packageList">
+          <li>
+          <h1 className=" activitiesTitle">
+          Workshop Sessions
+          </h1>
+          </li>
+          <li>
+          <p className="sectionListText">
+          Movement Medicine
+          </p>
+          </li>
+          <li>
+          <p className="sectionListText">
+          Yoga
+          </p>
+          </li>
+          <li>
+          <p className="sectionListText">
+          Soulful Sexual Joy
+          </p>
+          </li>
+          <li>
+          <p className="sectionListText">
+          Living Your Soulful Passion
+          </p>
+          </li>
+          <li>
+          <p className="sectionListText">
+          Astrology & Universal Messaging
+          </p>
+          </li>
+          <li>
+          <p className="sectionListText">
+          Soul Food Combining for Vitality
+          </p>
+          </li>
+          <li>
+          <p className="sectionListText">
+          West African Dance
+          </p>
+          </li>
+          <li>
+          <p className="sectionListText">
+          Drum circle
+          </p>
+          </li>
+          <li>
+          <p className="sectionListText">
+          Medicinal cannabis workshop
+          </p>
+          </li>
+          <li>
+          <p className="sectionListText">
+          The Power of Journaling
+          </p>
+          </li>
+        </ul>
+        </Col>
+        <Col sm={3} className="packageCol">
+        <ul className="packageList">
+          <li>
+          <h1 className=" activitiesTitle">
+          Exclusive  Events
+          </h1>
+          </li>
+          <li>
+          <p className="sectionListText">
+          Individual One-On-One sessions with Soulful Joy Family
+          </p>
+          </li>
+          <li>
+          <p className="sectionListText">
+          Experts
+          </p>
+          </li>
+          <li>
+          <p className="sectionListText">
+          Fireside Mbongis
+          </p>
+          </li>
+          <li>
+          <p className="sectionListText">
+          Beachfront Event
+          </p>
+          </li>
+          <li>
+          <p className="sectionListText">
+          Evening Meditations
+          </p>
+          </li>
+          <li>
+          <p className="sectionListText">
+          Complimentary therapeutic treatments
+          </p>
+          </li>
+          <li>
+          <p className="sectionListText">
+          Personalized meals & Plans
+          </p>
+          </li>
+          <li>
+          <p className="sectionListText">
+          Personalized Tool-kit
+          </p>
+          </li>
+        </ul>
+        </Col>
+        </Row>
+
         </div>
       </div>
 
@@ -490,7 +690,7 @@ const ExperiencePage = (props) => {
                   </a>
                   </li>
                   <li className="footer_socialListItem">
-                  <a href="https://www.facebook.com/SoulfulJoyJa" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.youtube.com/watch?v=SEzV3UPGTDw" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faYoutube} className="footerIcon"/>
                   </a>
                   </li>

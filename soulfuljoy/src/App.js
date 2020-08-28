@@ -23,7 +23,7 @@ class App extends Component {
     location: window.location.pathname,
     showOverlay: false,
     overlayData: null,
-    showCookie: true,
+    showCookie: false,
     showCovid: true
   };
 
