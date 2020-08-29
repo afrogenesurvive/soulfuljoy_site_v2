@@ -22,6 +22,7 @@ import location3 from '../assets/imgs/location_3.png';
 import location4 from '../assets/imgs/location_4.jpg';
 import location5 from '../assets/imgs/location_5.jpg';
 import location6 from '../assets/imgs/location_6.jpg';
+import pdf from '../assets/get_here_guide.pdf';
 import "./main.css"
 
 const ExperiencePage = (props) => {
@@ -456,7 +457,7 @@ const ExperiencePage = (props) => {
 
       </Row>
       <Row className="sectionRow">
-      <a href="#" className="centered" target="_blank" rel="noopener noreferrer">
+      <a href={pdf} className="centered" target="_blank" rel="noopener noreferrer" download>
       <Button variant="outline-light" size="sm">
       Get Your Guide
       </Button>
