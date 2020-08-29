@@ -284,65 +284,74 @@ const ExperiencePage = (props) => {
       <Row className="sectionRow">
       <p className="sectionText xText">Your Experience Includes</p>
       </Row>
+
       <Row className="sectionRow">
       <ul className="sectiontextList">
         <li className="sectiontextListItem">
-        <p className="sectionText xText ">
+        <p className="sectionText">
         * Five days at 4.5 star Black-owned beach front hotel in Negril, Jamaica.
         </p>
         </li>
         <li className="sectiontextListItem">
-        <p className="sectionText  xText">
+        <p className="sectionText">
         * Personalized meal plans
         </p>
         </li>
         <li className="sectiontextListItem">
-        <p className="sectionText  xText">
+        <p className="sectionText">
         * One complimentary 30-minute therapeutic massage
         </p>
         </li>
         <li className="sectiontextListItem">
-        <p className="sectionText  xText">
+        <p className="sectionText">
         * Daily morning and afternoon wellness activities
         </p>
         </li>
         <li className="sectiontextListItem">
-        <p className="sectionText  xText">
+        <p className="sectionText">
         * Ground transportation and airport transfers to & from resort
         </p>
         </li>
         <li className="sectiontextListItem">
-        <p className="sectionText  xText">
+        <p className="sectionText">
         * Exclusive cultural experience
         </p>
         </li>
         <li className="sectiontextListItem">
-        <p className="sectionText  xText">
+        <p className="sectionText">
         * Check-out at 12pm on Oct 12, 2020
         </p>
         </li>
         <li className="sectiontextListItem">
-        <p className="sectionText  xText">
+        <p className="sectionText">
 
         </p>
         </li>
         <li className="sectiontextListItem">
-        <p className="sectionText  xText">
+        <p className="sectionText">
         You can further personalize your package with Add-ons once you
+        </p>
+        </li>
+        <li className="sectiontextListItem">
+        <p className="sectionText">
+        You can further personalize your package with Add-ons once you
+        </p>
+        </li>
+        <li className="sectiontextListItem">
+        <a href="https://fw723.infusionsoft.com/app/form/46662d44c5d7114cf75a3fe57aa3d041" className="textLink xText" target="_blank" rel="noopener noreferrer">
+        <p className="sectionText xText">
+        Begin Your Journey.
+        </p>
+        </a>
+        </li>
+        <li className="sectiontextListItem">
+        <p className="sectionText xText">
+        In light of the increased safety protocols required due to Covid-19 we have limited accommodations available and therefore have to reduce the number of guests.
+        While each person must complete their individual registration forms, we strongly recommend that groups and families book together and select Double / Triple occupancy packages.
         </p>
         </li>
       </ul>
 
-      <a href="https://fw723.infusionsoft.com/app/form/46662d44c5d7114cf75a3fe57aa3d041" className="textLink xText" target="_blank" rel="noopener noreferrer">
-      <p className="sectionText xText">
-      Begin Your Journey.
-      </p>
-      </a>
-
-      <p className="sectionText xText">
-      In light of the increased safety protocols required due to Covid-19 we have limited accommodations available and therefore have to reduce the number of guests.
-      While each person must complete their individual registration forms, we strongly recommend that groups and families book together and select Double / Triple occupancy packages.
-      </p>
       </Row>
       </div>
       </div>
