@@ -65,10 +65,10 @@ const Overlay = (props) => {
           </p>
 
 
-          <a href="https://global-ase.com/" target="_blank" rel="noopener noreferrer">
+          <a href="https://kwayera.com/" target="_blank" rel="noopener noreferrer">
           <Button variant="outline-light" size="lg" className="overlayAction">More</Button>
           </a>
-          <a href="https://ifetayo.org/" target="_blank" rel="noopener noreferrer">
+          <a href="https://global-ase.com/" target="_blank" rel="noopener noreferrer">
           <Button variant="outline-light" size="lg" className="overlayAction">Even More</Button>
           </a>
 
@@ -165,7 +165,7 @@ const Overlay = (props) => {
           </p>
 
 
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.body-culinary.com/" target="_blank" rel="noopener noreferrer">
           <Button variant="outline-light" size="lg" className="overlayAction">More</Button>
           </a>
           </React.Fragment>

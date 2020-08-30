@@ -101,7 +101,7 @@ const PathPage = (props) => {
 
       <div className="testPageRow" id="4">
       <div className="testPageRowInner">
-      <h1 className="sectionHeading">Invogorate</h1>
+      <h1 className="sectionHeading">Invigorate</h1>
       <Row className="sectionRow">
         <Col sm={3} className="fiveIInnerRow">
         <Image src={invigorate} className="fiveIImage" fluid />

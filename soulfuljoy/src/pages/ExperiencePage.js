@@ -68,7 +68,7 @@ const ExperiencePage = (props) => {
         </Row>
         <Row className="sectionRow">
           <p className="sectionText xText">
-          This is a wellness lifestyle experience that will empower you to kick start your desired new lifestyle. We are a team of experts who have dedicated our lives to the sustained wellness of Black and Brown communities.
+          This is a wellness experience that will empower you to kick start your desired new lifestyle. We are a team of experts who have dedicated our lives to the sustained wellness of Black and Brown communities.
           </p>
         </Row>
         <Row className="sectionRow">
@@ -83,9 +83,9 @@ const ExperiencePage = (props) => {
         </Row>
         <Row className="sectionRow">
         <a href="https://3navvpy3.pages.infusionsoft.net/#33f6a7d2-a57c-4e0c-af4d-504854612019" className="textLink xText" target="_blank" rel="noopener noreferrer">
-        <p className="sectionText ">
+        <Button variant="outline-light" size="md">
         Subscribe
-        </p>
+        </Button>
         </a>
         </Row>
         </div>
@@ -95,7 +95,7 @@ const ExperiencePage = (props) => {
       <div className="testPageRowInner">
       <h1 className="sectionsubheading">The Experience At A Glance</h1>
       <Row className="sectionRow">
-        <p className="sectionText xText">Here is a <a href="https://3navvpy3.pages.infusionsoft.net/" className="textLink" target="_blank" rel="noopener noreferrer">snapshot</a> of what's in store. <NavLink to="/joy" className="textLink">Join the Joy</NavLink>  for full details.</p>
+        <p className="sectionText xText">Here is a <a href="https://3navvpy3.pages.infusionsoft.net/" className="textLink" target="_blank" rel="noopener noreferrer">snapshot</a> of what's in store. <NavLink to="/joy#1" className="textLink">Join the Joy</NavLink>  for full details.</p>
       </Row>
       <Row className="sectionRow">
       <p className="sectionText xText bold">
@@ -131,7 +131,7 @@ const ExperiencePage = (props) => {
           </li>
           <li className="sectiontextListItem">
           <p className="sectionText  xText">
-          The first full day of the retreat is all about beginning your 3-day immersion
+          The first day is all about beginning your experience
           </p>
           </li>
           <li className="sectiontextListItem">
@@ -177,7 +177,7 @@ const ExperiencePage = (props) => {
         </li>
         <li className="sectiontextListItem">
         <p className="sectionText  xText">
-         The second full day will keep the energy up as you delve deeper!
+         The second day will keep the energy up as you delve deeper!
         </p>
         </li>
       </ul>
@@ -213,7 +213,7 @@ const ExperiencePage = (props) => {
         Monday, October 12, 2020
         </p>
         <p className="sectionText">
-        The final Day of the retreat is all about your personal time and starting your journey home!
+        The final day is all about your personal time and starting your journey home!
         Reaffirming all that you’ve experienced. You will have  beautiful new memories, new friends,  a full heart, and a personalized tool kit  to INCORPORATE  these tools you have received into your everyday life.
         </p>
       </Row>
@@ -334,15 +334,10 @@ const ExperiencePage = (props) => {
         </p>
         </li>
         <li className="sectiontextListItem">
-        <p className="sectionText">
-        You can further personalize your package with Add-ons once you
-        </p>
-        </li>
-        <li className="sectiontextListItem">
         <a href="https://fw723.infusionsoft.com/app/form/46662d44c5d7114cf75a3fe57aa3d041" className="textLink xText" target="_blank" rel="noopener noreferrer">
-        <p className="sectionText xText">
+        <Button variant="outline-light" size="md">
         Begin Your Journey.
-        </p>
+        </Button>
         </a>
         </li>
         <li className="sectiontextListItem">
@@ -458,7 +453,7 @@ const ExperiencePage = (props) => {
       </Row>
       <Row className="sectionRow">
       <a href={pdf} className="centered" target="_blank" rel="noopener noreferrer" download>
-      <Button variant="outline-light" size="sm">
+      <Button variant="outline-light" size="md">
       Get Your Guide
       </Button>
       </a>
@@ -599,12 +594,12 @@ const ExperiencePage = (props) => {
           </li>
           <li>
           <p className="sectionListText">
-          Drum circle
+          Drum Circle
           </p>
           </li>
           <li>
           <p className="sectionListText">
-          Medicinal cannabis workshop
+          Medicinal Cannabis Workshop
           </p>
           </li>
           <li>
@@ -623,12 +618,7 @@ const ExperiencePage = (props) => {
           </li>
           <li>
           <p className="sectionListText">
-          Individual One-On-One sessions with Soulful Joy Family
-          </p>
-          </li>
-          <li>
-          <p className="sectionListText">
-          Experts
+          Individual One-On-One sessions with Soulful Joy Family Experts
           </p>
           </li>
           <li>
