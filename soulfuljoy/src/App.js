@@ -108,7 +108,7 @@ class App extends Component {
                 showOverlay={this.showOverlay}
               />}/>
               <Route path="/path" render={(props) => <PathPage {...props}
-
+                showOverlay={this.showOverlay}
               />}/>
               <Route path="/joy" render={(props) => <JoyPage {...props}
 

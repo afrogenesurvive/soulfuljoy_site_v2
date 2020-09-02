@@ -119,6 +119,10 @@
   color: #ffffff;
   font-family: 'Sacramento', cursive;
   font-size: 5rem;
+
+}
+.xHeading {
+  margin: 0 auto;
 }
 .sectionsubheading {
   color: #ffffff;
@@ -243,8 +247,8 @@
 .joyIcon {
   /* background-image: linear-gradient(rgba(197, 31, 113, .7),	rgba(236, 161, 48, .7)); */
   color: #ffffff;
-  height: 9rem !important;
-  width: 9rem !important;
+  height: 5rem !important;
+  width: 5rem !important;
 }
 .testPageFooter {
   text-align: center;
@@ -309,6 +313,10 @@
   }
   .headerHeading {
     font-size: 3rem;
+  }
+  .xHeading {
+    font-size: 2rem;
+    margin: 0 auto;
   }
   .headerText {
     font-size: 1rem;

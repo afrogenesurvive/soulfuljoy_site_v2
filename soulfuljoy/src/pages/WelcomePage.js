@@ -25,21 +25,18 @@ const WelcomePage = (props) => {
               </Row>
 
               <Row className="welcomePageSubRow Row2">
-
-              <NavLink to="/home">
+              <h3 className='welcomePageSubHeading'>A Special Time & Place</h3>
+              <h3 className='welcomePageSubHeading'>Negril Treehouse Resort</h3>
+              <h3 className='welcomePageSubHeading'>Jamaica, Oct 8-12, 2020</h3>
+              <a  href="https://3navvpy3.pages.infusionsoft.net/" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline-light" size="lg" className="welcomePageEnterBtn">Join the Joy</Button>
-              </NavLink>
+              </a>
 
               {
-
                 // <h3 className='welcomePageSubHeading'>A Special Time & Place</h3>
                 // <h3 className='welcomePageSubHeading'>Negril Treehouse Resort</h3>
                 // <h3 className='welcomePageSubHeading'>Jamaica, Oct 8-12, 2020</h3>
                 // <a  href="https://3navvpy3.pages.infusionsoft.net/" target="_blank" rel="noopener noreferrer">
-                //   <Button variant="outline-light" size="lg" className="welcomePageEnterBtn">Join the Joy</Button>
-                // </a>
-
-                // <a  href="https://3navvpy3.pages.infusionsoft.net/" target="_blank">
                 //   <Button variant="outline-light" size="lg" className="welcomePageEnterBtn">Join the Joy</Button>
                 // </a>
 
@@ -52,18 +49,6 @@ const WelcomePage = (props) => {
 
             </Col>
           </Row>
-          {
-          //   props.showCookie === true && (
-          //   <Row className="cookieRow">
-          //   <Col sm={11} className="cookieCol">
-          //   <p className="cookieText">By using this website you agree to our use of cookies. We use Cookies to provide you with a great experience and to help our website run effectively. For further information, visit allaboutcookies.org.</p>
-          //   </Col>
-          //   <Col sm={1} className="cookieCol">
-          //   <Button variant="outline-warning" size="sm" className="cookieRowBtn" onClick={props.cookieAgree}>Got It</Button>
-          //   </Col>
-          //   </Row>
-          // )
-        }
 
         </div>
       )

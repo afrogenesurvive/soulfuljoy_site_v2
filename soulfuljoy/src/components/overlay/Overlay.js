@@ -18,8 +18,8 @@ import location4 from '../../assets/imgs/location_4.jpg';
 import location5 from '../../assets/imgs/location_5.jpg';
 import location6 from '../../assets/imgs/location_6.jpg';
 import kwayera from '../../assets/imgs/kwayera.jpg';
-import ade from '../../assets/imgs/team_2_ade.jpg';
-import khadijah from '../../assets/imgs/team_3_khadijah.jpg';
+import ade from '../../assets/imgs/team_2_ade.png';
+import khadijah from '../../assets/imgs/team_3_khadijah.png';
 import kwasausya from '../../assets/imgs/team_4_kwasausya.jpg';
 import perdella from '../../assets/imgs/team_5_perdella.jpg';
 import "./overlay.css"
@@ -49,7 +49,7 @@ const Overlay = (props) => {
           </p>
 
           <p className="overlayText">
-            Kwayera’s cultural curiosity  was piqued in her earlier years with combinations of frequent international travels with her parents, as well as being raised in both Jamaica, and New York City in the USA.  She developed a respect and deep passion for understanding and working in partnership with communities to reach to their desired outcomes.
+          Kwayera’s cultural curiosity  was piqued in her earlier years with combinations of frequent international travels with her parents, as well as being raised in both Jamaica, and New York City in the USA.  She developed a respect and deep passion for understanding and working in partnership with communities to reach to their desired outcomes.
           </p>
           <p className="overlayText">
           Kwayera was a real- life, professional ballet dancer, who is now the proud mother of three beautiful adult children and also holds many field related certificates and honors. She is is an alumna of Columbia Business School’s Executive-Level Graduate Training program with the Institute for Nonprofit Management and holds Masters degrees in  Community Economic Development with a focus in Community Organizing and Nonprofit Management.
@@ -173,7 +173,7 @@ const Overlay = (props) => {
         {props.data.data === 'perdella' && (
           <React.Fragment>
           <h2 className="overlayHeading">
-          Next Generation Entrepreneur
+          The Young I
           </h2>
 
           <p className="overlayText">
@@ -181,17 +181,59 @@ const Overlay = (props) => {
           (Ifetayo Representative)
           </p>
 
+          </React.Fragment>
+        )}
+        {props.data.data === 'mission' && (
+          <React.Fragment>
+          <h2 className="overlayHeading">
+          Our Mission
+          </h2>
+
           <p className="overlayText">
-          Perdella believes that having a strong foundation is essential when aspiring to achieve your best. Being born into a family in the island of Saint Lucia who believe in rearing a child with strong work and moral ethics has resulted in her becoming a well-rounded individual. This foundation kept her grounded in ways that allowed her the freedom to explore the true essence of life.
+          Soulful Joy exists to provide unique residential wellness experiences where guests who constantly give of themselves can rejuvenate & relax while detoxing during a 5-day long experience  in lush tropical locations. We have curated an experience focused on living a healthier life, balancing the stress imposed on our mind, body, and souls.
+          </p>
+
+          <p className="overlayText">
+          This is a wellness experience that will empower you to kick start your desired new lifestyle
+          This is a reasonably priced, high-quality experience, promising unforgettable memories within an awe-inspiring environment.
+          </p>
+
+          </React.Fragment>
+        )}
+        {props.data.data === 'vision' && (
+          <React.Fragment>
+          <h2 className="overlayHeading">
+          Our Vision
+          </h2>
+
+          <p className="overlayText">
+          The Soulful Joy Family of Experts have created endeavours over the last 30 years in the United States, Caribbean, Central and South America and Africa
           </p>
           <p className="overlayText">
-          This student of life is pursuing a Liberal Arts Degree with a minor in early childhood intervention from Medgar Evers College in Brooklyn New York.
+          Together, we have over 90 years of collective experience in community organizing and service, curating international events and creating and growing businesses based in wellness and transformational living approaches.
           </p>
           <p className="overlayText">
-          Perdella has joined the Soulful Joy Family since March 2020 as the first to hold the position as an Ifetayo Alumni representative for the next generation.
+          We aim to provide Black and Brown adults with wellness modalities rooted in Indigenous and African technologies. We aim to make these practices more accessible and affordable, while incorporating our family traditions, providing pathways for connection, longevity and Joy.
+          During October 8-12, 2020 in Negril Jamaica, we will take you on the Path to this amazing Experience.
+          </p>
+
+          </React.Fragment>
+        )}
+        {props.data.data === 'purpose' && (
+          <React.Fragment>
+          <h2 className="overlayHeading">
+          Our Purpose
+          </h2>
+
+          <p className="overlayText">
+          Our Vision is to create a special time and place where you will follow the Path to an amazing Experience we call "Di I Dem".
           </p>
           <p className="overlayText">
-          Perdella sums up her outlook on this life experience: “...As important as it may seem to know what I want to become in life, it is equally essential to know where I am coming from...Dance is my life. Social change is what I live for. Purpose keeps me motivated. Love keeps me alive, but above all, the breath of my ancestors living inside me gives me the strength to endure.”
+          • Inspire
+          • Immerse
+          • Invigorate
+          • Improve
+          • Incorporate
           </p>
 
           </React.Fragment>

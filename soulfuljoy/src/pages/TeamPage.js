@@ -9,8 +9,8 @@ import Image from 'react-bootstrap/Image';
 import Wht_ico from '../assets/imgs/wht_ico.png';
 import location1 from '../assets/imgs/location_1.jpg';
 import kwayera from '../assets/imgs/kwayera.jpg';
-import ade from '../assets/imgs/team_2_ade.jpg';
-import khadijah from '../assets/imgs/team_3_khadijah.jpg';
+import ade from '../assets/imgs/team_2_ade.png';
+import khadijah from '../assets/imgs/team_3_khadijah.png';
 import kwasausya from '../assets/imgs/team_4_kwasausya.jpg';
 import perdella from '../assets/imgs/team_5_perdella.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -62,34 +62,6 @@ const TeamPage = (props) => {
       </Row>
       </div>
 
-      <div className="testPageRow" id="1">
-      <div className="testPageRowInner">
-      <h1 className="sectionHeading">Our Mission</h1>
-      <Row className="sectionRow">
-        <p className="sectionText">
-          Soulful Joy exists to provide unique residential wellness experiences where guests who constantly give of themselves can rejuvenate & relax while detoxing during a 5-day long <NavLink to="/experience#header" className="textLink">experience</NavLink> in lush tropical locations.
-        </p>
-      </Row>
-      </div>
-      </div>
-
-      <div className="testPageRow">
-        <div className="testPageRowInner">
-        <h1 className="sectionHeading">Our Purpose</h1>
-        <Row className="sectionRow">
-          <p className="sectionText">
-            We have over 90 years of collective experience in community organizing and service, curating international events and creating and growing businesses based in wellness and transformational living approaches.
-          </p>
-        </Row>
-        <Row className="sectionRow">
-          <p className="sectionText">
-            Our Purpose is to provide Black and Brown adults with wellness modalities rooted in Indigenous and African technologies, accessible and affordable, while incorporating our family traditions, providing pathways for connection, longevity and joy.
-          </p>
-        </Row>
-        </div>
-      </div>
-
-
 
       <div className="testPageRow" id="2">
       <div className="testPageRowInner">
@@ -119,11 +91,7 @@ const TeamPage = (props) => {
           Thank you for Joining our "Soulful Joy" Movement!
         </p>
       </Row>
-      <Row className="sectionRow">
-        <p className="sectionText xText">
-          Read more about our <a href="https://www.linkedin.com/posts/soulfuljoy_the-soulful-joy-story-activity-6694342907010314241-vcH3" className="textLink" target="_blank" rel="noopener noreferrer">Story</a>
-        </p>
-      </Row>
+      
       </div>
       </div>
 
@@ -149,7 +117,9 @@ const TeamPage = (props) => {
       </Col>
       <Col className="teamImgCol" id="perdella">
       <Image src={perdella} className="locationImage roundImg teamImg"  fluid onClick={props.showOverlay.bind(this, {type:'image',data:"perdella"})}/>
-      <Button variant="outline-light" size="sm" className="teamBtn" >Next Generation Entrepreneurs</Button>
+      <a href="https://ifetayo.org/" target="_blank" rel="noopener noreferrer">
+      <Button variant="outline-light" size="sm" className="teamBtn" >The Young I</Button>
+      </a>
       </Col>
       </Row>
       </div>
@@ -194,7 +164,9 @@ const TeamPage = (props) => {
       <Row className="sectionRow">
         <Col className="teamImgCol" id="perdella">
         <Image src={perdella} className="locationImage roundImg teamImg singleImg" onClick={props.showOverlay.bind(this, {type:'image',data:"perdella"})} fluid />
-        <Button variant="outline-light" size="sm" className="teamBtn" >Next Generation Entrepreneurs</Button>
+        <a href="https://ifetayo.org/" target="_blank" rel="noopener noreferrer">
+        <Button variant="outline-light" size="sm" className="teamBtn" >The Young I</Button>
+        </a>
         </Col>
       </Row>
       </div>

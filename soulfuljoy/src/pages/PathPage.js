@@ -56,13 +56,28 @@ const PathPage = (props) => {
       </Row>
       </div>
 
-      <div className="testPageRow" id="1">
+
+      <div className="testPageRow desktop" id="1">
         <div className="testPageRowInner">
-        <h1 className="sectionHeading">Our Vision</h1>
+          <h1 className="xHeading sectionHeading" onClick={props.showOverlay.bind(this, {type:'info',data:"mission"})}>Our Mission</h1>
         <Row className="sectionRow">
-          <p className="sectionText">
-            Our Research has shown that people don’t want to experience a detox or cleanse alone, nor do they want to be in an uninspiring environment.  As a result, we came together and created a high-quality experience, reasonably priced, promising an unforgettable experience within an awe-inspiring Environment.
-          </p>
+          <h1 className="xHeading sectionHeading" onClick={props.showOverlay.bind(this, {type:'info',data:"vision"})}>Our Vision</h1>
+          <h1 className="xHeading sectionHeading" onClick={props.showOverlay.bind(this, {type:'info',data:"purpose"})}>Our Purpose</h1>
+        </Row>
+        </div>
+      </div>
+
+      <div className="testPageRow mobile" id="1">
+        <div className="testPageRowInner">
+
+        <Row className="sectionRow">
+          <h1 className="xHeading sectionHeading" onClick={props.showOverlay.bind(this, {type:'info',data:"mission"})}>Our Mission</h1>
+        </Row>
+        <Row className="sectionRow">
+          <h1 className="xHeading sectionHeading" onClick={props.showOverlay.bind(this, {type:'info',data:"vision"})}>Our Vision</h1>
+        </Row>
+        <Row className="sectionRow">
+          <h1 className="xHeading sectionHeading" onClick={props.showOverlay.bind(this, {type:'info',data:"purpose"})}>Our Purpose</h1>
         </Row>
         </div>
       </div>

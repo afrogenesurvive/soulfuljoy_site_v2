@@ -10,6 +10,10 @@ import Wht_ico from '../assets/imgs/wht_ico.png';
 import altLogo1 from '../assets/imgs/altLogo_1.png';
 import altLogo2 from '../assets/imgs/altLogo_2.png';
 import altLogo3 from '../assets/imgs/altLogo_3.jpg';
+import affiliate_kwayera from '../assets/imgs/kwayera_archer.png';
+import affiliate_ase from '../assets/imgs/global_ase.jpg';
+import affiliate_lifewell from '../assets/imgs/life_wellness.png';
+import affiliate_bodyculinary from '../assets/imgs/body_culinary.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faFacebookSquare,
@@ -55,7 +59,7 @@ const PathPage = (props) => {
 
       <div className="testPageRow" id="1">
         <div className="testPageRowInner">
-        <h1 className="sectionHeading">Social</h1>
+        <h1 className="sectionHeading">Join the Movement</h1>
         <Row className="sectionRow">
           <Col sm={6}>
           <a href="https://www.facebook.com/SoulfulJoyJa" target="_blank" rel="noopener noreferrer">
@@ -80,6 +84,11 @@ const PathPage = (props) => {
           </a>
           </Col>
         </Row>
+        <Row className="sectionRow">
+          <p className="sectionText xText">
+            Read more about our <a href="https://www.linkedin.com/posts/soulfuljoy_the-soulful-joy-story-activity-6694342907010314241-vcH3" className="textLink" target="_blank" rel="noopener noreferrer">Story</a>
+          </p>
+        </Row>
         </div>
       </div>
 
@@ -88,13 +97,35 @@ const PathPage = (props) => {
         <h1 className="sectionHeading">Our Affiliates</h1>
         <Row className="sectionRow">
           <p className="sectionText xText">
-            Follow our Ambassadors and Affiliates
+            Our Affiliates
           </p>
         </Row>
         <Row className="sectionRow">
-          <Image src={altLogo1} className="locationImage roundImg" fluid />
-          <Image src={altLogo3} className="locationImage roundImg" fluid />
-          <Image src={altLogo2} className="locationImage roundImg" fluid />
+        <Col sm={3}>
+         <Image src={affiliate_ase} className="locationImage roundImg" fluid />
+         <a href="https://global-ase.com/" target="_blank" rel="noopener noreferrer">
+         <p className="sectionText">Global Ase</p>
+         </a>
+        </Col>
+        <Col sm={3}>
+         <Image src={affiliate_lifewell} className="locationImage roundImg" fluid />
+         <a href="https://www.lifewellnesscenter.life/" target="_blank" rel="noopener noreferrer">
+         <p className="sectionText">Life Welness Center</p>
+         </a>
+        </Col>
+        <Col sm={3}>
+         <Image src={affiliate_bodyculinary} className="locationImage roundImg" fluid />
+         <a href="https://www.body-culinary.com/" target="_blank" rel="noopener noreferrer">
+         <p className="sectionText">Body Culinary</p>
+         </a>
+        </Col>
+        <Col sm={3}>
+         <Image src={affiliate_kwayera} className="locationImage roundImg" fluid />
+         <a href="https://kwayera.com/" target="_blank" rel="noopener noreferrer">
+         <p className="sectionText">Kwayera.com</p>
+         </a>
+        </Col>
+
         </Row>
         </div>
       </div>
