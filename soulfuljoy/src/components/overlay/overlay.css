@@ -19,7 +19,14 @@
   border-radius: 30%;
   padding: 1rem 3rem 3rem 3rem;
   overflow: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
 }
+.overlayCol::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}
+
 .overlayImageRow {
   width: 90vw;
   margin: 0 auto;

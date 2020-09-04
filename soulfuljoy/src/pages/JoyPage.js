@@ -95,11 +95,7 @@ const PathPage = (props) => {
       <div className="testPageRow" id="2">
         <div className="testPageRowInner">
         <h1 className="sectionHeading">Our Affiliates</h1>
-        <Row className="sectionRow">
-          <p className="sectionText xText">
-            Our Affiliates
-          </p>
-        </Row>
+
         <Row className="sectionRow">
         <Col sm={3}>
          <Image src={affiliate_ase} className="locationImage roundImg" fluid />
@@ -126,6 +122,24 @@ const PathPage = (props) => {
          </a>
         </Col>
 
+        </Row>
+        <Row className="sectionRow">
+        <ul className="subAffilList">
+        <li className="subAffil">
+        <a href="https://kwayera.com/" target="_blank" rel="noopener noreferrer">
+        <p className="sectionText xText">
+          Plant Allies
+        </p>
+        </a>
+        </li>
+        <li className="subAffil">
+        <a href="" target="_blank" rel="noopener noreferrer">
+        <p className="sectionText xText">
+          Ifetayo
+        </p>
+        </a>
+        </li>
+        </ul>
         </Row>
         </div>
       </div>

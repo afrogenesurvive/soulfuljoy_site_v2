@@ -9,6 +9,7 @@ import Image from 'react-bootstrap/Image';
 import Wht_ico from '../assets/imgs/wht_ico.png';
 import location1 from '../assets/imgs/location_1.jpg';
 import kwayera from '../assets/imgs/kwayera.jpg';
+import kwayera_mini from '../assets/imgs/kwayera_mini.png';
 import ade from '../assets/imgs/team_2_ade.png';
 import khadijah from '../assets/imgs/team_3_khadijah.png';
 import kwasausya from '../assets/imgs/team_4_kwasausya.jpg';
@@ -63,44 +64,12 @@ const TeamPage = (props) => {
       </div>
 
 
-      <div className="testPageRow" id="2">
-      <div className="testPageRowInner">
-      <h1 className="sectionHeading">Our Story</h1>
-      <Row className="sectionRow">
-        <p className="sectionText xText">
-        Soulful Joy began as a wellness solution in response to the ever-increasing levels of stress we are living with daily.
-        </p>
-      </Row>
-      <Row className="sectionRow">
-        <p className="sectionText xText">
-        Conceived in 2017 by Kwayera Archer who hails from Jamaica, the goal was to launch Soulful Joy in 2020 as the 5 I’s or what we call - Di I Dem.
-        </p>
-      </Row>
-      <Row className="sectionRow">
-        <p className="sectionText xText">
-        Ade from Jamaica, Khadija from Guyana, Kwasausya with roots in Barbados, were all engaged for this endeavor and we formally began our team collaboration planning to launch July 2020.
-        </p>
-      </Row>
-      <Row className="sectionRow">
-        <p className="sectionText xText">
-        The 5th “I” is a dedicated to our commitment to “each one - teaching one”, and creating opportunities for hands on business training opportunities. Through a rotating position that will always be filled with an aspiring entrepreneur representing the next generation business leaders from our nonprofit partnership youth development organization, <a href="https://ifetayo.org/" className="textLink" target="_blank" rel="noopener noreferrer">Ifetayo Cultural Arts Academy</a>’s alumni pool in Brooklyn, NY.
-        </p>
-      </Row>
-      <Row className="sectionRow">
-        <p className="sectionText xText">
-          Thank you for Joining our "Soulful Joy" Movement!
-        </p>
-      </Row>
-      
-      </div>
-      </div>
-
       <div className="testPageRow desktop" id="3">
       <div className="testPageRowInner">
       <h1 className="sectionHeading">Our Team</h1>
       <Row className="sectionRow" id="teamSectionRow">
       <Col className="teamImgCol" id="kwayera">
-      <Image src={kwayera} className="locationImage roundImg teamImg"  onClick={props.showOverlay.bind(this, {type:'image',data:"kwayera"})}/>
+      <Image src={kwayera_mini} className="locationImage roundImg teamImg"  onClick={props.showOverlay.bind(this, {type:'image',data:"kwayera"})}/>
       <Button variant="outline-light" size="sm" className="teamBtn" onClick={props.showOverlay.bind(this, {type:'info',data:"kwayera"})}>Kwayera</Button>
       </Col>
       <Col className="teamImgCol" id="ade">
@@ -117,7 +86,7 @@ const TeamPage = (props) => {
       </Col>
       <Col className="teamImgCol" id="perdella">
       <Image src={perdella} className="locationImage roundImg teamImg"  fluid onClick={props.showOverlay.bind(this, {type:'image',data:"perdella"})}/>
-      <a href="https://ifetayo.org/" target="_blank" rel="noopener noreferrer">
+      <a href="" target="_blank" rel="noopener noreferrer">
       <Button variant="outline-light" size="sm" className="teamBtn" >The Young I</Button>
       </a>
       </Col>
@@ -140,7 +109,7 @@ const TeamPage = (props) => {
       <h1 className="sectionHeading">Team</h1>
       <Row className="sectionRow">
         <Col className="teamImgCol" id="kwayera">
-        <Image src={kwayera} className="locationImage roundImg teamImg" onClick={props.showOverlay.bind(this, {type:'image',data:"kwayera"})} fluid />
+        <Image src={kwayera_mini} className="locationImage roundImg teamImg" onClick={props.showOverlay.bind(this, {type:'image',data:"kwayera"})} fluid />
         <Button variant="outline-light" size="sm" className="teamBtn" onClick={props.showOverlay.bind(this, {type:'info',data:"kwayera"})}>Kwayera</Button>
         </Col>
 
@@ -180,6 +149,38 @@ const TeamPage = (props) => {
         // </div>
         // </div>
       }
+
+      <div className="testPageRow" id="2">
+      <div className="testPageRowInner">
+      <h1 className="sectionHeading">Our Story</h1>
+      <Row className="sectionRow">
+        <p className="sectionText xText">
+        Soulful Joy began as a wellness solution in response to the ever-increasing levels of stress we are living with daily.
+        </p>
+      </Row>
+      <Row className="sectionRow">
+        <p className="sectionText xText">
+        Conceived in 2017 by Kwayera Archer who hails from Jamaica, the goal was to launch Soulful Joy in 2020 as the 5 I’s or what we call - Di I Dem.
+        </p>
+      </Row>
+      <Row className="sectionRow">
+        <p className="sectionText xText">
+        Ade from Jamaica, Khadija from Guyana, Kwasausya with roots in Barbados, were all engaged for this endeavor and we formally began our team collaboration planning to launch July 2020.
+        </p>
+      </Row>
+      <Row className="sectionRow">
+        <p className="sectionText xText">
+        The 5th “I” is a dedicated to our commitment to “each one - teaching one”, and creating opportunities for hands on business training opportunities. Through a rotating position that will always be filled with an aspiring entrepreneur representing the next generation business leaders from our nonprofit partnership youth development organization, <a href="https://ifetayo.org/" className="textLink" target="_blank" rel="noopener noreferrer">Ifetayo Cultural Arts Academy</a>’s alumni pool in Brooklyn, NY.
+        </p>
+      </Row>
+      <Row className="sectionRow">
+        <p className="sectionText xText">
+          Thank you for Joining our "Soulful Joy" Movement!
+        </p>
+      </Row>
+
+      </div>
+      </div>
 
       <div className="testPageFooter" id="footer">
 

@@ -113,8 +113,7 @@ font-family: 'Sacramento', cursive; */
 
 .navbarMaster {
   text-align: center;
-  /* max-width: 97%; */
-  padding-left: 9rem;
+  padding-left: 3rem;
   border-bottom: 1px solid silver;
 }
 
@@ -147,6 +146,7 @@ font-family: 'Sacramento', cursive; */
 }
 
 
+
 @media only screen and (min-width: 900px) and (max-width: 1150px) {
 
 }
@@ -169,6 +169,10 @@ font-family: 'Sacramento', cursive; */
   }
   .navbarBrandLogo {
     margin: 0;
+  }
+  .navbar_item_social {
+    display: inline-block;
+    margin: 1rem auto;
   }
 
 }

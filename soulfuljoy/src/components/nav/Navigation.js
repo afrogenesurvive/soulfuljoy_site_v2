@@ -53,123 +53,28 @@ const Navigation = (props) => {
         {location === 'joy' ? (<p className="navListItemText bold">Joy</p>):(<p className="navListItemText">Joy</p>)}
         </NavLink>
 
-        {location === 'team' && (
-          <div className="subNavDiv desktop">
-          <ul className="subNavList">
-            <li className="subNavListItem">
-            <a href="#1">
-              <p className="subNavListItemText">Mission</p>
-            </a>
-            </li>
-            <li className="subNavListItem">
-            <a href="#2">
-              <p className="subNavListItemText">Story</p>
-            </a>
-            </li>
-            <li className="subNavListItem">
-            <a href="#3">
-              <p className="subNavListItemText">Team</p>
-            </a>
-            </li>
-          </ul>
-        </div>
-      )}
-      {location === 'experience' && (
-        <div className="subNavDiv desktop">
-        <ul className="subNavList">
-          <li className="subNavListItem">
-          <a href="#1">
-            <p className="subNavListItemText">Purpose</p>
-          </a>
-          </li>
-          <li className="subNavListItem">
-          <a href="#2">
-            <p className="subNavListItemText">Itinerary</p>
-          </a>
-          </li>
-          <li className="subNavListItem">
-          <a href="#3">
-            <p className="subNavListItemText">Location</p>
-          </a>
-          </li>
-          <li className="subNavListItem">
-          <a href="#4">
-            <p className="subNavListItemText">Activities</p>
-          </a>
-          </li>
-        </ul>
-        </div>
-      )}
-      {location === 'path' && (
-        <div className="subNavDiv desktop">
-        <ul className="subNavList">
-          <li className="subNavListItem">
-          <a href="#1">
-            <p className="subNavListItemText">Vision</p>
-          </a>
-          </li>
-          <li className="subNavListItem">
-          <a href="#2">
-            <p className="subNavListItemText">Inspire</p>
-          </a>
-          </li>
-          <li className="subNavListItem">
-          <a href="#3">
-            <p className="subNavListItemText">Immerse</p>
-          </a>
-          </li>
-          <li className="subNavListItem">
-          <a href="#4">
-            <p className="subNavListItemText">Invogorate</p>
-          </a>
-          </li>
-          <li className="subNavListItem">
-          <a href="#5">
-            <p className="subNavListItemText">Improve</p>
-          </a>
-          </li>
-          <li className="subNavListItem">
-          <a href="#6">
-            <p className="subNavListItemText">Incorporate</p>
-          </a>
-          </li>
-        </ul>
-        </div>
-      )}
-      {
-      //   location === 'joy' && (
-      //   <div className="subNavDiv desktop">
-      //   <ul className="subNavList">
-      //     <li className="subNavListItem">
-      //       <p className="subNavListItemText">Joy 1</p>
-      //     </li>
-      //     <li className="subNavListItem">
-      //       <p className="subNavListItemText">Joy 2</p>
-      //     </li>
-      //     <li className="subNavListItem">
-      //       <p className="subNavListItemText">Joy 3</p>
-      //     </li>
-      //   </ul>
-      //   </div>
-      // )
-    }
+
 
       <Nav.Link className="navbar_divider">
-                </Nav.Link>
-                <Nav.Link className="navbar_item_social" href="https://www.facebook.com/SoulfulJoyJa" target="_blank" rel="noopener noreferrer">
-                  <FontAwesomeIcon icon={faFacebookSquare} className="navbar_socialIcon"/>
-                </Nav.Link>
-                <Nav.Link className="navbar_item_social" href="https://www.instagram.com/soulfuljoyjamaica" target="_blank" rel="noopener noreferrer">
-                  <FontAwesomeIcon icon={faInstagram} className="navbar_socialIcon"/>
-                </Nav.Link>
-                <Nav.Link className="navbar_item_social" href="https://www.linkedin.com/company/soulfuljoy/" target="_blank" rel="noopener noreferrer">
-                  <FontAwesomeIcon icon={faLinkedin} className="navbar_socialIcon"/>
-                </Nav.Link>
-                <Nav.Link className="navbar_item_social" href="" target="_blank" rel="noopener noreferrer">
-                  <FontAwesomeIcon icon={faYoutube} className="navbar_socialIcon"/>
-                </Nav.Link>
-                <Nav.Link className="navbar_divider">
-                </Nav.Link>
+      </Nav.Link>
+      <Row>
+
+      <Nav.Link className="navbar_item_social" href="https://www.facebook.com/SoulfulJoyJa" target="_blank" rel="noopener noreferrer">
+        <FontAwesomeIcon icon={faFacebookSquare} className="navbar_socialIcon"/>
+      </Nav.Link>
+      <Nav.Link className="navbar_item_social" href="https://www.instagram.com/soulfuljoyjamaica" target="_blank" rel="noopener noreferrer">
+        <FontAwesomeIcon icon={faInstagram} className="navbar_socialIcon"/>
+      </Nav.Link>
+      <Nav.Link className="navbar_item_social" href="https://www.linkedin.com/company/soulfuljoy/" target="_blank" rel="noopener noreferrer">
+        <FontAwesomeIcon icon={faLinkedin} className="navbar_socialIcon"/>
+      </Nav.Link>
+      <Nav.Link className="navbar_item_social" href="" target="_blank" rel="noopener noreferrer">
+        <FontAwesomeIcon icon={faYoutube} className="navbar_socialIcon"/>
+      </Nav.Link>
+      <Nav.Link className="navbar_divider">
+      </Nav.Link>
+      </Row>
+
 
       </Nav>
     </Navbar.Collapse>

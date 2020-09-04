@@ -58,44 +58,12 @@ const ExperiencePage = (props) => {
       </Row>
       </div>
 
-      <div className="testPageRow" id="1">
-        <div className="testPageRowInner">
-        <h1 className="sectionHeading">Our Purpose</h1>
-        <Row className="sectionRow">
-          <p className="sectionText xText">
-            Join us for a curated experience focused on living a healthier life balancing the stress imposed on our mind, body, and souls.
-          </p>
-        </Row>
-        <Row className="sectionRow">
-          <p className="sectionText xText">
-          This is a wellness experience that will empower you to kick start your desired new lifestyle. We are a team of experts who have dedicated our lives to the sustained wellness of Black and Brown communities.
-          </p>
-        </Row>
-        <Row className="sectionRow">
-          <p className="sectionText xText">
-          We have over 90 years of collective experience offering excellent services in the United States, Caribbean, Africa, Central, and South America.
-          </p>
-        </Row>
-        <Row className="sectionRow">
-          <p className="sectionText xText">
-            During October 8-12, 2020 in Negril Jamaica, we will take you on the Path to this amazing Experience.
-          </p>
-        </Row>
-        <Row className="sectionRow">
-        <a href="https://3navvpy3.pages.infusionsoft.net/#33f6a7d2-a57c-4e0c-af4d-504854612019" className="textLink xText" target="_blank" rel="noopener noreferrer">
-        <Button variant="outline-light" size="md">
-        Subscribe
-        </Button>
-        </a>
-        </Row>
-        </div>
-      </div>
 
       <div className="testPageRow">
       <div className="testPageRowInner">
       <h1 className="sectionsubheading">The Experience At A Glance</h1>
       <Row className="sectionRow">
-        <p className="sectionText xText">Here is a <a href="https://3navvpy3.pages.infusionsoft.net/" className="textLink" target="_blank" rel="noopener noreferrer">snapshot</a> of what's in store. <NavLink to="/joy#1" className="textLink">Join the Joy</NavLink>  for full details.</p>
+        <p className="sectionText xText">Here is a <a href="https://3navvpy3.pages.infusionsoft.net/" className="textLink" target="_blank" rel="noopener noreferrer">snapshot</a> of what's in store. </p>
       </Row>
       <Row className="sectionRow">
       <p className="sectionText xText bold">
@@ -281,10 +249,19 @@ const ExperiencePage = (props) => {
         </li>
       </ul>
       </Col>
+
+      </Row>
+      <Row className="sectionRow">
+      <a href="https://fw723.infusionsoft.com/app/form/46662d44c5d7114cf75a3fe57aa3d041" className="textLink xText" target="_blank" rel="noopener noreferrer">
+      <Button variant="outline-light" size="md">
+      Begin Your Journey.
+      </Button>
+      </a>
       </Row>
       <Row className="sectionRow">
       <p className="sectionText xText">Your Experience Includes</p>
       </Row>
+
 
       <Row className="sectionRow">
       <ul className="sectiontextList">
@@ -330,15 +307,8 @@ const ExperiencePage = (props) => {
         </li>
         <li className="sectiontextListItem">
         <p className="sectionText">
-        You can further personalize your package with Add-ons once you
+        You can further personalize your package with Add-ons once you begin your journey.
         </p>
-        </li>
-        <li className="sectiontextListItem">
-        <a href="https://fw723.infusionsoft.com/app/form/46662d44c5d7114cf75a3fe57aa3d041" className="textLink xText" target="_blank" rel="noopener noreferrer">
-        <Button variant="outline-light" size="md">
-        Begin Your Journey.
-        </Button>
-        </a>
         </li>
         <li className="sectiontextListItem">
         <p className="sectionText xText">
@@ -447,17 +417,20 @@ const ExperiencePage = (props) => {
         We've put together Our Get Here Guide with preparation tips and how to travel to Jamaica.
         </p>
         <p className="sectionText xText">
-        In light of the additional safety protocol required, we encourage everyone to be informed of the  travel restrictions implemented by the <a href="https://www.visitjamaica.com/" className="textLink" target="_blank" rel="noopener noreferrer">Government of Jamaica</a>
+        In light of the additional safety protocols required, we encourage everyone to be informed of the travel restrictions implemented by the <a href="https://www.visitjamaica.com/" className="textLink" target="_blank" rel="noopener noreferrer">Government of Jamaica</a>
         </p>
 
       </Row>
-      <Row className="sectionRow">
-      <a href={pdf} className="centered" target="_blank" rel="noopener noreferrer" download>
-      <Button variant="outline-light" size="md">
-      Get Your Guide
-      </Button>
-      </a>
-      </Row>
+      {
+        // <Row className="sectionRow">
+        // <a href={pdf} className="centered" target="_blank" rel="noopener noreferrer" download>
+        // <Button variant="outline-light" size="md">
+        // Get Your Guide
+        // </Button>
+        // </a>
+        // </Row>
+      }
+
       </div>
       </div>
 
@@ -654,6 +627,15 @@ const ExperiencePage = (props) => {
         </ul>
         </Col>
         </Row>
+        <Row className="sectionRow">
+        <Col>
+        <a  href="https://3navvpy3.pages.infusionsoft.net/" target="_blank" rel="noopener noreferrer">
+        <Button variant="outline-light" size="md">
+        Book Your Spot
+        </Button>
+        </a>
+        </Col>
+        </Row>
 
         </div>
       </div>
@@ -662,47 +644,47 @@ const ExperiencePage = (props) => {
       <div className="testPageFooter" id="footer">
 
       <Row className="footer_midRow">
-              <Col md={3} className="footer_midCol">
-                <ul className="footer_navList">
-                  <li className="footer_navListItem">
-                  <a href="https://3navvpy3.pages.infusionsoft.net" target="_blank" rel="noopener noreferrer" className="footer_navBar_link">Stay In Touch</a>
-                  </li>
-                </ul>
-              </Col>
-              <Col md={6} className="footer_midCol">
+        <Col md={3} className="footer_midCol">
+          <ul className="footer_navList">
+            <li className="footer_navListItem">
+            <a href="https://3navvpy3.pages.infusionsoft.net" target="_blank" rel="noopener noreferrer" className="footer_navBar_link">Stay In Touch</a>
+            </li>
+          </ul>
+        </Col>
+        <Col md={6} className="footer_midCol">
 
-              </Col>
-              <Col md={3} className="footer_midCol">
-                <ul className="footer_socialList">
-                  <li className="footer_socialListItem">
-                  <a href="https://www.facebook.com/SoulfulJoyJa" target="_blank" rel="noopener noreferrer">
-                    <FontAwesomeIcon icon={faFacebookSquare} className="footerIcon"/>
-                  </a>
-                  </li>
-                  <li className="footer_socialListItem">
-                  <a href="https://www.instagram.com/soulfuljoyjamaica" target="_blank" rel="noopener noreferrer">
-                    <FontAwesomeIcon icon={faInstagram} className="footerIcon"/>
-                  </a>
-                  </li>
-                  <li className="footer_socialListItem">
-                  <a href="https://www.linkedin.com/company/soulfuljoy/" target="_blank" rel="noopener noreferrer">
-                    <FontAwesomeIcon icon={faLinkedin} className="footerIcon"/>
-                  </a>
-                  </li>
-                  <li className="footer_socialListItem">
-                  <a href="https://www.youtube.com/watch?v=SEzV3UPGTDw" target="_blank" rel="noopener noreferrer">
-                    <FontAwesomeIcon icon={faYoutube} className="footerIcon"/>
-                  </a>
-                  </li>
-                </ul>
-              </Col>
-            </Row>
-            <Row className="footer_copyrightRow">
-            <a className="footer_copyrightRow_text" href="mailto:family@SoulfulJoy.com" target="_blank" rel="noopener noreferrer">
-              <p > family@SoulfulJoy.com | Planet Earth | </p>
+        </Col>
+        <Col md={3} className="footer_midCol">
+          <ul className="footer_socialList">
+            <li className="footer_socialListItem">
+            <a href="https://www.facebook.com/SoulfulJoyJa" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faFacebookSquare} className="footerIcon"/>
             </a>
+            </li>
+            <li className="footer_socialListItem">
+            <a href="https://www.instagram.com/soulfuljoyjamaica" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faInstagram} className="footerIcon"/>
+            </a>
+            </li>
+            <li className="footer_socialListItem">
+            <a href="https://www.linkedin.com/company/soulfuljoy/" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faLinkedin} className="footerIcon"/>
+            </a>
+            </li>
+            <li className="footer_socialListItem">
+            <a href="https://www.youtube.com/watch?v=SEzV3UPGTDw" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faYoutube} className="footerIcon"/>
+            </a>
+            </li>
+          </ul>
+        </Col>
+      </Row>
+      <Row className="footer_copyrightRow">
+      <a className="footer_copyrightRow_text" href="mailto:family@SoulfulJoy.com" target="_blank" rel="noopener noreferrer">
+        <p > family@SoulfulJoy.com | Planet Earth | </p>
+      </a>
 
-            </Row>
+      </Row>
       </div>
     </div>
   )

@@ -207,14 +207,14 @@ const Overlay = (props) => {
           </h2>
 
           <p className="overlayText">
-          The Soulful Joy Family of Experts have created endeavours over the last 30 years in the United States, Caribbean, Central and South America and Africa
+          Our Vision is to create a special time and place where you will follow the Path to an amazing Experience we call "Di I Dem".
           </p>
           <p className="overlayText">
-          Together, we have over 90 years of collective experience in community organizing and service, curating international events and creating and growing businesses based in wellness and transformational living approaches.
-          </p>
-          <p className="overlayText">
-          We aim to provide Black and Brown adults with wellness modalities rooted in Indigenous and African technologies. We aim to make these practices more accessible and affordable, while incorporating our family traditions, providing pathways for connection, longevity and Joy.
-          During October 8-12, 2020 in Negril Jamaica, we will take you on the Path to this amazing Experience.
+          • Inspire
+          • Immerse
+          • Invigorate
+          • Improve
+          • Incorporate
           </p>
 
           </React.Fragment>
@@ -226,14 +226,14 @@ const Overlay = (props) => {
           </h2>
 
           <p className="overlayText">
-          Our Vision is to create a special time and place where you will follow the Path to an amazing Experience we call "Di I Dem".
+          The Soulful Joy Family of Experts have created endeavours over the last 30 years in the United States, Caribbean, Central and South America and Africa
           </p>
           <p className="overlayText">
-          • Inspire
-          • Immerse
-          • Invigorate
-          • Improve
-          • Incorporate
+          Together, we have over 90 years of collective experience in community organizing and service, curating international events and creating and growing businesses based in wellness and transformational living approaches.
+          </p>
+          <p className="overlayText">
+          We aim to provide Black and Brown adults with wellness modalities rooted in Indigenous and African technologies. We aim to make these practices more accessible and affordable, while incorporating our family traditions, providing pathways for connection, longevity and Joy.
+          During October 8-12, 2020 in Negril Jamaica, we will take you on the Path to this amazing Experience.
           </p>
 
           </React.Fragment>
