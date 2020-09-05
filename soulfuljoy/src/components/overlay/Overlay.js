@@ -68,9 +68,6 @@ const Overlay = (props) => {
           <a href="https://kwayera.com/" target="_blank" rel="noopener noreferrer">
           <Button variant="outline-light" size="lg" className="overlayAction">More</Button>
           </a>
-          <a href="https://global-ase.com/" target="_blank" rel="noopener noreferrer">
-          <Button variant="outline-light" size="lg" className="overlayAction">Even More</Button>
-          </a>
 
           </React.Fragment>
         )}

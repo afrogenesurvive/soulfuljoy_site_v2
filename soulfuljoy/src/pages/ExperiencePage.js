@@ -252,14 +252,14 @@ const ExperiencePage = (props) => {
 
       </Row>
       <Row className="sectionRow">
-      <a href="https://fw723.infusionsoft.com/app/form/46662d44c5d7114cf75a3fe57aa3d041" className="textLink xText" target="_blank" rel="noopener noreferrer">
+      <a href="https://3navvpy3.pages.infusionsoft.net/" className="textLink xText" target="_blank" rel="noopener noreferrer">
       <Button variant="outline-light" size="md">
       Begin Your Journey.
       </Button>
       </a>
       </Row>
       <Row className="sectionRow">
-      <p className="sectionText xText">Your Experience Includes</p>
+      <p className="sectionText xText">Your Experience Includes :</p>
       </Row>
 
 
@@ -402,7 +402,7 @@ const ExperiencePage = (props) => {
         </p>
       </Row>
       <Row className="sectionRow">
-        <p className="sectionText">
+        <p className="sectionText xText">
         Check out <a href="http://negriltreehouse.net/" className="textLink" target="_blank" rel="noopener noreferrer">their site</a> for the Re-opening Announcement  and how your health and safety will be catered to.
         </p>
       </Row>
@@ -414,7 +414,7 @@ const ExperiencePage = (props) => {
       <h1 className="sectionsubheading">Our Get Here Guide</h1>
       <Row className="sectionRow">
         <p className="sectionText xText">
-        We've put together Our Get Here Guide with preparation tips and how to travel to Jamaica.
+        We've put together Our Get Here Guide with preparation tips and how to travel to Jamaica. <a href="https://fw723.infusionsoft.com/app/form/6caaedd6ff1b65f5c50f3032fbd1f7c0" className="textLink" target="_blank" rel="noopener noreferrer">Register now for access to the Guide.</a>
         </p>
         <p className="sectionText xText">
         In light of the additional safety protocols required, we encourage everyone to be informed of the travel restrictions implemented by the <a href="https://www.visitjamaica.com/" className="textLink" target="_blank" rel="noopener noreferrer">Government of Jamaica</a>

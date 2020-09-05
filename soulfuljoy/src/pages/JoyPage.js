@@ -126,14 +126,14 @@ const PathPage = (props) => {
         <Row className="sectionRow">
         <ul className="subAffilList">
         <li className="subAffil">
-        <a href="https://kwayera.com/" target="_blank" rel="noopener noreferrer">
+        <a href="https://plantalliesworldwide.com" target="_blank" rel="noopener noreferrer">
         <p className="sectionText xText">
           Plant Allies
         </p>
         </a>
         </li>
         <li className="subAffil">
-        <a href="" target="_blank" rel="noopener noreferrer">
+        <a href="https://ifetayo.org/" target="_blank" rel="noopener noreferrer">
         <p className="sectionText xText">
           Ifetayo
         </p>
