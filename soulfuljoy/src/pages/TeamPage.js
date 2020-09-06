@@ -170,12 +170,12 @@ const TeamPage = (props) => {
       </Row>
       <Row className="sectionRow">
         <p className="sectionText xText">
-        The 5th “I” is a dedicated to our commitment to “each one - teaching one”, and creating opportunities for hands on business training opportunities. Through a rotating position that will always be filled with an aspiring entrepreneur representing the next generation business leaders from our nonprofit partnership youth development organization, <a href="https://ifetayo.org/" className="textLink" target="_blank" rel="noopener noreferrer">Ifetayo Cultural Arts Academy</a>’s alumni pool in Brooklyn, NY.
+        The 5th “I” is a dedicated to our commitment to “each one - teaching one”, and creating opportunities for hands on business training opportunities. Through a rotating position that will always be filled with an aspiring entrepreneur representing the next generation business leaders from our nonprofit partnership youth development organization, Ifetayo Cultural Arts Academy’s alumni pool in Brooklyn, NY.
         </p>
       </Row>
       <Row className="sectionRow">
         <p className="sectionText xText">
-          Thank you for Joining our "Soulful Joy" Movement!
+          Thank you for Joining our Soulful Joy Movement!
         </p>
       </Row>
 

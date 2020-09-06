@@ -10,10 +10,14 @@ import Wht_ico from '../assets/imgs/wht_ico.png';
 import altLogo1 from '../assets/imgs/altLogo_1.png';
 import altLogo2 from '../assets/imgs/altLogo_2.png';
 import altLogo3 from '../assets/imgs/altLogo_3.jpg';
+import social1 from '../assets/imgs/social1.png';
+import social2 from '../assets/imgs/social2.jpg';
+import social3 from '../assets/imgs/kwayera_mini.png';
+import social4 from '../assets/imgs/social4.jpg';
 import affiliate_kwayera from '../assets/imgs/kwayera_archer.png';
 import affiliate_ase from '../assets/imgs/global_ase.jpg';
 import affiliate_lifewell from '../assets/imgs/life_wellness.png';
-import affiliate_bodyculinary from '../assets/imgs/body_culinary.jpg';
+import affiliate_bodyculinary from '../assets/imgs/body_culinary.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faFacebookSquare,
@@ -60,29 +64,33 @@ const PathPage = (props) => {
       <div className="testPageRow" id="1">
         <div className="testPageRowInner">
         <h1 className="sectionHeading">Join the Movement</h1>
+
         <Row className="sectionRow">
-          <Col sm={6}>
-          <a href="https://www.facebook.com/SoulfulJoyJa" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faFacebookSquare} className="joyIcon"/>
-          </a>
-          </Col>
-          <Col sm={6}>
-          <a href="https://www.instagram.com/soulfuljoyjamaica" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faInstagram} className="joyIcon"/>
-          </a>
-          </Col>
-        </Row>
-        <Row className="sectionRow">
-          <Col sm={6}>
-          <a href="https://www.linkedin.com/company/soulfuljoy/" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faLinkedin} className="joyIcon"/>
-          </a>
-          </Col>
-          <Col sm={6}>
-          <a href="https://www.youtube.com/watch?v=SEzV3UPGTDw" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faYoutube} className="joyIcon"/>
-          </a>
-          </Col>
+        <Col sm={3}>
+         <Image src={social1} className="locationImage roundImg" fluid />
+         <a href="https://www.instagram.com/soulfuljoyjamaica" target="_blank" rel="noopener noreferrer">
+         <p className="sectionText">Follow Us</p>
+         </a>
+        </Col>
+        <Col sm={3}>
+         <Image src={social2} className="locationImage roundImg" fluid />
+         <a href="https://www.facebook.com/SoulfulJoyJa/videos/334372587994569/" target="_blank" rel="noopener noreferrer">
+         <p className="sectionText">Share</p>
+         </a>
+        </Col>
+        <Col sm={3}>
+         <Image src={social3} className="locationImage roundImg" fluid />
+         <a href="https://www.linkedin.com/feed/update/urn:li:activity:6676583350498537473/" target="_blank" rel="noopener noreferrer">
+         <p className="sectionText">Learn</p>
+         </a>
+        </Col>
+        <Col sm={3}>
+         <Image src={social4} className="locationImage roundImg" fluid />
+         <a href="https://www.youtube.com/watch?v=SEzV3UPGTDw" target="_blank" rel="noopener noreferrer">
+         <p className="sectionText">Watch</p>
+         </a>
+        </Col>
+
         </Row>
         <Row className="sectionRow">
           <p className="sectionText xText">

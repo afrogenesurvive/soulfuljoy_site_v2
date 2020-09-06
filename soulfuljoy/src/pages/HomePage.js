@@ -11,13 +11,13 @@ import carousel_3 from "../assets/imgs/carousel_3.jpg";
 import carousel_4 from "../assets/imgs/carousel_4.jpg";
 import mobile_carousel_1 from "../assets/imgs/mobile_carousel_1.jpg";
 import mobile_carousel_2 from "../assets/imgs/mobile_carousel_2.jpg";
-import mobile_carousel_3 from "../assets/imgs/carousel_3_1.png";
+import mobile_carousel_3 from "../assets/imgs/mobile_carousel_3.jpg";
 import mobile_carousel_4 from "../assets/imgs/mobile_carousel_4.jpg";
 
 const HomePage = (props) => {
   let location = props.location.pathname;
-
 return (
+
 
   <div className="homePage_maindiv">
 
@@ -106,7 +106,7 @@ return (
     )}
     {props.mobile === true && (
       <img
-        className="mainPage_carousel_img"
+        className="mainPage_carousel_img x"
         src={mobile_carousel_3}
         alt="2nd slide"
       />

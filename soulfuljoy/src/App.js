@@ -19,6 +19,7 @@ import './App.css';
 
 class App extends Component {
   state = {
+    mobile: false,
     splashPage: true,
     location: window.location.pathname,
     showOverlay: false,
@@ -43,6 +44,9 @@ class App extends Component {
       document.cookie = 'visitedsfj=yes; expires=Wed, 10 Jan 2022 12:00:00 UTC';
     } else {
       console.log('return_user');
+    }
+    if (window.outerWidth <= 420) {
+      this.setState({mobile: true})
     }
   }
 
@@ -99,7 +103,7 @@ class App extends Component {
 
               />}/>
               <Route path="/home" render={(props) => <HomePage {...props}
-
+                mobile={this.state.mobile}
               />}/>
               <Route path="/team" render={(props) => <TeamPage {...props}
                 showOverlay={this.showOverlay}
