@@ -16,6 +16,7 @@ import mobile_carousel_4 from "../assets/imgs/mobile_carousel_4.jpg";
 
 const HomePage = (props) => {
   let location = props.location.pathname;
+   console.log('foo',props.mobile);
 return (
 
 

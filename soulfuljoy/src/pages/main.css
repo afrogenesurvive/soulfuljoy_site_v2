@@ -384,7 +384,9 @@
   .groupPhoto {
     width: 70vw;
   }
-
+  .subAffilList {
+    padding : 0;
+  }
 
 }
 

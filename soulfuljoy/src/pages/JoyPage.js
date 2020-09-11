@@ -12,7 +12,7 @@ import altLogo2 from '../assets/imgs/altLogo_2.png';
 import altLogo3 from '../assets/imgs/altLogo_3.jpg';
 import social1 from '../assets/imgs/social1.png';
 import social2 from '../assets/imgs/social2.jpg';
-import social3 from '../assets/imgs/kwayera_mini.png';
+import social3 from '../assets/imgs/social3.jpg';
 import social4 from '../assets/imgs/social4.jpg';
 import affiliate_kwayera from '../assets/imgs/kwayera_archer.png';
 import affiliate_ase from '../assets/imgs/global_ase.jpg';

@@ -63,7 +63,7 @@ const ExperiencePage = (props) => {
       <div className="testPageRowInner">
       <h1 className="sectionsubheading">The Experience At A Glance</h1>
       <Row className="sectionRow">
-        <p className="sectionText xText">Here is a <a href="https://3navvpy3.pages.infusionsoft.net/" className="textLink" target="_blank" rel="noopener noreferrer">snapshot</a> of what's in store. </p>
+        <p className="sectionText xText">Here is a snapshot of what's in store. </p>
       </Row>
       <Row className="sectionRow">
       <p className="sectionText xText bold">
