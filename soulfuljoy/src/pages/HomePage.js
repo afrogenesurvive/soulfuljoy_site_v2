@@ -25,10 +25,15 @@ return (
 
   <Row className="homePageCarouselRow">
 
-  <Carousel className="homePageCarousel" fade={true} controls={false}>
+  <Carousel
+  className="homePageCarousel"
+  fade={true}
+  controls={false}
+  interval={9000}
+  pause={false}
+  >
 
     <Carousel.Item>
-
       {props.mobile !== true && (
         <img
           className="mainPage_carousel_img d-block w-100"
