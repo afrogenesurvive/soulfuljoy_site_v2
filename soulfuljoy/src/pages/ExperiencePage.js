@@ -403,7 +403,7 @@ const ExperiencePage = (props) => {
       </Row>
       <Row className="sectionRow">
         <p className="sectionText xText">
-        Check out <a href="http://negriltreehouse.net/" className="textLink" target="_blank" rel="noopener noreferrer">their site</a> for the Re-opening Announcement  and how your health and safety will be catered to.
+        Check out <a href="localhost:3000/joy#2" className="textLink">their site</a> for the Re-opening Announcement  and how your health and safety will be catered to.
         </p>
       </Row>
       </div>
@@ -572,7 +572,7 @@ const ExperiencePage = (props) => {
           </li>
           <li>
           <p className="sectionListText">
-          Medicinal Cannabis Workshop
+          Herbal Workshop
           </p>
           </li>
           <li>
@@ -629,7 +629,7 @@ const ExperiencePage = (props) => {
         </Row>
         <Row className="sectionRow">
         <Col>
-        <a  href="https://3navvpy3.pages.infusionsoft.net/" target="_blank" rel="noopener noreferrer">
+        <a  href="https://fw723.infusionsoft.com/app/form/6caaedd6ff1b65f5c50f3032fbd1f7c0" target="_blank" rel="noopener noreferrer">
         <Button variant="outline-light" size="md">
         Book Your Spot
         </Button>
@@ -681,7 +681,7 @@ const ExperiencePage = (props) => {
       </Row>
       <Row className="footer_copyrightRow">
       <a className="footer_copyrightRow_text" href="mailto:family@SoulfulJoy.com" target="_blank" rel="noopener noreferrer">
-        <p > family@SoulfulJoy.com | Planet Earth | </p>
+        <p> family@SoulfulJoy.com | Planet Earth | Soulful Joy LLC 2020 ©</p>
       </a>
 
       </Row>

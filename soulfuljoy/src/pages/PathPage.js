@@ -202,7 +202,7 @@ const PathPage = (props) => {
             </Row>
             <Row className="footer_copyrightRow">
             <a className="footer_copyrightRow_text" href="mailto:family@SoulfulJoy.com" target="_blank" rel="noopener noreferrer">
-              <p > family@SoulfulJoy.com | Planet Earth | </p>
+              <p> family@SoulfulJoy.com | Planet Earth | Soulful Joy LLC 2020 ©</p>
             </a>
 
             </Row>

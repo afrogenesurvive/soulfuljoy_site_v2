@@ -65,11 +65,12 @@ const PathPage = (props) => {
         <div className="testPageRowInner">
         <h1 className="sectionHeading">Join the Movement</h1>
 
+
         <Row className="sectionRow">
         <Col sm={3}>
-         <Image src={social1} className="locationImage roundImg" fluid />
-         <a href="https://www.instagram.com/soulfuljoyjamaica" target="_blank" rel="noopener noreferrer">
-         <p className="sectionText">Follow Us</p>
+         <Image src={social3} className="locationImage roundImg" fluid />
+         <a href="https://www.linkedin.com/feed/update/urn:li:activity:6676583350498537473/" target="_blank" rel="noopener noreferrer">
+         <p className="sectionText">Learn</p>
          </a>
         </Col>
         <Col sm={3}>
@@ -78,10 +79,11 @@ const PathPage = (props) => {
          <p className="sectionText">Share</p>
          </a>
         </Col>
+
         <Col sm={3}>
-         <Image src={social3} className="locationImage roundImg" fluid />
-         <a href="https://www.linkedin.com/feed/update/urn:li:activity:6676583350498537473/" target="_blank" rel="noopener noreferrer">
-         <p className="sectionText">Learn</p>
+         <Image src={social1} className="locationImage roundImg" fluid />
+         <a href="https://www.instagram.com/soulfuljoyjamaica" target="_blank" rel="noopener noreferrer">
+         <p className="sectionText">Follow Us</p>
          </a>
         </Col>
         <Col sm={3}>
@@ -134,19 +136,27 @@ const PathPage = (props) => {
         <Row className="sectionRow">
         <ul className="subAffilList">
         <li className="subAffil">
-        <a href="https://plantalliesworldwide.com" target="_blank" rel="noopener noreferrer">
-        <p className="sectionText xText">
-          Plant Allies
-        </p>
-        </a>
-        </li>
-        <li className="subAffil">
         <a href="https://ifetayo.org/" target="_blank" rel="noopener noreferrer">
         <p className="sectionText xText">
           Ifetayo
         </p>
         </a>
         </li>
+        <li className="subAffil">
+        <a href="http://negriltreehouse.net/" target="_blank" rel="noopener noreferrer">
+        <p className="sectionText xText">
+          Negril Treehouse
+        </p>
+        </a>
+        </li>
+        <li className="subAffil">
+        <a href="https://plantalliesworldwide.com" target="_blank" rel="noopener noreferrer">
+        <p className="sectionText xText">
+          Plant Allies
+        </p>
+        </a>
+        </li>
+
         </ul>
         </Row>
         </div>
@@ -192,7 +202,7 @@ const PathPage = (props) => {
       </Row>
       <Row className="footer_copyrightRow">
       <a className="footer_copyrightRow_text" href="mailto:family@SoulfulJoy.com" target="_blank" rel="noopener noreferrer">
-        <p> family@SoulfulJoy.com | Planet Earth | </p>
+        <p> family@SoulfulJoy.com | Planet Earth | Soulful Joy LLC 2020 ©</p>
       </a>
 
       </Row>

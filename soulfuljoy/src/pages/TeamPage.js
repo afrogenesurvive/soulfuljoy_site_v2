@@ -8,9 +8,9 @@ import Image from 'react-bootstrap/Image';
 
 import Wht_ico from '../assets/imgs/wht_ico.png';
 import location1 from '../assets/imgs/location_1.jpg';
-import kwayera from '../assets/imgs/kwayera.jpg';
+import kwayera from '../assets/imgs/kwayera3.jpg';
 import kwayera_mini from '../assets/imgs/kwayera_mini.png';
-import ade from '../assets/imgs/team_2_ade.png';
+import ade from '../assets/imgs/team_2_ade1.png';
 import khadijah from '../assets/imgs/team_3_khadijah.png';
 import kwasausya from '../assets/imgs/team_4_kwasausya.jpg';
 import perdella from '../assets/imgs/team_5_perdella.jpg';
@@ -36,7 +36,7 @@ const TeamPage = (props) => {
       Our Team
       </h1>
       <p className="headerText">
-      Meet Our Soulful Joy Family
+      Meet Our Soulful Joy Family.
       </p>
       </Col>
       <Col sm={4} className="headerCol headColRight ">
@@ -69,7 +69,7 @@ const TeamPage = (props) => {
       <h1 className="sectionHeading">Our Team</h1>
       <Row className="sectionRow" id="teamSectionRow">
       <Col className="teamImgCol" id="kwayera">
-      <Image src={kwayera_mini} className="locationImage roundImg teamImg"  onClick={props.showOverlay.bind(this, {type:'image',data:"kwayera"})}/>
+      <Image src={kwayera} className="locationImage roundImg teamImg"  onClick={props.showOverlay.bind(this, {type:'image',data:"kwayera"})}/>
       <Button variant="outline-light" size="sm" className="teamBtn" onClick={props.showOverlay.bind(this, {type:'info',data:"kwayera"})}>Kwayera</Button>
       </Col>
       <Col className="teamImgCol" id="ade">
@@ -109,7 +109,7 @@ const TeamPage = (props) => {
       <h1 className="sectionHeading">Team</h1>
       <Row className="sectionRow">
         <Col className="teamImgCol" id="kwayera">
-        <Image src={kwayera_mini} className="locationImage roundImg teamImg" onClick={props.showOverlay.bind(this, {type:'image',data:"kwayera"})} fluid />
+        <Image src={kwayera} className="locationImage roundImg teamImg" onClick={props.showOverlay.bind(this, {type:'image',data:"kwayera"})} fluid />
         <Button variant="outline-light" size="sm" className="teamBtn" onClick={props.showOverlay.bind(this, {type:'info',data:"kwayera"})}>Kwayera</Button>
         </Col>
 
@@ -222,7 +222,7 @@ const TeamPage = (props) => {
             </Row>
             <Row className="footer_copyrightRow">
             <a className="footer_copyrightRow_text" href="mailto:family@SoulfulJoy.com" target="_blank" rel="noopener noreferrer">
-              <p > family@SoulfulJoy.com | Planet Earth | </p>
+              <p> family@SoulfulJoy.com | Planet Earth | Soulful Joy LLC 2020 ©</p>
             </a>
 
             </Row>
