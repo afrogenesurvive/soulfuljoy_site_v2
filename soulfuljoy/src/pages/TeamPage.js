@@ -9,6 +9,7 @@ import Image from 'react-bootstrap/Image';
 import Wht_ico from '../assets/imgs/wht_ico.png';
 import location1 from '../assets/imgs/location_1.jpg';
 import kwayera from '../assets/imgs/kwayera3.jpg';
+import kwayera2 from '../assets/imgs/kwayera3_1.png';
 import kwayera_mini from '../assets/imgs/kwayera_mini.png';
 import ade from '../assets/imgs/team_2_ade1.png';
 import khadijah from '../assets/imgs/team_3_khadijah.png';
@@ -69,7 +70,7 @@ const TeamPage = (props) => {
       <h1 className="sectionHeading">Our Team</h1>
       <Row className="sectionRow" id="teamSectionRow">
       <Col className="teamImgCol" id="kwayera">
-      <Image src={kwayera} className="locationImage roundImg teamImg"  onClick={props.showOverlay.bind(this, {type:'image',data:"kwayera"})}/>
+      <Image src={kwayera2} className="locationImage roundImg teamImg"  onClick={props.showOverlay.bind(this, {type:'image',data:"kwayera"})}/>
       <Button variant="outline-light" size="sm" className="teamBtn" onClick={props.showOverlay.bind(this, {type:'info',data:"kwayera"})}>Kwayera</Button>
       </Col>
       <Col className="teamImgCol" id="ade">
@@ -109,7 +110,7 @@ const TeamPage = (props) => {
       <h1 className="sectionHeading">Team</h1>
       <Row className="sectionRow">
         <Col className="teamImgCol" id="kwayera">
-        <Image src={kwayera} className="locationImage roundImg teamImg" onClick={props.showOverlay.bind(this, {type:'image',data:"kwayera"})} fluid />
+        <Image src={kwayera2} className="locationImage roundImg teamImg" onClick={props.showOverlay.bind(this, {type:'image',data:"kwayera"})} fluid />
         <Button variant="outline-light" size="sm" className="teamBtn" onClick={props.showOverlay.bind(this, {type:'info',data:"kwayera"})}>Kwayera</Button>
         </Col>
 

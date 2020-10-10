@@ -157,6 +157,9 @@
   text-decoration: underline;
 
 }
+.textLinkA {
+  color: #ffffff;
+}
 .locationImageList {
   list-style-type: none;
   padding: 0;

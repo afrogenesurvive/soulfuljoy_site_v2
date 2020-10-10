@@ -154,12 +154,12 @@ const ExperiencePage = (props) => {
         <ul className="sectiontextList">
           <li className="sectiontextListItem">
           <p className="sectionText ul xText">
-          Saturday, October 10 2020
+          Sunday, October 11 2020
           </p>
           </li>
           <li className="sectiontextListItem">
           <p className="sectionText  xText">
-           The third full day of the retreat is all about Affirming your Soulful Joy!
+           The third full day is all about Affirming your Soulful Joy!
           </p>
           </li>
           <li className="sectiontextListItem">
@@ -403,7 +403,7 @@ const ExperiencePage = (props) => {
       </Row>
       <Row className="sectionRow">
         <p className="sectionText xText">
-        Check out <a href="localhost:3000/joy#2" className="textLink">their site</a> for the Re-opening Announcement  and how your health and safety will be catered to.
+        Check out <a href="localhost:3000/joy#2" className="textLinkA">their site</a> for the Re-opening Announcement  and how your health and safety will be catered to.
         </p>
       </Row>
       </div>
